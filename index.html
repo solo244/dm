@@ -10,13 +10,21 @@
 	</head>
 	<body>
 		<div id="theDash">
-			<div class="dashboardDiv"><div id="content1"></div></div>
+			<div class="dashboardDiv"><div id="contentStory"></div></div>
+			<div class="dashboardDiv"><div id="contentMap"></div></div>
+			<div class="dashboardDiv"><div id="contentQuests"></div></div>
+			<div class="dashboardDiv"><div id="contentStuff"></div></div>
+			<div class="dashboardDiv"><div id="contentMusic"></div></div>
+			<div class="dashboardDiv"><div id="contentTreasure"></div></div>
+			<div class="dashboardDiv"><div id="contentNPC's"></div></div>
+			<div class="dashboardDiv"><div id="content"></div></div>
+			<div class="dashboardDiv" id="combatTracker"><div id="contentCombat"></div></div>
 		</div>
 
 		<script src="vendors/jquery-2.1.4.min.js"></script>
 		<script>
 		$(document).ready(function(){
-			$('#content1').load('content/test.html');
+			$('#content').load('content/dashboard.html');
 		})
 		</script>
 	</body>
