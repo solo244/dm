@@ -10,9 +10,14 @@
 	</head>
 	<body>
 		<div id="theDash">
-			<div class="dashboardDiv"></div>
+			<div class="dashboardDiv"><div id="content1"></div></div>
 		</div>
 
 		<script src="vendors/jquery-2.1.4.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('#content1').load('content/test.html');
+		})
+		</script>
 	</body>
 </html>
