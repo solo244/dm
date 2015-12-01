@@ -1,10 +1,14 @@
 #contentMap{
-  background-image: url(../images/bgMapOpa.png);
-  background-size: 100% auto;
-  background-position: center center;
-  background-repeat: no-repeat;
   border: none;
   height: 310px;
+  background-image: url(../../images/bgMapOpa.png);
+}
+
+#contentMap #openMap{
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  cursor: pointer;
 }
 
 #contentMap:before{
@@ -16,29 +20,60 @@
   background-color: red;
 }
 
-#contentMap .dashHeader{
-  background-color: transparent;
-  border-bottom: 1px solid #FFF;
+#contentMap .innerContent{
 }
 
 #contentMap #mapSide{
-  margin-top: 40px;
-  border-radius: 0 6px 0 0;
-  height: 310px;
-  width: 200px;
-  float: left;
-  background-color: #FFF;
-  box-shadow: 0 0 5px #333;
+
 }
 
 #contentMap #mapSide input{
-  background-color: #F8F8F8;
-  border-radius: 0 6px 0 0;
+  background-color: #2d3342;
   padding-left: 20px;
   font-size: 15px;
-  color: #333;
+  color: #FFF;
   display: block;
-  width: 100%;
   line-height: 50px;
-  border-bottom: 1px solid #EFEFEF;
+  width: 250px;
+  float: left;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#contentMap #mapSide input:hover{
+  background-color: #292e39;
+}
+
+#contentMap #mapSide i{
+  position: absolute;
+  top: 98px;
+  left: 250px;
+}
+
+#contentMap #mapSide ul{
+  background-color: #FFF;
+  box-shadow: 0 0 3px #333;
+  border-radius: 8px;
+  width: 250px;
+  overflow: hidden;
+  float: right;
+}
+
+#contentMap #mapSide li{
+  color: #333;
+  list-style-type: none;
+  line-height: 50px;
+  display: block;
+  padding: 0 20px;
+  border-top: 1px solid #EFEFEF;
+  cursor: pointer;
+}
+
+#contentMap #mapSide li:hover{
+  background-color: #f2ae72;
+  color: #FFF;
+}
+
+#contentMap #mapSide li:first-child{
+  border-top: none;
 }

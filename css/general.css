@@ -14,7 +14,7 @@ html{
 body{
 	padding: 30px;
 	background-color: #1b1f29;
-	font-size: 13px;
+	font-size: 16px;
 	font-family: "Dosis";
 	color: #9bb6c9;
 }
@@ -39,9 +39,13 @@ body{
 
 .dashboardDiv .dashHeader h2{
   color: #EFEFEF;
-  margin: 0 0 30px 0;
+	margin: 0;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
   font-weight: 100;
+}
+
+.dashboardDiv .innerContent{
+	padding: 30px;
 }

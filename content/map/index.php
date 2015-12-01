@@ -1,13 +1,20 @@
 <div class="dashHeader">
-  <span></span>
   <h2>Map</h2>
-  <i class="fa fa-arrows-alt"></i>
+  <i class="fa fa-arrows-alt" id="openMap"
+  ></i>
 </div>
 
-<div id="mapSide">
-  <input placeholder="City">
-  <ul>
-    <li>Bridgestone</li>
-    <li>Waterkeep</li>
-  </ul>
+<div class="innerContent">
+  <div id="mapSide">
+    <input placeholder="City">
+    <i class="fa fa-search"></i>
+    <ul>
+      <li>Bridgestone</li>
+      <li>Waterkeep</li>
+      <li>Bridgestone</li>
+      <li>Waterkeep</li>
+      <li>Bridgestone</li>
+      <li>Waterkeep</li>
+    </ul>
+  </div>
 </div>
