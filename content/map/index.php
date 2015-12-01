@@ -1,7 +1,7 @@
 <div class="dashHeader">
   <span></span>
   <h2>Map</h2>
-  <i></i>
+  <i class="fa fa-arrows-alt"></i>
 </div>
 
 <div id="mapSide">

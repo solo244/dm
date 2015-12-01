@@ -1,4 +1,14 @@
+/* --------------------- */
 @import 'bootstrap.min.css';
 @import 'font-awesome.min.css';
+/* --------------------- */
 @import 'general.css';
-@import 'map.css';
+/* --------------------- */
+@import 'template/map.css';
+@import 'template/combat.css';
+@import 'template/music.css';
+@import 'template/npc.css';
+@import 'template/quest.css';
+@import 'template/story.css';
+@import 'template/stuff.css';
+@import 'template/treasure.css';
