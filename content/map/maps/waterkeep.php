@@ -1,5 +1,5 @@
 <div class="innerMapLeft">
-  <strong>Population: </strong>8000
+      <strong>Population: </strong>8000
   <br><strong>Defense: </strong>High - wood
   <br><strong>Laws/Crime: </strong>H / L
   <br><strong>Corruption: </strong>Low
