@@ -8,6 +8,7 @@ $(document).ready(function(){
   var numerOfItems = theList.length;
 
   for(var i=1; i < (numerOfItems+1); i++){
+
      $("#mapSide ul li:nth-child(" + i + ")").hide();
   }
 
@@ -41,4 +42,14 @@ $(document).ready(function(){
     $("#contentMap h2").html("Map");
     $("#backMap").hide();
   })
+
+  /*
+   * Apply classes to all towns
+   */
+
+  for(var i=1; i < (numerOfItems+1); i++){
+     var theContents = "town" + $("#mapSide ul li:nth-child(" + i + ")").html();
+     $("#mapSide ul li:nth-child(" + i + ")").prop("class", theContents);
+     console.log(theContents);
+  }
 })

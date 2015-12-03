@@ -10,112 +10,108 @@
     <i class="fa fa-search"></i>
     <ul>
       <!-- A -->
-      Aelcrest
-      Aldhaven
-      Agraemeth 
-      Ashwald
-      Anzin
-      Addtun     
+      <li>Aelcrest</li>
+      <li>Aldhaven</li>
+      <li>Agraemeth</li>
+      <li>Ashwald</li>
+      <li>Anzin</li>
+      <li>Addtun</li>
       <!-- B -->
-      Belothlas
-      Barad
-      Brydda
-      Balroet
-      Blackfall
-      Belholt
-      Blackbridge
-      Brightwood
-      Beachpond
-      Bywind
-      Bron
-      Baramums
-      Bawic
+      <li>Belothlas</li>
+      <li>Barad</li>
+      <li>Brydda</li>
+      <li>Balroet</li>
+      <li>Blackfall</li>
+      <li>Belholt</li>
+      <li>Blackbridge</li>
+      <li>Brightwood</li>
+      <li>Beachpond</li>
+      <li>Bywind</li>
+      <li>Bron</li>
+      <li>Baramums</li>
+      <li>Bawic</li>
       <!-- C -->
-      Clearhedge
-      Crossing
-      Corkeep
+      <li>Clearhedge</li>
+      <li>Crossing</li>
+      <li>Corkeep</li>
       <!-- D -->
-      Deepmere
-      Draewald
-      Deadfen
+      <li>Deepmere</li>
+      <li>Draewald</li>
+      <li>Deadfen</li>
       <!-- E -->
-      Elegron
-      Etalet
-      Esterfort
-      Esterden
+      <li>Elegron</li>
+      <li>Etalet</li>
+      <li>Esterfort</li>
+      <li>Esterden</li>
       <!-- F -->
-      Falorast
-      Freyston
-      Faredeep
+      <li>Falorast</li>
+      <li>Freyston</li>
+      <li>Faredeep</li>
       <!-- G -->
-      Greylea
-      Gigosh
-      Goldhaven
+      <li>Greylea</li>
+      <li>Gigosh</li>
+      <li>Goldhaven</li>
       <!-- H -->
-      Hone
-      Hollowston
-      Havenbarrow
-      Haandra
-      Highgate
-      Highhollow
-      Headon
+      <li>Hone</li>
+      <li>Hollowston</li>
+      <li>Havenbarrow</li>
+      <li>Haandra</li>
+      <li>Highgate</li>
+      <li>Highhollow</li>
+      <li>Headon</li>
       <!-- I -->
-      Icbryeg
+      <li>Icbryeg</li>
       <!-- J -->
-      Jerewien
+      <li>Jerewien</li>
       <!-- K -->
-      Knynseb
+      <li>Knynseb</li>
       <!-- L -->
-      Limbo
-      Laroic
-      Linlyn
-      Lightcrest
+      <li>Limbo</li>
+      <li>Laroic</li>
+      <li>Linlyn</li>
+      <li>Lightcrest</li>
       <!-- M -->
-      Mamor
-      Mohill
-      Maplelake
-      Misthill
-      Mageholt
-      Morview
+      <li>Mamor</li>
+      <li>Mohill</li>
+      <li>Maplelake</li>
+      <li>Misthill</li>
+      <li>Mageholt</li>
+      <li>Morview</li>
       <!-- N -->
-      Nightfen
-      Narbi'd
-      Northvale
+      <li>Nightfen</li>
+      <li>Narbi'd</li>
+      <li>Northvale</li>
       <!-- O -->
-      Oaklea
-      Ostmarsch
-      Oring
-      <!-- P -->
-      Pula
-      <!-- Q -->
+      <li>Oaklea</li>
+      <li>Ostmarsch</li>
+      <li>Oring</li>
+      <li><!-- P -->
+      <li>Pula</li>
       <!-- R -->
-      Roseley
+      <li>Roseley</li>
       <!-- S -->
-      Stonecliff
-      Summerhill
-      Silverfort
-      Spellmont
-      Shiba
+      <li>Stonecliff</li>
+      <li>Summerhill</li>
+      <li>Silverfort</li>
+      <li>Spellmont</li>
+      <li>Shiba</li>
       <!-- T -->
-      Thywyth
-      Twinlking
-      Thaleg
-      <!-- U -->
+      <li>Thywyth</li>
+      <li>Twinlking</li>
+      <li>Thaleg</li>
       <!-- V -->
-      Vandusa
-      Voredan
-      Valland
-      Vertiron
-      Valade
+      <li>Vandusa</li>
+      <li>Voredan</li>
+      <li>Valland</li>
+      <li>Vertiron</li>
+      <li>Valade</li>
       <!-- W -->
-      Weegate
-      Winterrock
+      <li>Weegate</li>
+      <li>Winterrock</li>
       <li class="townWaterkeep">Waterkeep</li>
-      <!-- X -->
-      <!-- Y -->
       <!-- Z -->
-      Ziri
-      Zayrd
+      <li>Ziri</li>
+      <li>Zayrd</li>
     </ul>
   </div>
 </div>
