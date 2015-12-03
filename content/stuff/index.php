@@ -1,3 +1,3 @@
 <div class="dashHeader">
-  <h2>Stuff</h2>
+  <h2>Stuff - also shops</h2>
 </div>

@@ -11,6 +11,13 @@
   cursor: pointer;
 }
 
+#contentMap #backMap{
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  cursor: pointer;
+}
+
 #contentMap:before{
   content: "";
   widows: 200px;
@@ -21,10 +28,17 @@
 }
 
 #contentMap .innerContent{
+
 }
 
-#contentMap #mapSide{
-
+#contentMap .innerMap{
+  position: absolute;
+  z-index: 3;
+  width: 590px;
+  height: 260px;
+  background-color: green;
+  top: 51px;
+  left: 600px;
 }
 
 #contentMap #mapSide input{
@@ -76,4 +90,23 @@
 
 #contentMap #mapSide li:first-child{
   border-top: none;
+}
+
+#contentMap .innerMap .innerMapLeft{
+  padding: 30px;
+  float: left;
+  width: 250px;
+  background-color: #292e39;
+}
+
+#contentMap .innerMap .innerMapRight{
+  padding: 30px;
+  float: left;
+  width: 340px;
+  background-color: #FFF;
+}
+
+#contentMap .innerMap .innerMapLeft strong{
+  width: 100px;
+  float: left;
 }
