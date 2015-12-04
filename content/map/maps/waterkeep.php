@@ -1,4 +1,10 @@
 <div class="innerMapLeft">
+  <div class="townLeft">
+    <?php include '' ?>
+  </div>
+  <div class="townRight">
+    
+  </div>
       <strong>Population: </strong>8000
   <br><strong>Defense: </strong>High - wood
   <br><strong>Laws/Crime: </strong>H / L

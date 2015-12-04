@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   //$(".innerMap").animate({"left": "0px"}, 500);
+
   /*
    * Check for input input *ha, that's a pun ;)
    */
@@ -46,10 +47,16 @@ $(document).ready(function(){
   /*
    * Apply classes to all towns
    */
-
   for(var i=1; i < (numerOfItems+1); i++){
-     var theContents = "town" + $("#mapSide ul li:nth-child(" + i + ")").html();
+     var theContents = "town" + $("#mapSide ul li:nth-child(" + i + ")").html() + " scrollPlease";
      $("#mapSide ul li:nth-child(" + i + ")").prop("class", theContents);
      console.log(theContents);
   }
+
+
+  /*
+   * Making scrolling possible
+   */
+  $(".scrollPlease").mCustomScrollbar();
+
 })

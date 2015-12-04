@@ -108,7 +108,7 @@
       <!-- W -->
       <li>Weegate</li>
       <li>Winterrock</li>
-      <li class="townWaterkeep">Waterkeep</li>
+      <li>Waterkeep</li>
       <!-- Z -->
       <li>Ziri</li>
       <li>Zayrd</li>
