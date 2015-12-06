@@ -3,4 +3,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <!-- Templates -->
+<script src="js/template/story.js"></script>
 <script src="js/template/map.js"></script>
+<script src="js/template/main.js"></script>

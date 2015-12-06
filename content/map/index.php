@@ -2,6 +2,7 @@
   <h2>Map</h2>
   <i class="fa fa-arrows-alt" id="openMap"></i>
   <i class="fa fa-arrow-left" id="backMap"></i>
+  <i class="fa fa-info-circle" id="viewTown"></i>
 </div>
 
 <div class="innerContent">
@@ -85,7 +86,7 @@
       <li>Oaklea</li>
       <li>Ostmarsch</li>
       <li>Oring</li>
-      <li><!-- P -->
+      <!-- P -->
       <li>Pula</li>
       <!-- R -->
       <li>Roseley</li>
@@ -116,4 +117,7 @@
   </div>
 </div>
 
-<div class="innerMap" id="townWaterkeep"><?php include "maps/waterkeep.php" ?></div>
+<div id="allMapDetails">
+  <div class="innerMap" id="townWaterkeep"><?php include "maps/waterkeep.php" ?></div>
+  <div class="innerMap" id="townFaredeep"><?php include "maps/faredeep.php" ?></div>
+</div>

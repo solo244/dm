@@ -4,6 +4,7 @@
   background-image: url(../../images/bgMapOpa.png);
 }
 
+/* Buttons */
 #contentMap #openMap{
   position: absolute;
   top: 17px;
@@ -15,6 +16,13 @@
   position: absolute;
   top: 17px;
   left: 20px;
+  cursor: pointer;
+}
+
+#contentMap #viewTown{
+  position: absolute;
+  top: 17px;
+  left: 50px;
   cursor: pointer;
 }
 
@@ -35,8 +43,8 @@
   position: absolute;
   z-index: 3;
   width: 590px;
-  height: 262px;
-  top: 51px;
+  height: 265px;
+  top: 50px;
   left: 600px;
 }
 
@@ -96,16 +104,41 @@
   float: left;
   width: 250px;
   background-color: #292e39;
+  min-height: 260px;
 }
 
 #contentMap .innerMap .innerMapRight{
   padding: 30px;
   float: left;
   width: 340px;
+  color: #2d3342;
   background-color: #FFF;
+  height: 260px;
+}
+
+#contentMap .innerMap .picMap{
+  width: 340px;
+  height: 261px;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 #contentMap .innerMap .innerMapLeft strong{
   width: 100px;
   float: left;
+}
+
+#contentMap .townLeft{
+  float: left;
+  width: 90px;
+}
+
+#contentMap .townRight{
+  float: right;
+  width: 100px;
 }
