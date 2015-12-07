@@ -2,9 +2,32 @@
 #contentQuests{}
 
 /* Buttons */
-#contentQuests #button{
+#contentQuests .dashHeader i{
   position: absolute;
   top: 17px;
-  left: 20px;
   cursor: pointer;
+}
+
+#contentQuests #questStory{
+  left: 20px;
+}
+
+#contentQuests #questGeneral{
+  left: 50px;
+}
+
+#contentQuests #questNala{
+  right: 110px;
+}
+
+#contentQuests #questLai{
+  right: 80px;
+}
+
+#contentQuests #questThia{
+  right: 50px;
+}
+
+#contentQuests #questOttan{
+  right: 20px;
 }
