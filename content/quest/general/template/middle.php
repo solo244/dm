@@ -1,3 +1,3 @@
 </div>
-<div class="descriptions">
+<div class="descriptions scrollPlease">
 <h3>

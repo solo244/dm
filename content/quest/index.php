@@ -7,10 +7,13 @@
   <i class="fa fa-rocket" id="questLai"></i>
   <i class="fa fa-leaf" id="questThia"></i>
   <i class="fa fa-shield" id="questOttan"></i>
+  <!-- -->
 </div>
 
 <div class="innerContent">
   <div class="generalQuests">
-    <div class="gQuest1"><?php include 'quests/quest1.php' ?></div>
+    <i class="fa fa-arrow-left backQuests"></i>
+    <div class="sidebar scrollPlease" id="generalMenu"><?php include 'general\sidebar.php' ?></div>
+    <div class="gQuest" id="gQuest1"><?php include 'general\quests\quest1.php' ?></div>
   </div>
 </div>
