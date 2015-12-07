@@ -1,10 +1,10 @@
-<?php include 'template/top.php' ?>
+<?php include '../template/top.php' ?>
 
 <div class="carousel">
 
 </div>
 
-<?php include 'template/middle.php' ?>
+<?php include '../template/middle.php' ?>
 
 <div class="descriptions">
   <h3>The Spirit Wisperer</h3>
@@ -20,4 +20,4 @@
   <div class="clear"></div>
 </div>
 
-<?php include 'template/bottom.php' ?>
+<?php include '../template/bottom.php' ?>

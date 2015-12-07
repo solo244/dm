@@ -11,6 +11,6 @@
 
 <div class="innerContent">
   <div class="generalQuests">
-    <div class="gQuest1"><?php include 'general/quest1.php' ?></div>
+    <div class="gQuest1"><?php include 'quests/quest1.php' ?></div>
   </div>
 </div>
