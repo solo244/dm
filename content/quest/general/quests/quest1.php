@@ -7,7 +7,7 @@
 
 <?php include '/../template/middle.php' ?>
 
-<!-- Quest title -->	The Spirit Wisperer
+<!-- The Spirit Wisperer -->
 
 <!-- Happy ending --></h3>
 

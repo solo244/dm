@@ -93,6 +93,12 @@
   height: 260px;
   width: 200px;
   float: left;
+  display: inline-block;
+}
+
+#contentQuests .carousel img{
+  width: 100%;
+  height: auto;
 }
 
 /* Quests */

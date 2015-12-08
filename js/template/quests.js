@@ -15,6 +15,8 @@ $(document).ready(function(){
     $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
     $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
+    //checkImages(); //Checks the images in the carousel
+
     $(".backQuests").show();
   })
 
@@ -26,5 +28,19 @@ $(document).ready(function(){
     $(".backQuests").hide();
   });
 
+  /*
+   * Makes sure the carousel images are scaled and used as cover background
+   */
+  $('img.toResizeClass').each(function(){
+    var $img = $(this),
+    imgWidth = $img.width(),
+    imgHeight = $img.height();
+
+    if(imgWidth > imgHeight){
+      $img.width(imgWidth * 0.3);
+    }else{
+      $img.height(imgHeight * 0.3);
+    }
+ });
 
 })
