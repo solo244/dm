@@ -2,14 +2,14 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q1a.jpg">
-<img src="images/quests/general/q1b.jpg">
+<img src="images/quests/general/q1a.jpg" class="toResizeClass img1">
+<img src="images/quests/general/q1b.jpg" class="toResizeClass img2">
 
 <?php include '/../template/middle.php' ?>
 
 <!-- The Spirit Wisperer -->
 
-<!-- Happy ending --></h3>
+<!-- Happy ending -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 

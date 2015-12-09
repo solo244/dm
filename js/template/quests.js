@@ -15,8 +15,6 @@ $(document).ready(function(){
     $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
     $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
-    //checkImages(); //Checks the images in the carousel
-
     $(".backQuests").show();
   })
 
@@ -32,15 +30,26 @@ $(document).ready(function(){
    * Makes sure the carousel images are scaled and used as cover background
    */
   $('img.toResizeClass').each(function(){
-    var $img = $(this),
-    imgWidth = $img.width(),
-    imgHeight = $img.height();
+    var $img = $(this);
+    var imgWidth = $img.width();
+    var imgHeight = $img.height();
 
-    if(imgWidth > imgHeight){
-      $img.width(imgWidth * 0.3);
-    }else{
-      $img.height(imgHeight * 0.3);
+    while(imgHeight < 260 || imgWidth < 200){
+      console.log(imgHeight);
+      imgHeight *= 1.1;
+      imgWidth *= 1.1;
+      $(this).height(imgHeight);
+      $(this).width(imgWidth);
     }
- });
+  });
+
+  /*
+   * Adding some carousel buttons
+   */
+
+  $(".img2").after("<div class='carButtonHolder'></div>");
+  $(".carButtonHolder").append("<div id='carimg1' class='carButton'></div>");
+  $(".carButtonHolder").append("<div id='carimg2' class='carButton'></div>");
+
 
 })
