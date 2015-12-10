@@ -46,10 +46,24 @@ $(document).ready(function(){
   /*
    * Adding some carousel buttons
    */
-
   $(".img2").after("<div class='carButtonHolder'></div>");
   $(".carButtonHolder").append("<div id='carimg1' class='carButton'></div>");
   $(".carButtonHolder").append("<div id='carimg2' class='carButton'></div>");
+
+  $("#carimg2").css("left", "200");
+
+  $("#carimg1").click(function(){
+    $(".img1").animate({"left": "0"}, 500);
+    $(".carimg1").addClass("activeButton");
+    $(".carimg2").removeClass("activeButton");
+    $(".img2").animate({"left": "200px"}, 500);
+  })
+  $("#carimg2").click(function(){
+    $(".img1").animate({"left": "200px"}, 500);
+    $(".carimg2").addClass("activeButton");
+    $(".carimg1").removeClass("activeButton");
+    $(".img2").animate({"left": "0"}, 500);
+  })
 
 
 })

@@ -95,7 +95,7 @@
 }
 
 #contentQuests .carousel{
-  background-color: red;
+  background-color: #232832;
   height: 260px;
   width: 200px;
   float: left;
@@ -115,6 +115,13 @@
   left: 200px;
   width: 590px;
   opacity: 0;
+}
+
+.generalQuests{
+  height: 260px;
+  background-image: url(../../images/quests/bg.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
 }
 
 /* Carousel */
@@ -148,8 +155,12 @@
   width: 5px;
   height: 5px;
   display: inline-block;
-  background-color: #232832;
+  background-color: #FFF;
   box-shadow: 0 0 10px #333;
   margin: 0 5px;
   cursor: pointer;
+}
+
+.carousel .activeButton{
+  border: 2px solid #232832;
 }
