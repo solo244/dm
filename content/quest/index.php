@@ -17,5 +17,6 @@
       <?php include 'general\sidebar.php' ?>
     </div>
     <div class="gQuest" id="gQuest1"><?php include 'general\quests\quest1.php' ?></div>
+
   </div>
 </div>

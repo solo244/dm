@@ -1,6 +1,20 @@
 $(document).ready(function(){
 
   /*
+   * Open the correct quest panel, like a Sir
+   */
+   var nexMainText = "Quest";
+  $("#contentQuests .dashHeader i").click(function(){
+    var buttonContext = $(this).prop("id").split("quest").join("").toLowerCase() + "Quests";
+    nexMainText = $(this).prop("id").split("quest").join("") + " Quests";
+
+    $("#contentQuests .dashHeader h2").html(nexMainText);
+
+    $("#contentQuests .innerContent > div").animate({"top" : "320px"}, 500);
+    $("." + buttonContext).animate({"top" : "50px"}, 500);
+  });
+
+  /*
    * Open some quests from the general variety
    */
   $(".backQuests").hide();
@@ -23,6 +37,8 @@ $(document).ready(function(){
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);
     $(this).parent().find(".gQuest").animate({"left": "200px", "opacity": "0"}, 500);
 
+    $("#contentQuests .dashHeader h2").html(nexMainText);
+
     $(".backQuests").hide();
   });
 
@@ -35,7 +51,6 @@ $(document).ready(function(){
     var imgHeight = $img.height();
 
     while(imgHeight < 260 || imgWidth < 200){
-      console.log(imgHeight);
       imgHeight *= 1.1;
       imgWidth *= 1.1;
       $(this).height(imgHeight);
@@ -46,24 +61,26 @@ $(document).ready(function(){
   /*
    * Adding some carousel buttons
    */
-  $(".img2").after("<div class='carButtonHolder'></div>");
-  $(".carButtonHolder").append("<div id='carimg1' class='carButton'></div>");
-  $(".carButtonHolder").append("<div id='carimg2' class='carButton'></div>");
+  $('.carousel').each(function(){
+    var thisCarousel = $(this).closest(".carousel");
 
-  $("#carimg2").css("left", "200");
+    thisCarousel.find(".img2").after("<div class='carButtonHolder'></div>");
+    thisCarousel.find(".carButtonHolder").append("<div class='carimg1 carButton activeButton'></div>");
+    thisCarousel.find(".carButtonHolder").append("<div class='carimg2 carButton'></div>");
 
-  $("#carimg1").click(function(){
-    $(".img1").animate({"left": "0"}, 500);
-    $(".carimg1").addClass("activeButton");
-    $(".carimg2").removeClass("activeButton");
-    $(".img2").animate({"left": "200px"}, 500);
+    thisCarousel.find(".carimg2").css("left", "200");
+
+    $(".carimg1").click(function(){
+      thisCarousel.find(".img1").animate({"left": "0"}, 500);
+      thisCarousel.find(".carimg1").addClass("activeButton");
+      thisCarousel.find(".carimg2").removeClass("activeButton");
+      thisCarousel.find(".img2").animate({"left": "200px"}, 500);
+    })
+    $(".carimg2").click(function(){
+      thisCarousel.find(".img1").animate({"left": "200px"}, 500);
+      thisCarousel.find(".carimg2").addClass("activeButton");
+      thisCarousel.find(".carimg1").removeClass("activeButton");
+      thisCarousel.find(".img2").animate({"left": "0"}, 500);
+    })
   })
-  $("#carimg2").click(function(){
-    $(".img1").animate({"left": "200px"}, 500);
-    $(".carimg2").addClass("activeButton");
-    $(".carimg1").removeClass("activeButton");
-    $(".img2").animate({"left": "0"}, 500);
-  })
-
-
 })

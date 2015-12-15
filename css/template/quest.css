@@ -9,7 +9,7 @@
   background-color: #232832;
   overflow: auto;
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 0;
 }
 
@@ -63,7 +63,7 @@
 #contentQuests .backQuests{
   position: absolute;
   cursor: pointer;
-  top: 70px;
+  top: 20px;
   left: 18px;
   z-index: 55;
   color: #FFF;
@@ -111,17 +111,20 @@
 
 #contentQuests .gQuest{
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 200px;
   width: 590px;
   opacity: 0;
 }
 
-.generalQuests{
+.generalQuests, .storyQuests, .nalaQuests, .laiQuests, .thiaQuests, .ottanQuests{
   height: 260px;
+  width: 590px;
   background-image: url(../../images/quests/bg.png);
   background-position: 200px 0;
   background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
 }
 
 /* Carousel */
@@ -163,4 +166,6 @@
 
 .carousel .activeButton{
   border: 2px solid #232832;
+  position: relative;
+  top: 2px;
 }
