@@ -3,7 +3,7 @@ $(document).ready(function(){
   /*
    * Open the correct quest panel, like a Sir
    */
-   var nexMainText = "Quest";
+  var nexMainText = "Quest";
   $("#contentQuests .dashHeader i").click(function(){
     var buttonContext = $(this).prop("id").split("quest").join("").toLowerCase() + "Quests";
     nexMainText = $(this).prop("id").split("quest").join("") + " Quests";
@@ -12,18 +12,45 @@ $(document).ready(function(){
 
     $("#contentQuests .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
+
+    // TODO: fix the show only when sidebar is not visible (of current)
+    $(".backQuests").show();
   });
 
   /*
    * Open some quests from the general variety
    */
   $(".backQuests").hide();
+  var activeState;
 
-  $("#generalMenu li").click(function(){
+  $("#allQuests li").click(function(){
+    var whatId = $(this).closest(".sidebar").attr("id");
 
+    switch (whatId) { 
+      case 'storyMenu': 
+        activeState = "#sQuest";
+        break;
+      case 'generalMenu': 
+        activeState = "#gQuest";
+        break;
+      case 'nalaMenu': 
+        activeState = "#nQuest";
+        break;
+      case 'laiMenu': 
+        activeState = "#lQuest";
+        break;
+      case 'thiaMenu': 
+        activeState = "#tQuest";
+        break;
+      case 'ottanMenu': 
+        activeState = "#oQuest";
+        break;
+      default:
+    }
+    
     var theQuestName = $(this).html();
     var numberInRow = $(this).index() + 1;
-    var whatQuestAreWeOn = "#gQuest" + numberInRow;
+    var whatQuestAreWeOn = activeState + numberInRow;
 
     $("#contentQuests .dashHeader h2").html(theQuestName);
     $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
@@ -33,7 +60,6 @@ $(document).ready(function(){
   })
 
   $(".backQuests").click(function(){
-    console.log($(this).parent().prop("class"));
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);
     $(this).parent().find(".gQuest").animate({"left": "200px", "opacity": "0"}, 500);
 

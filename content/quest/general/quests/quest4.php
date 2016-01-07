@@ -1,11 +1,11 @@
-<?php include '/../template/top.php' ?>
+<?php include 'template/top.php' ?>
 
 <!-- Carousel images -->
 
 <img src="images/quests/general/q4a.jpg" class="toResizeClass img1">
 <img src="images/quests/general/q4b.jpg" class="toResizeClass img2">
 
-<?php include '/../template/middle.php' ?>
+<?php include 'template/middle.php' ?>
 
 <!-- The Spirit Wisperer -->
 
@@ -39,4 +39,4 @@ The Come-On Inn - Bar
 <!-- Enemies -->
 The Inn has a couple of scoundrels/bandits. Assassins
 
-<?php include '/../template/bottom.php' ?>
+<?php include 'template/bottom.php' ?>

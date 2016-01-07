@@ -1,11 +1,11 @@
-<?php include '/../template/top.php' ?>
+<?php include 'template/top.php' ?>
 
 <!-- Carousel images -->
 
 <img src="images/quests/general/q7a.jpg" class="toResizeClass img1">
 <img src="images/quests/general/q7b.jpg" class="toResizeClass img2">
 
-<?php include '/../template/middle.php' ?>
+<?php include 'template/middle.php' ?>
 
 <!-- The Spirit Wisperer -->
 
@@ -44,4 +44,4 @@ Location
 <!-- Enemies -->
 Enemies
 
-<?php include '/../template/bottom.php' ?>
+<?php include 'template/bottom.php' ?>

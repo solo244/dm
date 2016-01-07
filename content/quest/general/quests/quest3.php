@@ -1,11 +1,11 @@
-<?php include '/../template/top.php' ?>
+<?php include 'template/top.php' ?>
 
 <!-- Carousel images -->
 
 <img src="images/quests/general/q3a.jpg" class="toResizeClass img1">
 <img src="images/quests/general/q3b.jpg" class="toResizeClass img2">
 
-<?php include '/../template/middle.php' ?>
+<?php include 'template/middle.php' ?>
 
 <!-- The Spirit Wisperer -->
 
@@ -41,4 +41,4 @@ Troll Cave
 <!-- Enemies -->
 Troll Family
 
-<?php include '/../template/bottom.php' ?>
+<?php include 'template/bottom.php' ?>

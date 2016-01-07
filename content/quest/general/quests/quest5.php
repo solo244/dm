@@ -1,11 +1,11 @@
-<?php include '/../template/top.php' ?>
+<?php include 'template/top.php' ?>
 
 <!-- Carousel images -->
 
 <img src="images/quests/general/q5a.jpg" class="toResizeClass img1">
 <img src="images/quests/general/q5b.jpg" class="toResizeClass img2">
 
-<?php include '/../template/middle.php' ?>
+<?php include 'template/middle.php' ?>
 
 <!-- The Spirit Wisperer -->
 
@@ -44,4 +44,4 @@ Abadonnent ice cave nearby-ish
 <!-- Enemies -->
 Looters, criminals, assassins and dobby
 
-<?php include '/../template/bottom.php' ?>
+<?php include 'template/bottom.php' ?>
