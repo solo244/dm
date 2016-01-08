@@ -2,33 +2,33 @@ $(document).ready(function(){
 
   /*
    * Open the correct npc panel, kinda like a Sir
-   
+   */
   var nexMainText = "NPC";
   $("#contentNPC .dashHeader i").click(function(){
     var buttonContext = $(this).prop("id").split("npc").join("").toLowerCase() + "NPC";
     nexMainText = $(this).prop("id").split("npc").join("") + " NPC";
 
-    $("#contentQuests .dashHeader h2").html(nexMainText);
+    $("#contentNPC .dashHeader h2").html(nexMainText);
 
-    $("#contentQuests .innerContent > div").animate({"top" : "320px"}, 500);
+    $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
 
     // TODO: fix the show only when sidebar is not visible (of current)
-    $(".backQuests").show();
-  });*/
+    $(".backNPC").show();
+  });
 
   /*
    * Open some quests from the general variety
-   
-  $(".backQuests").hide();
+   */
+  $(".backNPC").hide();
   var activeState;
 
-  $("#allQuests li").click(function(){
+  $("#allNPCs li").click(function(){
     var whatId = $(this).closest(".sidebar").attr("id");
 
     switch (whatId) { 
-      case 'storyMenu': 
-        activeState = "#sQuest";
+      case 'nalaNPC': 
+        activeState = "#nNPC";
         break;
       case 'generalMenu': 
         activeState = "#gQuest";
@@ -53,20 +53,20 @@ $(document).ready(function(){
     var numberInRow = $(this).index() + 1;
     var whatQuestAreWeOn = activeState + numberInRow;
 
-    $("#contentQuests .dashHeader h2").html(theQuestName);
+    $("#contentNPC .dashHeader h2").html(theQuestName);
     $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
     $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
-    $(".backQuests").show();
-  })*/
+    $(".backNPC").show();
+  })
 
-  $(".backQuests").click(function(){
+  $(".backNPC").click(function(){
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);
-    $(this).parent().find(".gQuest").animate({"left": "200px", "opacity": "0"}, 500);
+    $(this).parent().find(".nNPC").animate({"left": "200px", "opacity": "0"}, 500);
 
-    $("#contentQuests .dashHeader h2").html(nexMainText);
+    $("#contentNPC .dashHeader h2").html(nexMainText);
 
-    $(".backQuests").hide();
+    $(".backNPC").hide();
   });
 
   /*
