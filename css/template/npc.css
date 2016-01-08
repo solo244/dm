@@ -1,1 +1,112 @@
 /* NPC */
+#contentNPC{}
+
+/* Buttons */
+#contentNPC .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
+}
+
+#contentNPC #npcNala{
+  right: 110px;
+}
+
+#contentNPC #npcLai{
+  right: 80px;
+}
+
+#contentNPC #npcThia{
+  right: 50px;
+}
+
+#contentNPC #npcOttan{
+  right: 20px;
+}
+
+#contentNPC #npcGood{
+  left: 20px;
+}
+
+#contentNPC #npcBad{
+  left: 50px;
+}
+
+#contentNPC #npcShibukai{
+  left: 80px;
+}
+
+#contentNPC #npcRandoms{
+  left: 110px;
+}
+
+#contentNPC #npcGroups{
+  left: 140px;
+}
+
+#contentNPC .backNPCs{
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 18px;
+  z-index: 55;
+  color: #FFF;
+  text-shadow: 0 0 5px #333;
+}
+
+#contentNPC .innerContent{
+  padding: 0;
+}
+
+#contentNPC .innerContent h3{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#contentNPC .innerContent .descriptions{
+  padding: 30px;
+  float: left;
+  width: 390px;
+  height: 260px;
+  overflow: auto;
+  background-color: #232832;
+  position: relative;
+  z-index: 50;
+}
+
+#contentNPC .innerContent .descriptions i{
+  padding-right: 5px;
+}
+
+#contentNPC .carousel{
+  background-color: #232832;
+  height: 260px;
+  width: 200px;
+  float: left;
+  display: inline-block;
+}
+
+#contentNPC .carousel img{
+  width: 100%;
+  height: auto;
+}
+
+/* Quests */
+
+#contentNPC .nNPC{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  width: 590px;
+  opacity: 0;
+}
+
+.nalaNPC, .laiNPC, .thiaNPC, .ottanNPC, .goodNPC, .badNPC, .shibukaiNPC, .randomNPC, .groupNPC{
+  height: 260px;
+  width: 590px;
+  background-image: url(../../images/quests/bg.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+}

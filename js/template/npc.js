@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
   /*
-   * Open the correct quest panel, like a Sir
-   */
-  var nexMainText = "Quest";
-  $("#contentQuests .dashHeader i").click(function(){
-    var buttonContext = $(this).prop("id").split("quest").join("").toLowerCase() + "Quests";
-    nexMainText = $(this).prop("id").split("quest").join("") + " Quests";
+   * Open the correct npc panel, kinda like a Sir
+   
+  var nexMainText = "NPC";
+  $("#contentNPC .dashHeader i").click(function(){
+    var buttonContext = $(this).prop("id").split("npc").join("").toLowerCase() + "NPC";
+    nexMainText = $(this).prop("id").split("npc").join("") + " NPC";
 
     $("#contentQuests .dashHeader h2").html(nexMainText);
 
@@ -15,11 +15,11 @@ $(document).ready(function(){
 
     // TODO: fix the show only when sidebar is not visible (of current)
     $(".backQuests").show();
-  });
+  });*/
 
   /*
    * Open some quests from the general variety
-   */
+   
   $(".backQuests").hide();
   var activeState;
 
@@ -58,7 +58,7 @@ $(document).ready(function(){
     $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
     $(".backQuests").show();
-  })
+  })*/
 
   $(".backQuests").click(function(){
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);

@@ -39,12 +39,12 @@ body{
 }
 
 .dashboardDiv .dashHeader h2{
-  color: #EFEFEF;
+	color: #EFEFEF;
 	margin: 0;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  font-weight: 100;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 100;
 }
 
 .dashboardDiv .innerContent{
@@ -53,9 +53,11 @@ body{
 
 /* Testing */
 .dashboardDiv{
-	display: none;
+	left: -10000px;
+	position: absolute;
 }
 
-.dashboardDiv:nth-child(3){
-	display: block;
+.dashboardDiv:nth-child(7){
+	position: relative;
+	left: 0;
 }

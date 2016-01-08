@@ -6,5 +6,6 @@
 <script src="js/template/story.js"></script>
 <script src="js/template/map.js"></script>
 <script src="js/template/quests.js"></script>
+<script src="js/template/npc.js"></script>
 <!-- Main -->
 <script src="js/template/main.js"></script>
