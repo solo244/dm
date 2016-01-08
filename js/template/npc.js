@@ -21,16 +21,16 @@ $(document).ready(function(){
    * Open some quests from the general variety
    */
   $(".backNPC").hide();
-  var activeState;
+  var activeStateNPC;
 
   $("#allNPCs li").click(function(){
     var whatId = $(this).closest(".sidebar").attr("id");
 
     switch (whatId) { 
-      case 'nalaNPC': 
-        activeState = "#nNPC";
+      case 'nalaNPCMenu': 
+        activeStateNPC = "#nNPC";
         break;
-      case 'generalMenu': 
+      /*case 'generalMenu': 
         activeState = "#gQuest";
         break;
       case 'nalaMenu': 
@@ -44,18 +44,19 @@ $(document).ready(function(){
         break;
       case 'ottanMenu': 
         activeState = "#oQuest";
-        break;
+        break;*/
       default:
         console.log("none selected");
     }
     
-    var theQuestName = $(this).html();
-    var numberInRow = $(this).index() + 1;
-    var whatQuestAreWeOn = activeState + numberInRow;
+    var theNPCName = $(this).html();
+    var numberInRowNPC = "" + parseInt(($(this).index()) + 1);
+    console.log(numberInRowNPC);
+    var whatNPCAreWeOn = activeStateNPC + numberInRowNPC;
 
-    $("#contentNPC .dashHeader h2").html(theQuestName);
+    $("#contentNPC .dashHeader h2").html(theNPCName);
     $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
-    $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
+    $(whatNPCAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
     $(".backNPC").show();
   })
@@ -83,31 +84,5 @@ $(document).ready(function(){
       $(this).height(imgHeight);
       $(this).width(imgWidth);
     }
-  });
-
-  /*
-   * Adding some carousel buttons
-   */
-  $('.carousel').each(function(){
-    var thisCarousel = $(this).closest(".carousel");
-
-    thisCarousel.find(".img2").after("<div class='carButtonHolder'></div>");
-    thisCarousel.find(".carButtonHolder").append("<div class='carimg1 carButton activeButton'></div>");
-    thisCarousel.find(".carButtonHolder").append("<div class='carimg2 carButton'></div>");
-
-    thisCarousel.find(".carimg2").css("left", "200");
-
-    $(".carimg1").click(function(){
-      thisCarousel.find(".img1").animate({"left": "0"}, 500);
-      thisCarousel.find(".carimg1").addClass("activeButton");
-      thisCarousel.find(".carimg2").removeClass("activeButton");
-      thisCarousel.find(".img2").animate({"left": "200px"}, 500);
-    })
-    $(".carimg2").click(function(){
-      thisCarousel.find(".img1").animate({"left": "200px"}, 500);
-      thisCarousel.find(".carimg2").addClass("activeButton");
-      thisCarousel.find(".carimg1").removeClass("activeButton");
-      thisCarousel.find(".img2").animate({"left": "0"}, 500);
-    })
   });
 })
