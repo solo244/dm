@@ -120,4 +120,6 @@
 <div id="allMapDetails">
   <div class="innerMap" id="townWaterkeep"><?php include "maps/waterkeep.php" ?></div>
   <div class="innerMap" id="townFaredeep"><?php include "maps/faredeep.php" ?></div>
+  <div class="innerMap" id="townGoldhaven"><?php include "maps/goldhaven.php" ?></div>
+  <div class="innerMap" id="townSilverfort"><?php include "maps/silverfort.php" ?></div>
 </div>

@@ -9,7 +9,7 @@ $(document).ready(function(){
     nexMainText = $(this).prop("id").split("npc").join("") + " NPC";
 
     $("#contentNPC .dashHeader h2").html(nexMainText);
-
+    console.log(buttonContext);
     $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
 
@@ -25,30 +25,39 @@ $(document).ready(function(){
 
   $("#allNPCs li").click(function(){
     var whatId = $(this).closest(".sidebar").attr("id");
-
-    switch (whatId) { 
-      case 'nalaNPCMenu': 
+    console.log("Teeeusht:" + whatId);
+    switch (whatId) {
+      case 'nalaNPCMenu':
         activeStateNPC = "#nNPC";
         break;
-      /*case 'generalMenu': 
-        activeState = "#gQuest";
+      case 'goodNPCMenu':
+        activeStateNPC = "#gNPC";
         break;
-      case 'nalaMenu': 
-        activeState = "#nQuest";
+      case 'badNPCMenu':
+        activeStateNPC = "#bNPC";
         break;
-      case 'laiMenu': 
-        activeState = "#lQuest";
+      case 'shibukaiNPCMenu':
+        activeStateNPC = "#sNPC";
         break;
-      case 'thiaMenu': 
-        activeState = "#tQuest";
+      case 'randomNPCMenu':
+        activeStateNPC = "#rNPC";
         break;
-      case 'ottanMenu': 
-        activeState = "#oQuest";
-        break;*/
+      case 'groupNPCMenu':
+        activeStateNPC = "#grNPC";
+        break;
+      case 'laiNPCMenu':
+        activeStateNPC = "#lNPC";
+        break;
+      case 'thiaNPCMenu':
+        activeStateNPC = "#tNPC";
+        break;
+      case 'ottanNPCMenu':
+        activeStateNPC = "#oNPC";
+        break;
       default:
         console.log("none selected");
     }
-    
+
     var theNPCName = $(this).html();
     var numberInRowNPC = "" + parseInt(($(this).index()) + 1);
     console.log(numberInRowNPC);
