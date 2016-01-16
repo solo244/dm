@@ -57,7 +57,7 @@ body{
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(7){
+.dashboardDiv:nth-child(5){
 	position: relative;
 	left: 0;
 }

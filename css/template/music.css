@@ -1,1 +1,33 @@
 /* Music */
+#contentMusic{}
+
+/* Buttons */
+#contentMusic .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
+}
+
+#contentMusic #soundMood{
+  right: 20px;
+}
+
+#contentMusic #soundBreaking{
+  left: 20px;
+}
+
+#contentMusic #soundCombat{
+  left: 50px;
+}
+
+#contentMusic #soundEnvironment{
+  left: 80px;
+}
+
+#contentMusic #soundMonsters{
+  left: 110px;
+}
+
+#contentMusic #soundNature{
+  left: 140px;
+}
