@@ -8,5 +8,6 @@
 <script src="js/template/quests.js"></script>
 <script src="js/template/npc.js"></script>
 <script src="js/template/music.js"></script>
+<script src="js/template/treasure.js"></script>
 <!-- Main -->
 <script src="js/template/main.js"></script>

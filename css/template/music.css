@@ -61,13 +61,14 @@
   -webkit-filter: grayscale(0%);
 }
 
-/* Music controls */
-.playSoundsButton{
+#contentMusic .sound audio{
   position: absolute;
-  top: 23px;
-  left: 40px;
-  width: 30px;
-  height: 30px;
-  font-size: 50px;
-  text-shadow: 0 0 10px black;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 118px;
+}
+
+#contentMusic .sound:hover audio{
+  display: block;
 }

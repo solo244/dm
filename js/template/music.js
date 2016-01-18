@@ -55,6 +55,7 @@ $(document).ready(function(){
   });
 
   $(".soundCol .sound").click(function(){
+    stopallSounds();
     var whatSound = $(this).find("audio")[0];
     if(whatSound.paused){
       console.log("playing now");
@@ -71,10 +72,12 @@ $(document).ready(function(){
   function stopallSounds(){
     //$(".sound audio")[0].pause();
     $(".soundCol .sound").each(function(){
-      $(this).pause();
+      $(this).find("audio")[0].pause();
+      $(this).find("audio")[0].currentTime = 0;
+      $(this).find(".playSoundsButton").css("display", "none");
     });
     //$(".sound audio")[0].currentTime == 0;
-    $(".playSoundsButton").css("display", "none");
+    //$(".playSoundsButton").css("display", "none");
   }
 
 })
