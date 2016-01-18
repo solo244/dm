@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   /*
-   * Clicks for sound panels
+   * Clicks for sound panels ~Tune Heavy Metal~
    */
   $("#contentMusic i").click(function(){
     var whatSoundClick = $(this).prop("id");
@@ -49,7 +49,6 @@ $(document).ready(function(){
   /*
    * Audio controls
    */
-  // var
   $(".soundCol .sound").each(function(){
     $(this).append("<div class='playSoundsButton'><i class='fa fa-play-circle'></i></div>");
     $(this).find(".playSoundsButton").css("display", "none");
@@ -70,8 +69,11 @@ $(document).ready(function(){
   })
 
   function stopallSounds(){
-    $(".sound audio")[0].pause();
-    $(".sound audio")[0].currentTime == 0;
+    //$(".sound audio")[0].pause();
+    $(".soundCol .sound").each(function(){
+      $(this).pause();
+    });
+    //$(".sound audio")[0].currentTime == 0;
     $(".playSoundsButton").css("display", "none");
   }
 
