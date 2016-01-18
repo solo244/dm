@@ -11,9 +11,11 @@
   <!-- -->
 </div>
 
-<div class="innerContent" id="allSounds">
-  <div class="">
-    <i class="fa fa-arrow-left backNPC"></i>
-    <div class="" id=""><?php include 'breaking\index.php' ?></div>
-  </div>
+<div class="innerContent scrollPlease" id="allSounds">
+  <div class="soundCol sBreaking" id=""><?php include 'breaking.php' ?></div>
+  <div class="soundCol sCombat" id=""><?php include 'combat.php' ?></div>
+  <div class="soundCol sEnvironment" id=""><?php include 'environment.php' ?></div>
+  <div class="soundCol sMonster" id=""><?php include 'monster.php' ?></div>
+  <div class="soundCol sNature" id=""><?php include 'nature.php' ?></div>
+  <div class="soundCol clear"></div>
 </div>

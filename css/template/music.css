@@ -31,3 +31,43 @@
 #contentMusic #soundNature{
   left: 140px;
 }
+
+/* Sounds */
+#contentMusic .innerContent{
+  padding: 0;
+}
+
+#allSounds{
+  height: 260px;
+}
+
+#contentMusic .sound{
+  width: 118px;
+  height: 118px;
+  background-color: green;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+#contentMusic .sound img{
+  width: 118px;
+  -webkit-filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+#contentMusic .sound:hover img{
+  -webkit-filter: grayscale(0%);
+}
+
+/* Music controls */
+.playSoundsButton{
+  position: absolute;
+  top: 23px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  font-size: 50px;
+  text-shadow: 0 0 10px black;
+}
