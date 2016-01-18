@@ -35,8 +35,14 @@ $(document).ready(function(){
    * Roll those d100's
    */
   $(".treasureMagicA .rollButton").click(function(){
-    var randomDieMagic = Math.floor(Math.random() * 6) + 1;
-    console.log(randomDieMagic);  
+    var randomDieMagic = Math.floor(Math.random() * 100) + 1;
+    $(".treasureMagicA").find(".rollResult").html(randomDieMagic);
+    if(randomDieMagic > 0 && randomDieMagic < 51){
+      $(".treasureMagicA .treasureResult").html("Potion of healing, <em>Heals 2d4 hp</em>");
+    }
+    else if(randomDieMagic > 50 && randomDieMagic < 61){
+      $(".treasureMagicA .treasureResult").html("Spell Scroll, <em>cantrip</em>");
+    }
   })
 
 })
