@@ -1,7 +1,28 @@
-/* Treasure */
-#treasureGenerator{
-
+/* Buttons */
+#contentTreasure .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
 }
+
+#contentTreasure #treasureGen{
+  left: 20px;
+}
+
+#contentTreasure #nameGen{
+  left: 50px;
+}
+
+#contentTreasure #npcGen{
+  left: 80px;
+}
+
+#contentTreasure #buildingGen{
+  left: 110px;
+}
+
+/* Treasure */
+#treasureGenerator{}
 
 #treasureGenerator .sidebar{
   top: 50px;

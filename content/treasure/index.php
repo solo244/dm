@@ -1,14 +1,10 @@
 <div class="dashHeader">
   <h2>Generator</h2>
 
-  <!--<i class="fa fa-soundcloud" id="soundMood"></i>-->
-  <!--
-  <i class="fa fa-chain-broken" id="soundBreaking"></i>
-  <i class="fa fa-space-shuttle" id="soundCombat"></i>
-  <i class="fa fa-star" id="soundEnvironment"></i>
-  <i class="fa fa-bug" id="soundMonsters"></i>
-  <i class="fa fa-tree" id="soundNature"></i>
-   -->
+  <i class="fa fa-magic" id="treasureGen"></i>
+  <i class="fa fa-hashtag" id="nameGen"></i>
+  <i class="fa fa-user" id="npcGen"></i>
+  <i class="fa fa-building" id="buildingGen"></i>
 </div>
 
 <div class="innerContent">
