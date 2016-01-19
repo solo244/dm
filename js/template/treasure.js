@@ -1,6 +1,22 @@
 $(document).ready(function(){
 
   /*
+   * Open up the right menu
+   */
+  var nexMainTextGen = "Generator";
+  $("#contentTreasure .dashHeader i").click(function(){
+    var buttonContext = $(this).prop("id").split("gen").join("").toLowerCase();
+    console.log(buttonContext.replace("gen",""));
+    nexMainTextGen = $(this).prop("id").split("npc").join("") + " NPC";
+
+    /*$("#contentNPC .dashHeader h2").html(nexMainTextGen);
+    console.log(buttonContext);
+    $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
+    $("." + buttonContext).animate({"top" : "50px"}, 500);*/
+
+  });
+
+  /*
    * Open the right generator tables - magic
    */
   var activeStateGeneratorMagic;
