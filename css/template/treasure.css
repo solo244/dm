@@ -22,7 +22,15 @@
 }
 
 /* Treasure */
-#treasureGenerator{}
+#treasureGenerator{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#treasureGenerator .sidebar li.selectedMagic{
+  color: #FFF;
+}
 
 #treasureGenerator .sidebar{
   top: 50px;
@@ -93,10 +101,30 @@
 
 /* NPC */
 #npcGenerator{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+#npcGenerator .sidebar li.selectedMagic{
+  color: #FFF;
+}
+
+#npcGenerator .sidebar{
+  top: 50px;
 }
 
 /* Shop */
 #shopGenerator{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+#shopGenerator .sidebar li.selectedMagic{
+  color: #FFF;
+}
+
+#shopGenerator .sidebar{
+  top: 50px;
 }

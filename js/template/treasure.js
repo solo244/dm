@@ -3,16 +3,14 @@ $(document).ready(function(){
   /*
    * Open up the right menu
    */
-  var nexMainTextGen = "Generator";
   $("#contentTreasure .dashHeader i").click(function(){
-    var buttonContext = $(this).prop("id").split("gen").join("").toLowerCase();
-    console.log(buttonContext.replace("gen",""));
-    nexMainTextGen = $(this).prop("id").split("npc").join("") + " NPC";
+    var buttonContext = $(this).prop("id").split("gen").join("").toLowerCase().replace("gen","");
+    var nexMainTextGen = buttonContext + "Generator";
 
-    /*$("#contentNPC .dashHeader h2").html(nexMainTextGen);
-    console.log(buttonContext);
-    $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
-    $("." + buttonContext).animate({"top" : "50px"}, 500);*/
+    $("#contentTreasure .innerContent > div").animate({"top" : "270px"}, 500);
+    $("#" + nexMainTextGen).animate({"top" : "0px"}, 500);
+
+    console.log(nexMainTextGen);
 
   });
 
@@ -29,14 +27,17 @@ $(document).ready(function(){
       console.log("hi");
         resetallMagicTables();
         $(".treasureMagicA").animate({"left": "200px"}, 500);
+        $(this).addClass("selectedMagic");
         break;
       case 'Magic B':
         resetallMagicTables();
         $(".treasureMagicB").animate({"left": "200px"}, 500);
+        $(this).addClass("selectedMagic");
         break;
       case 'Magic C':
         resetallMagicTables();
         $(".treasureMagicC").animate({"left": "200px"}, 500);
+        $(this).addClass("selectedMagic");
         break;
       default:
         console.log("none selected");
@@ -44,6 +45,7 @@ $(document).ready(function(){
 
     function resetallMagicTables(){
       $(".treMag").animate({"left": "600px"}, 500);
+      $("#treasureGenerator .sidebar li").removeClass("selectedMagic");
     }
   })
 
