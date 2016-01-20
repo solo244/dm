@@ -19,6 +19,6 @@
   </div>
   <div id="shopGenerator">
     <div class="sidebar scrollPlease"><?php include 'shop/sidebar.php' ?></div>
-    <div class="treShop treasureShop"></div>
+    <div class="treShop treasureShop"><?php include 'shop/blacksmith.php' ?></div>
   </div>
 </div>

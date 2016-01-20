@@ -124,3 +124,34 @@
 #shopGenerator .sidebar{
   top: 50px;
 }
+
+.shopOwner{
+  border-bottom: 1px solid #282C38;
+  font-style: italic;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#contentTreasure .c1, .c2, .c3{
+  float: left;
+}
+
+#contentTreasure .c1{
+  float: left;
+  width: 50%;
+}
+
+#contentTreasure .c2, .c3{
+  float: left;
+  width: 25%;
+}
+
+/* Blacksmith */
+#blacksmith{
+  width: 390px;
+  height: 260px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
