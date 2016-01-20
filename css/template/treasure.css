@@ -9,16 +9,12 @@
   left: 20px;
 }
 
-#contentTreasure #nameGen{
+#contentTreasure #npcGen{
   left: 50px;
 }
 
-#contentTreasure #npcGen{
+#contentTreasure #shopGen{
   left: 80px;
-}
-
-#contentTreasure #buildingGen{
-  left: 110px;
 }
 
 /* Treasure */

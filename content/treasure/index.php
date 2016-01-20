@@ -2,9 +2,8 @@
   <h2>Generator</h2>
 
   <i class="fa fa-magic" id="treasureGen"></i>
-  <i class="fa fa-hashtag" id="nameGen"></i>
   <i class="fa fa-user" id="npcGen"></i>
-  <i class="fa fa-building" id="buildingGen"></i>
+  <i class="fa fa-building" id="shopGen"></i>
 </div>
 
 <div class="innerContent">

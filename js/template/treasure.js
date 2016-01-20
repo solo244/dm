@@ -7,6 +7,20 @@ $(document).ready(function(){
     var buttonContext = $(this).prop("id").split("gen").join("").toLowerCase().replace("gen","");
     var nexMainTextGen = buttonContext + "Generator";
 
+    switch (nexMainTextGen){
+      case "treasureGenerator":
+        $("#contentTreasure .dashHeader h2").html("Treasure Generator");
+        break;
+      case "npcGenerator":
+        $("#contentTreasure .dashHeader h2").html("NPC Generator");
+        break;
+      case "shopGenerator":
+        $("#contentTreasure .dashHeader h2").html("Shop Generator");
+        break;
+      default:
+        break;
+    }
+
     $("#contentTreasure .innerContent > div").animate({"top" : "270px"}, 500);
     $("#" + nexMainTextGen).animate({"top" : "0px"}, 500);
 
