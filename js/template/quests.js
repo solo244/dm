@@ -13,6 +13,9 @@ $(document).ready(function(){
     $("#contentQuests .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
 
+    $("#contentQuests .dashHeader i").css("color", "rgb(27, 31, 41)");
+    $(this).css("color", "rgb(155, 182, 201)");
+
     // TODO: fix the show only when sidebar is not visible (of current)
     $(".backQuests").show();
   });
@@ -26,29 +29,29 @@ $(document).ready(function(){
   $("#allQuests li").click(function(){
     var whatId = $(this).closest(".sidebar").attr("id");
 
-    switch (whatId) { 
-      case 'storyMenu': 
+    switch (whatId) {
+      case 'storyMenu':
         activeState = "#sQuest";
         break;
-      case 'generalMenu': 
+      case 'generalMenu':
         activeState = "#gQuest";
         break;
-      case 'nalaMenu': 
+      case 'nalaMenu':
         activeState = "#nQuest";
         break;
-      case 'laiMenu': 
+      case 'laiMenu':
         activeState = "#lQuest";
         break;
-      case 'thiaMenu': 
+      case 'thiaMenu':
         activeState = "#tQuest";
         break;
-      case 'ottanMenu': 
+      case 'ottanMenu':
         activeState = "#oQuest";
         break;
       default:
         console.log("none selected");
     }
-    
+
     var theQuestName = $(this).html();
     var numberInRow = $(this).index() + 1;
     var whatQuestAreWeOn = activeState + numberInRow;

@@ -15,10 +15,11 @@
   </div>
   <div id="npcGenerator">
     <div class="sidebar scrollPlease"><?php include 'npc/sidebar.php' ?></div>
-    <div class="treNPC treasureNPC"></div>
+    <div class="treNPC treasureName"><?php include 'npc/name.php' ?></div>
+    <div class="treNPC treasureShopkeeper"><?php include 'npc/shopkeeper.php' ?></div>
   </div>
   <div id="shopGenerator">
     <div class="sidebar scrollPlease"><?php include 'shop/sidebar.php' ?></div>
-    <div class="treShop treasureShop"><?php include 'shop/blacksmith.php' ?></div>
+    <div class="treShop treasureBlacksmith"><?php include 'shop/blacksmith.php' ?></div>
   </div>
 </div>

@@ -3,6 +3,8 @@ $(document).ready(function(){
   /*
    * Open up the right menu
    */
+  $("#contentTreasure .innerContent > div").css({"top" : "270px"});
+
   $("#contentTreasure .dashHeader i").click(function(){
     var buttonContext = $(this).prop("id").split("gen").join("").toLowerCase().replace("gen","");
     var nexMainTextGen = buttonContext + "Generator";
@@ -21,10 +23,11 @@ $(document).ready(function(){
         break;
     }
 
+    $("#contentTreasure .dashHeader i").css("color", "rgb(27, 31, 41)");
+    $(this).css("color", "rgb(155, 182, 201)");
+
     $("#contentTreasure .innerContent > div").animate({"top" : "270px"}, 500);
     $("#" + nexMainTextGen).animate({"top" : "0px"}, 500);
-
-    console.log(nexMainTextGen);
 
   });
 
@@ -97,6 +100,34 @@ $(document).ready(function(){
     else if(randomDieMagic > 70 && randomDieMagic < 99){ $(".treasureMagicC .treasureResult").html("Potion of greater healing, <em>Heals way more than a smaller healing potion</em>"); }
     else if(randomDieMagic === 99){ $(".treasureMagicC .treasureResult").html("Bag Of Holding, <em>Bag that might hold up to 250kg or 600kg depending on size. No life after 10 minutes</em>"); }
     else if(randomDieMagic === 100 && randomDieMagic < 61){ $(".treasureMagicC .treasureResult").html("Driftglobe, <em>Giant ball of light</em>"); }
+  })
+
+  /*
+   * Open the right generator tables - shops
+   */
+  $("#shopGenerator .sidebar li").click(function(){
+    var whatId = "treasure" + $(this).html();
+    console.log(whatId);
+
+    $("#shopGenerator .treShop").animate({"left" : "500px"}, 500);
+    $("." + whatId).animate({"left" : "0px"}, 500);
+
+    $("#shopGenerator .sidebar li").removeClass("selectedMagic");
+    $(this).addClass("selectedMagic");
+  })
+
+  /*
+   * Open the right generator tables - names
+   */
+  $("#npcGenerator .sidebar li").click(function(){
+    var whatId = "treasure" + $(this).html();
+    console.log(whatId);
+
+    $("#npcGenerator .treNPC").animate({"left" : "500px"}, 500);
+    $("." + whatId).animate({"left" : "0px"}, 500);
+
+    $("#npcGenerator .sidebar li").removeClass("selectedMagic");
+    $(this).addClass("selectedMagic");
   })
 
 })

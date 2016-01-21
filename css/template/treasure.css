@@ -102,6 +102,12 @@
   left: 0;
 }
 
+.treNPC{
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
 #npcGenerator .sidebar li.selectedMagic{
   color: #FFF;
 }
@@ -115,6 +121,12 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.treShop{
+  position: absolute;
+  top: 0;
+  left: 0px;
 }
 
 #shopGenerator .sidebar li.selectedMagic{
@@ -146,8 +158,8 @@
   width: 25%;
 }
 
-/* Blacksmith */
-#blacksmith{
+/* All Shops */
+.shop-contents{
   width: 390px;
   height: 260px;
   padding: 20px;

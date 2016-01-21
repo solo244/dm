@@ -13,6 +13,9 @@ $(document).ready(function(){
     $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
 
+    $("#contentNPC .dashHeader i").css("color", "rgb(27, 31, 41)");
+    $(this).css("color", "rgb(155, 182, 201)");
+
     // TODO: fix the show only when sidebar is not visible (of current)
     $(".backNPC").show();
   });

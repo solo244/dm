@@ -1,4 +1,4 @@
-<div id="blacksmith" class="scrollPlease">
+<div class="shop-contents scrollPlease">
   <div class="c1">
     Light Armor<br>
     Medium Armor<br>
