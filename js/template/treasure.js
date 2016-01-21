@@ -130,4 +130,56 @@ $(document).ready(function(){
     $(this).addClass("selectedMagic");
   })
 
+  /*
+   * Randomly generate names and shopkeepers
+   */
+   var randomShopKeepers = [
+     "The shopkeeper is a willowy male gnome named Kurdu.",
+     "The shopkeeper is a young male half-elf named Homund.",
+     "The shopkeeper is an old male elf named Ithir.",
+     "The shopkeeper is a tall male half-orc named Heodoingoia. He is a retired thief, and keeps a fine steel dagger at his belt.",
+     "The shopkeeper is a tall female elf named Thalia. She is particularly interested in tomes and scrolls from the lost elven kingdom of Dorwine.",
+     "The shopkeeper is an old female elf named Gilme.",
+     "The shopkeeper is an overweight male gnome named Sanzir. He will purchase items for one-third value, no questions asked.",
+     "The shopkeeper is a young male dwarf named Dwari. He is a retired adventurer, and keeps a collection of maps of forgotten tombs and dungeons.",
+     "The shopkeeper is a bold female half-elf named Alin. She is a retired adventurer, and often tells stories of distant lands and terrible monsters.",
+     "The shopkeeper is a slender female human named Wulburh.",
+     "The shopkeeper is an impish female half-elf named Mirielye. She was once an adventurer, but retired after Illfang the Kobold Lord murdered her family.",
+     "The shopkeeper is a willowy male gnome named Rici. He was once an adventurer, but was maimed by a dragon.",
+     "The shopkeeper is a slender male half-elf named Berny.",
+     "The shopkeeper is a quiet female elf named Findalye. She was once an adventurer, but retired after her companions were lost in the Caverns of Illfang the Kobold Lord.",
+     "The shopkeeper is a short female halfling named Wene Cholte.",
+     "The shopkeeper is an old female human named Eren. She will purchase items for one-third value, no questions asked.",
+     "The shopkeeper is a bold female half-elf named Nimluthel. She was once an adventurer, but stumbled into a fortune and retired.",
+     "The shopkeeper is a tall female gnome named Carel. She is a retired adventurer, and keeps a collection of maps of forgotten tombs and dungeons.",
+     "The shopkeeper is a stout female elf named Ebrialoth. She was once an adventurer, but retired to marry and raise a family.",
+     "The shopkeeper is a thin male dwarf named Urim. He will purchase items for one-third value, no questions asked.",
+     "The shopkeeper is a tall male half-elf named Willes. He will purchase items for one-third value, no questions asked.",
+     "The shopkeeper is an old male dwarf named Manni.",
+     "The shopkeeper is an overweight female elf named Celalwe. She is a retired thief, and is rumored to have a hidden cache of stolen treasure.",
+     "The shopkeeper is an adventurous female half-orc named Brosla. She is a retired thief, and is rumored to have a hidden cache of stolen treasure.",
+     "The shopkeeper is a suspicious male human named Gauward Elnnys. He is a retired adventurer, and keeps a collection of maps of forgotten tombs and dungeons.",
+     "The shopkeeper is a tall male half-orc named Stimir. He was once an adventurer, but stumbled into a fortune and retired.",
+     "The shopkeeper is an overweight male elf named Ricua. He will purchase items for one-third value, no questions asked.",
+     "The shopkeeper is a hardworking female human named Odgild.",
+     "The shopkeeper is a willowy male halfling named Inoc. He is a retired adventurer, and keeps a collection of maps of distant lands.",
+     "The shopkeeper is an old female halfling named Adan Finell. She was once an adventurer, but was maimed in the Dark Catacombs of the Demon Lord.",
+     "The shopkeeper is a willowy male half-orc named Lavoi. He is particularly interested in armor and shields from the hoard of the dragon Arsid.",
+     "The shopkeeper is a tall male dwarf named Bali.",
+     "The shopkeeper is a tall male gnome named Rainatz.",
+     "The shopkeeper is an old male human named Rewyn."
+   ];
+
+   $("#shopKeepBut").click(function(){
+     var numberKeepersTotal = randomShopKeepers.length;
+     var randomKeep = Math.floor(Math.random() * (numberKeepersTotal-1)) + 1;
+     $("#randomisedKeepers").append("<p>" + randomShopKeepers[randomKeep] + "</p>");
+
+     $("#randomisedKeepers p").click(function(){
+       $(this).remove();
+     })
+   })
+
+
+
 })

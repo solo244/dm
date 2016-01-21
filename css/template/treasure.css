@@ -158,6 +158,33 @@
   width: 25%;
 }
 
+.shopkeeperButHolder{
+  text-align: center;
+  border-bottom: 1px solid #1b1f29;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.generateButton{
+  background-color: #1b1f29;
+  padding: 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90px;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.generateButton:hover{
+  background-color: #9bb6c9;
+  color: #1b1f29;
+}
+
 /* All Shops */
 .shop-contents{
   width: 390px;
