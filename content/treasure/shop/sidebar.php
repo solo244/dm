@@ -1,15 +1,15 @@
 <ul>
-  <li>Blacksmith</li>
-  <li>Fletcher</li>
-  <li>Leatherworker</li>
-  <li>Temple/Faith supplies</li>
-  <li>General Store</li>
   <li>Adventure Store</li>
-  <li>Water/Fishing Shop</li>
-  <li>Shady Dealers</li>
-  <li>Art & Games</li>
-  <li>Tailor</li>
-  <li>Jeweler/Stonecutter</li>
-  <li>Potion Shop</li>
   <li>Arcane Shop</li>
+  <li>Art and Games</li>
+  <li>Blacksmith</li>
+  <li>Faith supplies</li>
+  <li>Fishing Shop</li>
+  <li>Fletcher</li>
+  <li>General Store</li>
+  <li>Leatherworker</li>
+  <li>Potion Shop</li>
+  <li>Shady Dealers</li>
+  <li>Stonecutter</li>
+  <li>Tailor</li>
 </ul>

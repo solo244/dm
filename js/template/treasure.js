@@ -106,7 +106,7 @@ $(document).ready(function(){
    * Open the right generator tables - shops
    */
   $("#shopGenerator .sidebar li").click(function(){
-    var whatId = "treasure" + $(this).html();
+    var whatId = "treasure" + $(this).html().replace(" Shop", "").replace(" and Games", "").replace(" Dealers", "").replace(" Store", "").replace(" supplies", "");
     console.log(whatId);
 
     $("#shopGenerator .treShop").animate({"left" : "500px"}, 500);

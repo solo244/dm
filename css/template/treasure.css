@@ -185,6 +185,10 @@
   color: #1b1f29;
 }
 
+#randomisedKeepers p{
+  cursor: pointer;
+}
+
 /* All Shops */
 .shop-contents{
   width: 390px;
