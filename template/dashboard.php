@@ -27,7 +27,7 @@
     <div id="contentNPC"><?php include "content/npc/index.php" ?></div>
   </div>
 
-  <div class="dashboardDiv" id="">
+  <div class="dashboardDiv" id="combatDashboard">
     <div id="combatTracker"><?php include "content/combat/index.php" ?></div>
   </div>
 </div>

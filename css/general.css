@@ -32,6 +32,10 @@ body{
 	position: relative;
 }
 
+#combatDashboard{
+	width: 1210px;
+}
+
 .dashboardDiv .dashHeader{
 	height: 50px;
 	background-color: #2d3342;
@@ -57,7 +61,7 @@ body{
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(6){
+.dashboardDiv:nth-child(8){
 	position: relative;
 	left: 0;
 }

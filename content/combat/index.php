@@ -1,9 +1,10 @@
 <div class="dashHeader">
   <h2>Combat</h2>
 
-  <i class="fa fa-magic" id="treasureGen"></i>
-  <i class="fa fa-user" id="npcGen"></i>
-  <i class="fa fa-building" id="shopGen"></i>
+  <i class="fa fa-magic" id="combatSort"></i>
+  <i class="fa fa-user" id="combatSave"></i>
+  <i class="fa fa-building" id="combatLoad"></i>
+  <i class="fa fa-building" id="combatPause"></i>
 </div>
 
 <div class="innerContent">

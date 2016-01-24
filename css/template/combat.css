@@ -1,1 +1,25 @@
-/* Combat */
+/* Buttons */
+#combatTracker .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
+}
+
+#combatTracker #combatSort{
+  left: 20px;
+}
+
+#combatTracker #combatSave{
+  left: 50px;
+}
+
+#combatTracker #combatLoad{
+  left: 80px;
+}
+
+#combatTracker #combatPause{
+  right: 20px;
+}
+
+/* Treasure */
+#combatTracker{}
