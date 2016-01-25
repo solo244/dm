@@ -21,5 +21,41 @@
   right: 20px;
 }
 
-/* Treasure */
-#combatTracker{}
+/* Combat */
+#combatTracker .player{
+  float: left;
+  margin-right: 20px;
+}
+
+#combatTracker .player img{
+  display: block;
+  margin-bottom: 15px;
+}
+
+#combatTracker .player .stats input{
+  width: 25px;
+  background-color: transparent;
+  text-align: center;
+  color: #FFF;
+  border-bottom: 1px solid #555e72;
+  position: relative;
+}
+
+#combatTracker .player .stats .fieldHealth{
+}
+
+#combatTracker .player .stats .fieldInitiative{
+  text-align: center;
+}
+
+#combatTracker .player .stats .fieldSlots{
+
+}
+
+#combatTracker .player .stats .fieldMoney{
+
+}
+
+#combatTracker .player .stats .fieldCons{
+
+}
