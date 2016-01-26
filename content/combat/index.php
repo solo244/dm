@@ -8,17 +8,34 @@
 </div>
 
 <div class="innerContent">
-  <div class="player">
-    <img src="" width="80" height="80"/>
-    <div class="stats" id="statHealth"><i class="fa fa-heart" style="color: #d12020"></i><input value="50" class="fieldHealth"> | <input value="150" class="fieldHealth"></div>
-    <div class="stats" id="statInitiative"><i class="fa fa-bolt" style="color: #dfdd26"></i><input value="12" class="fieldInitiative"></div>
-    <div class="stats" id="statSlots"><i class="fa fa-fire" style="color: #e8801b"></i><input value="2" class="fieldSlots"></div>
-    <div class="stats" id="statMoney"><i class="fa fa-diamond" style="color: #6fcc23"></i><input value="589" class="fieldMoney"></div>
-    <div class="stats" id="statConditions"><i class="fa fa-flask" style="color: #"></i><input value="blinded" class="fieldCons"></div>
+  <!-- Players -->
+  <div class="player" id="playerNala">
+    <img src="images/combat/nala.jpg" width="80" height="80"/><?php include 'template/player.php' ?>
   </div>
+  <div class="player" id="playerLai">
+    <img src="images/combat/lai.jpg" width="80" height="80"/><?php include 'template/player.php' ?>
+  </div>
+  <div class="player" id="playerOttan">
+    <img src="images/combat/ottan.jpg" width="80" height="80"/><?php include 'template/player.php' ?>
+  </div>
+  <div class="player" id="playerThia">
+    <img src="images/combat/thia.jpg" width="80" height="80"/><?php include 'template/player.php' ?>
+  </div>
+  <!-- Enemy -->
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
+  <div class="enemy" id=""><img src="images/combat/enemy.png" width="80" height="80"/><?php include 'template/enemy.php' ?></div>
 
   <div class="dierollWindow">
-    <p>Die rolls</p>
-    <i class="fa fa-connectdevelop"></i>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>4<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>6<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>8<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>10<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>12<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>20<?php include 'template/dieroll_e.php' ?></div>
+    <div class="dieRollRow"><?php include 'template/dieroll.php' ?>100<?php include 'template/dieroll_e.php' ?></div>
   </div>
 </div>

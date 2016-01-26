@@ -21,18 +21,32 @@
   right: 20px;
 }
 
+/* Slight hide */
+#combatDashboard .player, #combatDashboard .enemy{
+  opacity: 0.2;
+  transition: all 0.5s;
+}
+
+#combatDashboard:hover .player, #combatDashboard:hover .enemy{
+  opacity: 1;
+}
+
 /* Combat */
-#combatTracker .player{
+#combatTracker .player, #combatTracker .enemy{
   float: left;
   margin-right: 20px;
+  position: relative;
 }
 
-#combatTracker .player img{
+#combatTracker .player img, #combatTracker .enemy img{
   display: block;
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 
-#combatTracker .player .stats input{
+#combatTracker .enemy img{ border-radius: 0; }
+
+#combatTracker .stats input{
   width: 25px;
   background-color: transparent;
   text-align: center;
@@ -41,21 +55,133 @@
   position: relative;
 }
 
-#combatTracker .player .stats .fieldHealth{
+#combatTracker .stats .fieldInitiative{
+  width: 35px;
+  left: 20px;
 }
 
-#combatTracker .player .stats .fieldInitiative{
+#combatTracker .stats .fieldSlots{
+  width: 35px;
+  left: 15px;
+}
+
+#combatTracker .stats .fieldMoney{
+  width: 35px;
+  left: 9px;
+}
+
+#combatTracker .stats .fieldCons{
+  width: 35px;
+  left: 12px;
+}
+
+/* Players */
+.player:after{
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: #1b1f29;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  padding: 4px 10px;
+  border-radius: 8px;
   text-align: center;
 }
 
-#combatTracker .player .stats .fieldSlots{
+#playerNala:after{
+  content: "Nala";
+}
+
+#playerLai:after{
+  content: "Lai";
+}
+
+#playerOttan:after{
+  content: "Ottan";
+}
+
+#playerThia:after{
+  content: "Thia";
+}
+
+/* Die roll window */
+#combatTracker .innerContent{
+	position: relative;
+}
+
+.dierollWindow{
+  background-color: #232832;
+  height: 260px;
+  width: 180px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 30px;
+}
+
+.dieRollRow{
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.dierollWindow .dieRollRow img{
 
 }
 
-#combatTracker .player .stats .fieldMoney{
+.dierollWindow .dieRollRow button{
+  background-color: #1b1f29;
+  padding: 2px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 60px;
+  position: relative;
+  right: -7px;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.dierollWindow .dieRollRow .rollResults{
+  width: 20px;
+  border-bottom: 1px solid #555e72;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.dierollWindow .dieRollRow button:hover{
+  background-color: #9bb6c9;
+  color: #1b1f29;
+}
+
+.dierollWindow .dieRollRow div{
 
 }
 
-#combatTracker .player .stats .fieldCons{
+.dierollWindow{
 
+}
+
+/* Enemy */
+.enemyName{
+
+}
+
+.enemyName input{
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: #1b1f29;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-align: center;
 }
