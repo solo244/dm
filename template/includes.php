@@ -9,5 +9,6 @@
 <script src="js/template/npc.js"></script>
 <script src="js/template/music.js"></script>
 <script src="js/template/treasure.js"></script>
+<script src="js/template/combat.js"></script>
 <!-- Main -->
 <script src="js/template/main.js"></script>
