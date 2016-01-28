@@ -168,6 +168,19 @@
 
 }
 
+.dieRollRowLoading{
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  background-image: url(../../images/preloader.gif);
+  background-size: 15px 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 /* Enemy */
 .enemyName{
 
