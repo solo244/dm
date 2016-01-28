@@ -61,7 +61,7 @@ $(document).ready(function(){
     $(whatQuestAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
     $(".backQuests").show();
-  })
+  });
 
   $(".backQuests").click(function(){
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);
@@ -91,7 +91,7 @@ $(document).ready(function(){
   /*
    * Adding some carousel buttons
    */
-  $('.carousel').each(function(){
+  $('#allQuests .carousel').each(function(){
     var thisCarousel = $(this).closest(".carousel");
 
     thisCarousel.find(".img2").after("<div class='carButtonHolder'></div>");
@@ -105,12 +105,12 @@ $(document).ready(function(){
       thisCarousel.find(".carimg1").addClass("activeButton");
       thisCarousel.find(".carimg2").removeClass("activeButton");
       thisCarousel.find(".img2").animate({"left": "200px"}, 500);
-    })
+    });
     $(".carimg2").click(function(){
       thisCarousel.find(".img1").animate({"left": "200px"}, 500);
       thisCarousel.find(".carimg2").addClass("activeButton");
       thisCarousel.find(".carimg1").removeClass("activeButton");
       thisCarousel.find(".img2").animate({"left": "0"}, 500);
-    })
+    });
   });
-})
+});

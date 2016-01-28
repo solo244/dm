@@ -11,6 +11,17 @@
 </div>
 
 <div class="innerContent" id="allQuests">
+  <div class="storyQuests">
+    <i class="fa fa-arrow-left backQuests"></i>
+    <div class="sidebar scrollPlease" id="storyMenu">
+      <?php include 'story\sidebar.php' ?>
+    </div>
+    <div class="gQuest" id="sQuest1"><?php include 'general\story\quest1.php' ?></div>
+    <div class="gQuest" id="sQuest2"><?php include 'general\story\quest2.php' ?></div>
+    <div class="gQuest" id="sQuest3"><?php include 'general\story\quest3.php' ?></div>
+    <div class="gQuest" id="sQuest4"><?php include 'general\story\quest4.php' ?></div>
+    <div class="gQuest" id="sQuest5"><?php include 'general\story\quest5.php' ?></div>
+  </div>
   <div class="generalQuests">
     <i class="fa fa-arrow-left backQuests"></i>
     <div class="sidebar scrollPlease" id="generalMenu">
@@ -30,11 +41,5 @@
       <?php include 'nala\sidebar.php' ?>
     </div>
     <div class="gQuest" id="nQuest1"><?php include 'nala\quests\quest1.php' ?></div>
-    <div class="gQuest" id="nQuest2"><?php include 'nala\quests\quest2.php' ?></div>
-    <div class="gQuest" id="nQuest3"><?php include 'nala\quests\quest3.php' ?></div>
-    <div class="gQuest" id="nQuest4"><?php include 'nala\quests\quest4.php' ?></div>
-    <div class="gQuest" id="nQuest5"><?php include 'nala\quests\quest5.php' ?></div>
-    <div class="gQuest" id="nQuest6"><?php include 'nala\quests\quest6.php' ?></div>
-    <div class="gQuest" id="nQuest7"><?php include 'nala\quests\quest7.php' ?></div>
   </div>
 </div>

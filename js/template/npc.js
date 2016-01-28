@@ -71,7 +71,7 @@ $(document).ready(function(){
     $(whatNPCAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
     $(".backNPC").show();
-  })
+  });
 
   $(".backNPC").click(function(){
     $(this).parent().find(".sidebar").animate({"left": "0px"}, 500);
@@ -97,4 +97,4 @@ $(document).ready(function(){
       $(this).width(imgWidth);
     }
   });
-})
+});

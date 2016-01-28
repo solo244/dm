@@ -7,7 +7,7 @@
 
 <?php include 'template/middle.php' ?>
 
-<!-- Nala's first quest -->
+<!-- The Spirit Wisperer -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 

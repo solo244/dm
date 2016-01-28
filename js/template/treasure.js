@@ -176,7 +176,7 @@ $(document).ready(function(){
      $("#randomisedKeepers").append("<p>" + randomShopKeepers[randomKeep] + "</p>");
 
      $("#randomisedKeepers p").click(function(){
-       //$(this).remove();
+       $(this).remove();
      });
    });
 
