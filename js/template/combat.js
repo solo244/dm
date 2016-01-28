@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  /*
+   * Random die rolling + preloader
+   */
   $(".dieRollRowLoading").hide();
 
   $(".dierollWindow .dieRollRow .button").click(function(){
@@ -16,4 +19,20 @@ $(document).ready(function(){
       $(".dieRollRowLoading").hide();
     }
   });
+
+  /*
+   * TODO: Sorting
+   */
+
+  /*
+   * TODO: Saving
+   */
+
+  /*
+   * TODO: Loading
+   */
+
+  /*
+   * TODO: Pause mode
+   */
 });

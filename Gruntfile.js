@@ -7,7 +7,10 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'js/libs/*.js',
+          'js/libs/jquery-2.1.4.min.js',
+          'js/libs/jquery-ui-1.10.4.min.js',
+          'js/libs/bootstrap.min.js',
+          'js/libs/jquery.mCustomScrollbar.concat.min.js',
           'js/template/*.js'
         ],
         dest: 'js/build/production.js',
