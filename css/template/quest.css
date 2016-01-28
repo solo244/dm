@@ -1,0 +1,171 @@
+/* Quest */
+#contentQuests{}
+
+/* Sidebar */
+
+.sidebar{
+  height: 260px;
+  width: 200px;
+  background-color: #232832;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.sidebar ul li{
+  padding: 10px 20px;
+  border-top: 1px solid #292e39;
+  color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.sidebar ul li:hover{
+  color: rgba(255, 255, 255, 1);
+}
+
+.sidebar ul li:first-child{
+  border-top: none;
+}
+
+/* Buttons */
+#contentQuests .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
+}
+
+#contentQuests #questStory{
+  left: 20px;
+}
+
+#contentQuests #questGeneral{
+  left: 50px;
+}
+
+#contentQuests #questNala{
+  right: 110px;
+}
+
+#contentQuests #questLai{
+  right: 80px;
+}
+
+#contentQuests #questThia{
+  right: 50px;
+}
+
+#contentQuests #questOttan{
+  right: 20px;
+}
+
+#contentQuests .backQuests{
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 18px;
+  z-index: 55;
+  color: #FFF;
+  text-shadow: 0 0 5px #333;
+}
+
+#contentQuests .innerContent{
+  padding: 0;
+}
+
+#contentQuests .innerContent h3{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#contentQuests .innerContent .descriptions{
+  padding: 30px;
+  float: left;
+  width: 390px;
+  height: 260px;
+  overflow: auto;
+  background-color: #232832;
+  position: relative;
+  z-index: 50;
+}
+
+#contentQuests .innerContent .descriptions i{
+  padding-right: 5px;
+}
+
+#contentQuests .carousel{
+  background-color: #232832;
+  height: 260px;
+  width: 200px;
+  float: left;
+  display: inline-block;
+}
+
+#contentQuests .carousel img{
+  width: 100%;
+  height: auto;
+}
+
+/* Quests */
+
+#contentQuests .gQuest{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  width: 590px;
+  opacity: 0;
+}
+
+.generalQuests, .storyQuests, .nalaQuests, .laiQuests, .thiaQuests, .ottanQuests{
+  height: 260px;
+  width: 590px;
+  background-image: url(../../images/quests/bg.png);
+  background-position: 200px 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50px;
+}
+
+/* Carousel */
+
+.carousel .toResizeClass{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel .img1{
+  z-index: 20;
+}
+
+.carousel .img2{
+  z-index: 15;
+}
+
+.carousel .carButtonHolder{
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  z-index: 100;
+  text-align: center;
+}
+
+.carousel .carButton{
+  border-radius: 50%;
+  padding: 5px;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: #FFF;
+  box-shadow: 0 0 10px #333;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel .activeButton{
+  border: 2px solid #232832;
+  position: relative;
+  top: 2px;
+}

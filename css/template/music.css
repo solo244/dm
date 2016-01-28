@@ -1,0 +1,74 @@
+/* Music */
+#contentMusic{}
+
+/* Buttons */
+#contentMusic .dashHeader i{
+  position: absolute;
+  top: 17px;
+  cursor: pointer;
+}
+
+#contentMusic #soundMood{
+  right: 20px;
+}
+
+#contentMusic #soundBreaking{
+  left: 20px;
+}
+
+#contentMusic #soundCombat{
+  left: 50px;
+}
+
+#contentMusic #soundEnvironment{
+  left: 80px;
+}
+
+#contentMusic #soundMonsters{
+  left: 110px;
+}
+
+#contentMusic #soundNature{
+  left: 140px;
+}
+
+/* Sounds */
+#contentMusic .innerContent{
+  padding: 0;
+}
+
+#allSounds{
+  height: 260px;
+}
+
+#contentMusic .sound{
+  width: 118px;
+  height: 118px;
+  background-color: green;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+
+#contentMusic .sound img{
+  width: 118px;
+  -webkit-filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+#contentMusic .sound:hover img{
+  -webkit-filter: grayscale(0%);
+}
+
+#contentMusic .sound audio{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 118px;
+}
+
+#contentMusic .sound:hover audio{
+  display: block;
+}

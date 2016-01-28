@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACQ,8BAAmB,CACnB,iCAAsB,CACtB,4CAAiC,CAEjC,wBAAa,CAEb,6BAAkB,CAClB,gCAAqB,CACrB,+BAAoB,CACpB,6BAAkB,CAClB,+BAAoB,CACpB,+BAAoB,CACpB,+BAAoB,CACpB,kCAAuB",
+"sources": ["style.css"],
+"names": [],
+"file": "global.css"
+}

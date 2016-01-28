@@ -1,0 +1,144 @@
+#contentMap{
+  border: none;
+  height: 310px;
+  background-image: url(../../images/bgMapOpa.png);
+}
+
+/* Buttons */
+#contentMap #openMap{
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#contentMap #backMap{
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#contentMap #viewTown{
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  cursor: pointer;
+}
+
+#contentMap:before{
+  content: "";
+  widows: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background-color: red;
+}
+
+#contentMap .innerContent{
+
+}
+
+#contentMap .innerMap{
+  position: absolute;
+  z-index: 3;
+  width: 590px;
+  height: 265px;
+  top: 50px;
+  left: 600px;
+}
+
+#contentMap #mapSide input{
+  background-color: #2d3342;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #FFF;
+  display: block;
+  line-height: 50px;
+  width: 250px;
+  float: left;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#contentMap #mapSide input:hover{
+  background-color: #292e39;
+}
+
+#contentMap #mapSide i{
+  position: absolute;
+  top: 98px;
+  left: 250px;
+}
+
+#contentMap #mapSide ul{
+  background-color: #FFF;
+  box-shadow: 0 0 3px #333;
+  border-radius: 8px;
+  width: 250px;
+  overflow: hidden;
+  float: right;
+}
+
+#contentMap #mapSide li{
+  color: #333;
+  list-style-type: none;
+  line-height: 50px;
+  display: block;
+  padding: 0 20px;
+  border-top: 1px solid #EFEFEF;
+  cursor: pointer;
+}
+
+#contentMap #mapSide li:hover{
+  background-color: #f2ae72;
+  color: #FFF;
+}
+
+#contentMap #mapSide li:first-child{
+  border-top: none;
+}
+
+#contentMap .innerMap .innerMapLeft{
+  padding: 30px;
+  float: left;
+  width: 250px;
+  background-color: #292e39;
+  min-height: 260px;
+}
+
+#contentMap .innerMap .innerMapRight{
+  padding: 30px;
+  float: left;
+  width: 340px;
+  color: #2d3342;
+  background-color: #FFF;
+  height: 260px;
+}
+
+#contentMap .innerMap .picMap{
+  width: 340px;
+  height: 261px;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#contentMap .innerMap .innerMapLeft strong{
+  width: 100px;
+  float: left;
+}
+
+#contentMap .townLeft{
+  float: left;
+  width: 90px;
+}
+
+#contentMap .townRight{
+  float: right;
+  width: 100px;
+}

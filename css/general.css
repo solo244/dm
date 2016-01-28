@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,300,700);
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,18 +7,62 @@
 	outline: 0;
 }
 
-html{
-
-}
-
 body{
 	padding: 30px;
+	background-color: #1b1f29;
+	font-size: 16px;
+	font-family: "Dosis";
+	color: #9bb6c9;
+	overflow: hidden;
+}
+
+.clear{
+	clear: both;
 }
 
 .dashboardDiv{
-	background-color: red;
+	background-color: #292e39;
 	width: 590px;
 	height: 310px;
 	margin: 15px;
 	float: left;
+	border-radius: 6px;
+	box-shadow: 0 0 3px #333;
+	overflow: hidden;
+	position: relative;
 }
+
+#combatDashboard{
+	width: 1210px;
+}
+
+.dashboardDiv .dashHeader{
+	height: 50px;
+	background-color: #2d3342;
+	border-bottom: 1px solid #282c38;
+}
+
+.dashboardDiv .dashHeader h2{
+	color: #EFEFEF;
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.dashboardDiv .innerContent{
+	padding: 30px;
+}
+
+/* Testing */
+/*.dashboardDiv{
+	left: -10000px;
+	position: absolute;
+}
+
+.dashboardDiv:nth-child(8){
+	position: relative;
+	left: 0;
+}
+*/
