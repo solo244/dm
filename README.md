@@ -16,11 +16,17 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 2. Quests:
 
-1. Fix story quests: `Enable + content`
+1. Quests, add `story`, add pages and content
+2. Quests, add `nala`, add pages and content
+3. Quests, add `lai`, add pages and content
+4. Quests, add `thia`, add pages and content
+5. Quests, add `ottan`, add pages and content
 
 ###### 3. Map:
 
 1. Make the fullscreen clickable: `Enable`
+2. Add more `cities`
+3. Cities need propper content
 
 ###### 4. Stuff:
 
@@ -33,11 +39,16 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 6. Generator:
 
-1. Magic tables B & C: `Content`
+1. Magic `table B`, add content
+2. Magic `table C`, add content
+3. NPC, `name`, add generator
+4. NPC, `NPC`, add generator
+5. NPC, `Questgiver`, add generator
+6. Shops, all `shops` still missing content
 
 ###### 7. NPC:
 
-1. Fix the `background image`
+1. Fix the `background image` carousel
 2. Everything: `Content`
 
 ###### 8. Combat:
