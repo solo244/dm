@@ -16,47 +16,48 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 2. Quests:
 
-1. Quests, add `story`, add pages and content
-2. Quests, add `nala`, add pages and content
-3. Quests, add `lai`, add pages and content
-4. Quests, add `thia`, add pages and content
-5. Quests, add `ottan`, add pages and content
+[] Quests, add `story`, add pages and content
+[] Quests, add `nala`, add pages and content
+[] Quests, add `lai`, add pages and content
+[] Quests, add `thia`, add pages and content
+[] Quests, add `ottan`, add pages and content
 
 ###### 3. Map:
 
-1. Make the fullscreen clickable: `Enable`
-2. Add more `cities`
-3. Cities need propper content
+[] Make the fullscreen clickable: `Enable`
+[] Add more `cities`
+[] Cities need propper content
 
 ###### 4. Stuff:
 
-1. Everything: `Enable + content`
+[] Everything: `Enable + content`
 
 ###### 5. Sounds:
 
-1. Change the name to `Sounds` instead of `Music`
-2. Add general songs that last +- 30 minutes
+[] Change the name to `Sounds` instead of `Music`
+[] Add general songs that last +- 30 minutes
 
 ###### 6. Generator:
 
-1. Magic `table B`, add content
-2. Magic `table C`, add content
-3. NPC, `name`, add generator
-4. NPC, `NPC`, add generator
-5. NPC, `Questgiver`, add generator
-6. Shops, all `shops` still missing content
+[x] Magic `table B`, add content
+[x] Magic `table C`, add content
+[x] NPC, `name`, add generator
+[] NPC, `NPC`, add generator
+[] NPC, `Questgiver`, add generator
+[] Shops, all `shops` still missing content
 
 ###### 7. NPC:
 
-1. Fix the `background image` carousel
-2. Everything: `Content`
+[] Fix the `background image` position and size
+[] Fix the `carousel`
+[] Everything: `Content`
 
 ###### 8. Combat:
 
-1. Sortable initiative with existing `Sort` function
-2. Enable `Save`
-3. Enable `Load`
-4. Enable `Pause`
+[x] Sortable initiative with existing `Sort` function
+[x] Enable `Save`
+[x] Enable `Load`
+[x] Enable `Pause`
 
 #### Used technologies
 
