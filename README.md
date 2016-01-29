@@ -24,9 +24,9 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 3. Map:
 
-- [ ] Make the fullscreen clickable: `Enable`
+- [x] Make the fullscreen clickable: `Enable`
 - [ ] Add more `cities`
-- [ ] Cities need propper content
+- [x] Cities need propper content
 
 ###### 4. Stuff:
 
