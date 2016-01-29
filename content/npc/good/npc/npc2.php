@@ -2,8 +2,7 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q1a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q1b.jpg" class="toResizeClass img2">
+<img src="images/npc/good/n2a.jpg" class="toResizeClass">
 
 <?php include 'template/middle.php' ?>
 
@@ -40,3 +39,9 @@ Appearance
 Backstory
 
 <?php include 'template/bottom.php' ?>
+
+Friend Father of Leila
+Dead Guardian Cleric
+Nature & Heal
+Drunk but charming
+Send by Guardians to keep Jossidin safe and learns about Leila.

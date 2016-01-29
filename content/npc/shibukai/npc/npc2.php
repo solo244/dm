@@ -2,41 +2,20 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q1a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q1b.jpg" class="toResizeClass img2">
+<img src="images/npc/shibukai/n2a.png" class="toResizeClass">
 
 <?php include 'template/middle.php' ?>
 
 <!-- Name of Person 2 -->
 
-<p><i class="fa fa-life-ring" style="color: white"></i>
-
-<!-- Relation-->
-Relation
-
-</p><p><i class="fa fa-map" style="color: white"></i>
-
-<!-- Location -->
-Location
-
-</p><p><i class="fa fa-lock" style="color: white"></i>
-
-<!-- Secret -->
-Secret
-
-</p><p><i class="fa fa-bolt" style="color: white"></i>
-
-<!-- Combat & Skills -->
-Combat & Skills
-
-</p><p><i class="fa fa-picture-o" style="color: white"></i>
-
-<!-- Appearance -->
-Appearance
-
-</p><p><i class="fa fa-commenting" style="color: white"></i>
-
-<!-- Backstory -->
-Backstory
+<p><!-- Class-->          Dwarf, 1.5m, 200+, male
+</p><p><strong>
+<!-- Slogan -->           Fearless. He doesnt not feel regret. No mercy
+</strong></p><p>
+<!-- Location -->         The Moria Mines
+<br><!-- Weapons -->      Plate, Heavy Shield - Greataxe (2h)
+<br><!-- Attack/Def -->   High defense, high health
+</p><p>
+<!-- Story -->            Havok is an orphan. He has been rised by different foster parents and it was difficult for him to fit in. He has several disorders that make him a psychopath but nobody cares or liked him. He was abused at a young age and became violent pretty fast in his life. He has always ran away and at some point met a general who taught him the way of discipline. He fought in many wars and in the end killed his mentor to gain the alliance of his army, which is said to consist of damned dwarves, dark elves and a collection of thieves and murderers, criminals alike.
 
 <?php include 'template/bottom.php' ?>

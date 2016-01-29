@@ -2,43 +2,47 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q3a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q3b.jpg" class="toResizeClass img2">
+<img src="images/quests/story/q3a.jpg" class="toResizeClass img1">
+<img src="images/quests/story/q3b.jpg" class="toResizeClass img2">
 
 <?php include 'template/middle.php' ?>
 
-<!-- The Spirit Wisperer -->
+<!-- The Lobera - Magical Armor -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-A wizard/collector wants a live troll to study.
+The bridge is on the road and there is a guard not willing to let you pass. The guard is actually very powerful and has a lot of discipline but is very distracted by shiny things. As a consequense he is easy to fool and backstab. But he will not let the party pass if they have orc company or not proove to him that they are worthy by figthing him in a duel.
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
 
-Killing the Trolls gets you nowhere. You have to manage to capture a live troll for study. If you do, Melina will give you 200 gold and she will enchant one item for you. She cant really ecnhant just anything, but she CAN enchant a bow, arrows or a spear.
+Killing Barra, convincing him that shiny stuff is better.
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Killing the Trolls gets you nowhere. If you do, you get gold that is hidden in the cave. And one potion from Melina that gives you the strength of a toll.
+Getting killed by Barra or letting him be killed by orcs.
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-The trolls wanne negociate with you to Kill Melina who wants to kill their family. They offer you gold and them being allies, also help in killing her and all her stuff.
+Magical analysis indicates that this armor is a normal suit of Cloth +3. However, the armor is cursed. It works normally with regard to melee attacks but actually serves to attract ranged weapons.
 
+</p><p><i class="fa fa-exchange" style="color: white"></i>
+
+<!-- Alts -->
+The armor can be taken off but nobody will want to buy it, but stupid orcs ^^
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Troll Cave
+Along the road
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-Troll Family
+The Great Barra
 
 <?php include 'template/bottom.php' ?>

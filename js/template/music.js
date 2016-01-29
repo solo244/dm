@@ -39,7 +39,7 @@ $(document).ready(function(){
       default:
         console.log("Sound not there");
     }
-  })
+  });
 
   function hideallSounds(){
     $(".soundCol .sound").animate({"height": "0px"}, 500);
@@ -67,7 +67,7 @@ $(document).ready(function(){
       whatSound.pause();
       $(this).find(".playSoundsButton").css("display", "none");
     }
-  })
+  });
 
   function stopallSounds(){
     //$(".sound audio")[0].pause();
@@ -80,4 +80,4 @@ $(document).ready(function(){
     //$(".playSoundsButton").css("display", "none");
   }
 
-})
+});

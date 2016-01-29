@@ -20,14 +20,14 @@ $(document).ready(function(){
         $("#mapSide ul li:nth-child(" + i + ")").hide();
       }
     }
-  })
+  });
 
   /*
    * Apply classes to all towns
    */
-  for(var i=1; i < (numerOfItems+1); i++){
-    var theContents = "Btown" + $("#mapSide ul li:nth-child(" + i + ")").html();
-    $("#mapSide ul li:nth-child(" + i + ")").prop("id", theContents);
+  for(var j=1; j < (numerOfItems+1); j++){
+    var theContents = "Btown" + $("#mapSide ul li:nth-child(" + j + ")").html();
+    $("#mapSide ul li:nth-child(" + j + ")").prop("id", theContents);
   }
   $(".innerMapRight").prop("class", "innerMapRight scrollPlease");
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
     var changeCityId = "#" + $(this).prop("id").split("B").join("");
     var newImageMap = "url(images/map/" + changeCityImage + ".jpg)";
     $(changeCityId).find(".picMap").css("background-image", newImageMap);
-  })
+  });
 
   $("#viewTown").click(function(){
     var viewWhich = $(this).parent().find("h2").html();
@@ -47,7 +47,7 @@ $(document).ready(function(){
     }else{
       $(thisNewId).find(".picMap").animate({"height": "261px"}, 500);
     }
-  })
+  });
 
   /*
    * Show details map
@@ -62,13 +62,24 @@ $(document).ready(function(){
     $("#contentMap h2").html(newh2Tag);
     $("#backMap").show();
     $("#viewTown").show();
-  })
+  });
 
   $("#backMap").click(function(){
     $(".innerMap").animate({"left": "600px"}, 500);
     $("#contentMap h2").html("Map");
     $("#backMap").hide();
     $("#viewTown").hide();
-  })
+  });
 
-})
+  /*
+   * Zoom in into the map
+   */
+  $("#openMap").click(function(){
+    $("#theMapOverlay").animate({"width": "1920px"}, 800);
+  });
+
+  $("#theMapOverlay button").click(function(){
+    $("#theMapOverlay").animate({"width": "0px"}, 800);
+  });
+
+});

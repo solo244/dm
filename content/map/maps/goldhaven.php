@@ -1,17 +1,17 @@
 <?php include 'template/head.php' ?>
 
-        <!--Population:-->    1
-    <br><!--Defense:-->       Good
-    <br><!--Laws/Crime:-->    H / L
-    <br><!--Corruption:-->    Low
-    <br><!--Military:-->      1, Lvl.1
-    <br><!--Resources:-->     Gayness
-    <br><!--Wealth:-->        H
-    <br><!--Behaviour:-->     Many
-    <br><!--Religions:-->     None
+        <!--Population:-->    24 (2200)
+    <br><!--Defense:-->       Low
+    <br><!--Laws/Crime:-->    L / H
+    <br><!--Corruption:-->    High
+    <br><!--Military:-->      30, Lvl.4
+    <br><!--Resources:-->     Magic
+    <br><!--Wealth:-->        L
+    <br><!--Behaviour:-->     Hostile
+    <br><!--Religions:-->     Elementals
 
 <?php include 'template/middle.php' ?>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget mollis ipsum, eu iaculis massa. Fusce quis dolor non quam condimentum aliquet. Aliquam et pretium urna, a ullamcorper ante. Nam efficitur auctor mi quis viverra. Etiam at mollis purus. Nam et efficitur justo. Nullam et urna nisi. Pellentesque et interdum leo. Suspendisse tristique dapibus mattis. In sit amet velit imperdiet, porta lectus sit amet, tempus lorem.</p>
+<p>This used to be a great city, know for its supplies of magic. But ever since the King Of Faredeep has claimed magic to be governed, this city has come under siege of the government. Soon bandits and evils joined the fight and the city became a battleground only used by the hardest of criminals. Years later, it's now a place to live if you have nowhere else to go or if you want to see something soo illegal.</p>
 
 <?php include 'template/bottom.php' ?>

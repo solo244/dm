@@ -55,6 +55,11 @@
   position: relative;
 }
 
+#combatTracker .stats .firstfieldHealth{
+  color: red;
+  font-weight: bold;
+}
+
 #combatTracker .stats .fieldInitiative{
   width: 35px;
   left: 20px;
@@ -197,4 +202,11 @@
   padding: 4px 10px;
   border-radius: 8px;
   text-align: center;
+}
+
+/* Notifications */
+#combatTracker .notification{
+  position: absolute;
+  top: 15px;
+  left: 110px;
 }

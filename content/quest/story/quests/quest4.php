@@ -2,41 +2,46 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q4a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q4b.jpg" class="toResizeClass img2">
+<img src="images/quests/story/q4a.jpg" class="toResizeClass img1">
+<img src="images/quests/story/q4b.jpg" class="toResizeClass img2">
 
 <?php include 'template/middle.php' ?>
 
-<!-- The Spirit Wisperer -->
+<!-- Lorem -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-“Psst, do you want to buy a crystal ball that really works? It’s cheap!” says the wizard. The price really is cheap, and you might even lead the PCs to believe the ball works when they try to use it for petty things, but it is unreliable, maybe even cursed.
+The answer/riddle/name/code that the PCs require is etched onto the helm of a massive golem that paces a deadly dungeon
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-No win needed, but shell want money. You also kill her but that is what she wants. Her faith is linked by the orb. If you kill her, she is set free of her mortal body and released as a spirit.
+Lorem
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Kill her after buying the orb.
+Lorem
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-The orb is cursed and will serves as a GPS for bad guys. She is just a mirror image summonded by the person who cursed the orb.
+Lorem
+
+</p><p><i class="fa fa-exchange" style="color: white"></i>
+
+<!-- Alts -->
+Lorem
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-The Come-On Inn - Bar
+Lorem
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-The Inn has a couple of scoundrels/bandits. Assassins
+Lorem
 
 <?php include 'template/bottom.php' ?>

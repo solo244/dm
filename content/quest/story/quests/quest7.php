@@ -2,8 +2,8 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q7a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q7b.jpg" class="toResizeClass img2">
+<img src="images/quests/story/q7a.jpg" class="toResizeClass img1">
+<img src="images/quests/story/q7b.jpg" class="toResizeClass img2">
 
 <?php include 'template/middle.php' ?>
 
@@ -12,7 +12,7 @@
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-A local caster has summoned a creature that they cannot contain and it is destroying the area
+Lorem
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 

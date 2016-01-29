@@ -31,3 +31,10 @@
     <div id="combatTracker"><?php include "content/combat/index.php" ?></div>
   </div>
 </div>
+
+<div id="theOverlay" class="anyOverlay">
+  <button></button>
+</div>
+<div id="theMapOverlay" class="anyOverlay">
+  <button></button>
+</div>

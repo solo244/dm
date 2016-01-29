@@ -116,8 +116,9 @@
   height: 260px;
   width: 590px;
   background-image: url(../../images/npc/bg.png);
-  background-position: 200px 0;
+  background-position: right 0px bottom -40px;
   background-repeat: no-repeat;
+  background-size: auto 100%;
   position: absolute;
   top: 50px;
 }

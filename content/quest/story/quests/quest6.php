@@ -2,46 +2,46 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q6a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q6b.jpg" class="toResizeClass img2">
+<img src="images/quests/story/q6a.jpg" class="toResizeClass img1">
+<img src="images/quests/story/q6b.jpg" class="toResizeClass img2">
 
 <?php include 'template/middle.php' ?>
 
-<!-- The Spirit Wisperer -->
+<!-- Lorem -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-A shop/traveling merchant sells pets/familiars that are actually polymorphed people
+Lorem
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-Completed
+Lorem
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Failed
+Lorem
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-Surprise
+Lorem
 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
 <!-- Alts -->
-Alts
+Lorem
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+Lorem
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-Enemies
+Lorem
 
 <?php include 'template/bottom.php' ?>

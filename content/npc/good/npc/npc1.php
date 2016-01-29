@@ -2,41 +2,40 @@
 
 <!-- Carousel images -->
 
-<img src="images/quests/general/q1a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q1b.jpg" class="toResizeClass img2">
+<img src="images/npc/good/n1a.jpg" class="toResizeClass">
 
 <?php include 'template/middle.php' ?>
 
-<!-- Name of Person -->
+<!-- Jossidin -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Relation
+Irieldurs daugther
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+Kidnapped by Shibukai
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Secret
+Her blood is a key
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Combat & Skills
+Nature & Cooking
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Appearance
+Human, short, necklace
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Backstory
+She's linked to the guardians and kidnapped as leverage
 
 <?php include 'template/bottom.php' ?>

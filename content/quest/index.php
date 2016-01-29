@@ -16,11 +16,13 @@
     <div class="sidebar scrollPlease" id="storyMenu">
       <?php include 'story\sidebar.php' ?>
     </div>
-    <div class="gQuest" id="sQuest1"><?php include 'general\story\quest1.php' ?></div>
-    <div class="gQuest" id="sQuest2"><?php include 'general\story\quest2.php' ?></div>
-    <div class="gQuest" id="sQuest3"><?php include 'general\story\quest3.php' ?></div>
-    <div class="gQuest" id="sQuest4"><?php include 'general\story\quest4.php' ?></div>
-    <div class="gQuest" id="sQuest5"><?php include 'general\story\quest5.php' ?></div>
+    <div class="gQuest" id="sQuest1"><?php include 'story\quests\quest1.php' ?></div>
+    <div class="gQuest" id="sQuest2"><?php include 'story\quests\quest2.php' ?></div>
+    <div class="gQuest" id="sQuest3"><?php include 'story\quests\quest3.php' ?></div>
+    <div class="gQuest" id="sQuest4"><?php include 'story\quests\quest4.php' ?></div>
+    <div class="gQuest" id="sQuest5"><?php include 'story\quests\quest5.php' ?></div>
+    <div class="gQuest" id="sQuest6"><?php include 'story\quests\quest6.php' ?></div>
+    <div class="gQuest" id="sQuest7"><?php include 'story\quests\quest7.php' ?></div>
   </div>
   <div class="generalQuests">
     <i class="fa fa-arrow-left backQuests"></i>

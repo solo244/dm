@@ -1,6 +1,6 @@
 <?php include 'template/head.php' ?>
 
-        <!--Population:-->    8000
+        <!--Population:-->    12000
     <br><!--Defense:-->       High - wood
     <br><!--Laws/Crime:-->    H / L
     <br><!--Corruption:-->    Low
@@ -12,8 +12,6 @@
 
 <?php include 'template/middle.php' ?>
 
-<p>A guard heavy town that wants to expand. The structure has been that guards have numbers instead of names and that guard duty runs in the family. The local king seeks to find the sword for his gain to have influence over the elves and dwarves of his land. His righthand man #1 is in on this.</p>
-<p>The lowel level guards don't know about this plot, including #2. -> Leader: Elkas Daleborn</p>
-<p>The local king is always looking for stronger people to help him find the swords. He also has a black knight fighting for him. A passenger that absorbs the magic it fights and cannot die.</p>
+<p>Faredeep is a big city, the biggest in Umber. It's known for having a massive castle where the King, Zaziya lives. He wants to get more power to become the ultimate King of Umber, but Waterkeep is in his way.</p>
 
 <?php include 'template/bottom.php' ?>

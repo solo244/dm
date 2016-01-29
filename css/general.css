@@ -55,14 +55,50 @@ body{
 	padding: 30px;
 }
 
+/* Overlay */
+.anyOverlay{
+	width: 0px;
+	height: 1080px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 12000;
+	background-color: transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	display: block;
+	overflow: hidden;
+}
+
+#theOverlay{
+	background: url("../images/pauseBg.jpg") no-repeat center center fixed;
+}
+#theMapOverlay{
+	background-color: #5baece;
+	background: url("../images/bgMap.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+}
+
+.anyOverlay button{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 12001;
+	background-color: transparent;
+	display: block;
+}
+
 /* Testing */
-/*.dashboardDiv{
+.dashboardDiv{
 	left: -10000px;
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(8){
+.dashboardDiv:nth-child(7){
 	position: relative;
 	left: 0;
 }
-*/
