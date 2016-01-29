@@ -34,7 +34,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 5. Sounds:
 
-- [ ] Change the name to `Sounds` instead of `Music`
+- [x] Change the name to `Sounds` instead of `Music`
 - [ ] Add general songs that last +- 30 minutes
 
 ###### 6. Generator:
