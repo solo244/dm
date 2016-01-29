@@ -48,8 +48,8 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 7. NPC:
 
-- [ ] Fix the `background image` position and size
-- [ ] Fix the `carousel`
+- [x] Fix the `background image` position and size
+- [x] Fix the `carousel`
 - [ ] Everything: `Content`
 
 ###### 8. Combat:
