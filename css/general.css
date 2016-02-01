@@ -93,7 +93,7 @@ body{
 }
 
 /* Testing */
-.dashboardDiv{
+/*.dashboardDiv{
 	left: -10000px;
 	position: absolute;
 }
@@ -101,4 +101,4 @@ body{
 .dashboardDiv:nth-child(7){
 	position: relative;
 	left: 0;
-}
+}*/

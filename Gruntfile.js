@@ -35,13 +35,27 @@ module.exports = function(grunt) {
       }
     },
 
-    sass: {
-      dist: {
-        options: {
-            style: 'compressed'
-        },
+    concat_css: {
+      all: {
+        src: [
+          "css/bootstrap.min.css",
+          "css/font-awesome.min.css",
+          "css/jquery.mCustomScrollbar.min.css",
+          "css/general.css",
+          "css/template/*.css"
+        ],
+        dest: "css/global.css"
+      },
+    },
+
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      target: {
         files: {
-            'css/global.css': 'css/style.css'
+          'css/global.min.css': ['css/global.css']
         }
       }
     },
@@ -55,8 +69,8 @@ module.exports = function(grunt) {
         },
       },
       css: {
-        files: ['css/*.css'],
-        tasks: ['sass'],
+        files: ['css/template/*.css'],
+        tasks: ['concat_css'],
         options: {
             spawn: false,
         }
@@ -69,10 +83,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-concat-css');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   // grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
+  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin', 'watch']);
 
 };

@@ -274,13 +274,6 @@ $(document).ready(function(){
    * Zoom in into the map
    */
   $("#openMap").click(function(){
-
-  })
-
-  /*
-   * Zoom in into the map
-   */
-  $("#openMap").click(function(){
     $("#theMapOverlay").animate({"width": "1920px"}, 800);
   });
 

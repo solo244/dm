@@ -120,7 +120,7 @@
 .generalQuests, .storyQuests, .nalaQuests, .laiQuests, .thiaQuests, .ottanQuests{
   height: 260px;
   width: 590px;
-  background-image: url(../../images/quests/bg.png);
+  background-image: url(../images/quests/bg.png);
   background-position: 200px 0;
   background-repeat: no-repeat;
   position: absolute;
