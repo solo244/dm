@@ -88,6 +88,6 @@ module.exports = function(grunt) {
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   // grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
-  grunt.registerTask('default', ['concat', 'uglify', 'concat_css', 'cssmin', 'watch']);
+  grunt.registerTask('default', ['imagemin', 'concat', 'uglify', 'concat_css', 'cssmin', 'watch']);
 
 };
