@@ -2,7 +2,7 @@
 
 <!-- Carousel images -->
 
-<img src="images/npc/bad/n2a.jpg" class="toResizeClass">
+<img src="images/npc/bad/n2a.png" class="toResizeClass">
 
 <?php include 'template/middle.php' ?>
 

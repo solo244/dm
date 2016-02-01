@@ -837,6 +837,17 @@ body{
   position: relative;
   top: 2px;
 }
+
+/* Background images */
+#contentQuests .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/quests/general/allQuests.png");
+}
+
+#contentQuest #gQuest1 .img1{ background-position: 0 0; }
+#contentQuest #gQuest1 .img2{ background-position: 0 260px; }
 /* Story */
 #contentStory{}
 

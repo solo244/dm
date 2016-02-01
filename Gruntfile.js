@@ -70,7 +70,7 @@ module.exports = function(grunt) {
       },
       css: {
         files: ['css/template/*.css'],
-        tasks: ['concat_css'],
+        tasks: ['concat_css', 'cssmin'],
         options: {
             spawn: false,
         }

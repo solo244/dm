@@ -1,12 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/quests/general/q2a.jpg" class="toResizeClass img1">
-<img src="images/quests/general/q2b.jpg" class="toResizeClass img2">
-
-<?php include 'template/middle.php' ?>
-
 <!-- The Walking Dead -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
