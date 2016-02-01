@@ -1,4 +1,6 @@
-*Nala:* She has forseen the future and it's grim. The Lych has been brought back to life using the shields and the guardians have failed. She traveled back in time to make sure this didn't happen. But in doing so, she would have to sacrifie alot. Timewarps and jumps allow the user to travel in space as well as time but this was full blow time travel. And as inline with the alter self, no doubles can exists, making it possible to only exist once. Her memory is no more, but she has a book however, that she wrote and that fellow people used and wrote into, as it was brought back even further in time. This way it would find Nala and would be filles with information she would need.
+*Nala:* 
+
+She has forseen the future and it's grim. The Lych has been brought back to life using the shields and the guardians have failed. She traveled back in time to make sure this didn't happen. But in doing so, she would have to sacrifie alot. Timewarps and jumps allow the user to travel in space as well as time but this was full blow time travel. And as inline with the alter self, no doubles can exists, making it possible to only exist once. Her memory is no more, but she has a book however, that she wrote and that fellow people used and wrote into, as it was brought back even further in time. This way it would find Nala and would be filles with information she would need.
 
 *Names:*
 
@@ -8,6 +10,8 @@
 * _Sister:_ Sorinn Tharandreal
 * _Father:_ Bharash Tharandreal
 * _Somebody:_ Mehens
+
+--
 
 *Thia:* She has been blessed by the dead guardian paxxtunn, as his mark finds he or she who is wortly, who is one with self. Stopped the root of evil is the guardians job and respnisbility. A guardians is blessed with the visions and protection of the pool and they recieve a blessing in the most darkest of times
 
