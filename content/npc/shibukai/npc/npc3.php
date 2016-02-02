@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/shibukai/n3a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 3 -->
 
 <p><!-- Class-->          Dragonborn, 2m, 1000, dragon

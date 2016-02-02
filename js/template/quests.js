@@ -92,12 +92,8 @@ $(document).ready(function(){
    * Adding some carousel buttons
    */
   $('#allQuests .carousel').each(function(){
-    var whatPos;
     var thisCarousel = $(this).closest(".carousel");
 
-    whatPosMin = thisCarousel.find(".img1").css("background-position-x") + " 0px";
-    whatPosMax = thisCarousel.find(".img1").css("background-position-x") + " 260px";
-    console.log("Min: " + whatPosMin + " out of " + whatPosMax);
     thisCarousel.find(".img1").after("<div class='carButtonHolder'></div>");
     thisCarousel.find(".carButtonHolder").append("<div class='carimg1 carButton activeButton'></div>");
     thisCarousel.find(".carButtonHolder").append("<div class='carimg2 carButton'></div>");
@@ -105,18 +101,14 @@ $(document).ready(function(){
     thisCarousel.find(".carimg2").css("left", "200");
 
     $(".carimg1").click(function(){
-      thisCarousel.find(".img1").css({"background-position": whatPosMin});
+      thisCarousel.find(".imageCarousel").addClass("img1").removeClass("img2");
       thisCarousel.find(".carimg1").addClass("activeButton");
       thisCarousel.find(".carimg2").removeClass("activeButton");
-      console.log("1");
-      //thisCarousel.find(".img2").animate({"left": "200px"}, 500);
     });
     $(".carimg2").click(function(){
-      thisCarousel.find(".img1").css({"background-position": whatPosMax});
+      thisCarousel.find(".imageCarousel").addClass("img2").removeClass("img1");
       thisCarousel.find(".carimg2").addClass("activeButton");
       thisCarousel.find(".carimg1").removeClass("activeButton");
-      console.log("2");
-      //thisCarousel.find(".img2").animate({"left": "0"}, 500);
     });
   });
 });

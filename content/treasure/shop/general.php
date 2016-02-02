@@ -44,8 +44,7 @@
     Woodcarver's Tools
   </div>
   <div class="c2">
-    Weight kg<br>
-    Weight kg
+    <!-- Weight in kg -->
   </div>
   <div class="c3">
     2 gp<br>

@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/shibukai/n7a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 7 -->
 
 <p><!-- Class-->          Thiefling, 1.7m, 537, male

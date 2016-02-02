@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/good/n5a.jpg" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 5 -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>

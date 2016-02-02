@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/shibukai/n6a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 6 -->
 
 <p><!-- Class-->          Eladrin, 1.9m, 80, female

@@ -34,8 +34,14 @@ $(document).ready(function(){
   $("#mapSide ul li").click(function(){
     var changeCityImage = $(this).prop("id").split("Btown").join("");
     var changeCityId = "#" + $(this).prop("id").split("B").join("");
-    var newImageMap = "url(images/map/" + changeCityImage + ".jpg)";
-    $(changeCityId).find(".picMap").css("background-image", newImageMap);
+
+    switch (changeCityImage){
+      case "Faredeep": $(changeCityId).find(".picMap").css("background-position", "0px 0px"); break;
+      case "Goldhaven": $(changeCityId).find(".picMap").css("background-position", "-342px 0px"); break;
+      case "Silverfort": $(changeCityId).find(".picMap").css("background-position", "-684px 0px"); break;
+      case "Waterkeep": $(changeCityId).find(".picMap").css("background-position", "-1026px 0px"); break;
+      default: break;
+    }
   });
 
   $("#viewTown").click(function(){

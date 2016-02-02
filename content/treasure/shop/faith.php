@@ -41,8 +41,7 @@
     Raise Dead (lvl 5)
   </div>
   <div class="c2">
-    Weight kg<br>
-    Weight kg
+    <!-- Weight in kg -->
   </div>
   <div class="c3">
     5 gp<br>

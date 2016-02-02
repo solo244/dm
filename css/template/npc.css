@@ -36,12 +36,13 @@
   left: 80px;
 }
 
-#contentNPC #npcRandom{
+#contentNPC #npcGroup{
   left: 110px;
 }
 
-#contentNPC #npcGroup{
+#contentNPC #npcRandom{
   left: 140px;
+  display: none;
 }
 
 #contentNPC .backNPCs{
@@ -102,7 +103,7 @@
   text-shadow: 0 0 5px #333;
 }
 
-/* Quests */
+/* NPC's */
 
 #contentNPC .nNPC{
   position: absolute;
@@ -122,3 +123,39 @@
   position: absolute;
   top: 50px;
 }
+
+/* Background images */
+#contentNPC .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/npc/qllNPCs.png");
+}
+
+/**/
+#contentNPC #gNPC1 .img1{ background-position: 0px 0px; }
+#contentNPC #gNPC2 .img1{ background-position: -200px 0px; }
+#contentNPC #gNPC3 .img1{ background-position: -400px 0px; }
+#contentNPC #gNPC4 .img1{ background-position: -600px 0px; }
+#contentNPC #gNPC5 .img1{ background-position: -800px 0px; }
+#contentNPC #gNPC6 .img1{ background-position: -1000px 0px; }
+#contentNPC #gNPC7 .img1{ background-position: -1200px 0px; }
+#contentNPC #gNPC8 .img1{ background-position: -1400px 0px; }
+#contentNPC #gNPC9 .img1{ background-position: -1600px 0px; }
+#contentNPC #gNPC10 .img1{ background-position: -1800px 0px; }
+/**/
+#contentNPC #bNPC1 .img1{ background-position: 0px -260px; }
+#contentNPC #bNPC2 .img1{ background-position: -200px -260px; }
+#contentNPC #bNPC3 .img1{ background-position: -400px -260px; }
+#contentNPC #bNPC4 .img1{ background-position: -600px -260px; }
+#contentNPC #bNPC5 .img1{ background-position: -800px -260px; }
+#contentNPC #bNPC6 .img1{ background-position: -1000px -260px; }
+#contentNPC #bNPC7 .img1{ background-position: -1200px -260px; }
+/**/
+#contentNPC #sNPC1 .img1{ background-position: 0px -520px; }
+#contentNPC #sNPC2 .img1{ background-position: -200px -520px; }
+#contentNPC #sNPC3 .img1{ background-position: -400px -520px; }
+#contentNPC #sNPC4 .img1{ background-position: -600px -520px; }
+#contentNPC #sNPC5 .img1{ background-position: -800px -520px; }
+#contentNPC #sNPC6 .img1{ background-position: -1000px -520px; }
+#contentNPC #sNPC7 .img1{ background-position: -1200px -520px; }

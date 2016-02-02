@@ -171,12 +171,47 @@
 }
 
 /* Background images */
-#contentQuests .carousel span{
+#contentQuests .generalQuests .carousel span{
   display: block;
   width: 200px;
   height: 260px;
   background-image: url("../images/quests/general/allQuests.png");
 }
 
+#contentQuests .storyQuests .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/quests/story/allQuests.png");
+}
+
+/**/
 #contentQuests #gQuest1 .img1{ background-position: 0px 0px; }
+#contentQuests #gQuest1 .img2{ background-position: 0px 260px; }
 #contentQuests #gQuest2 .img1{ background-position: -200px 0px; }
+#contentQuests #gQuest2 .img2{ background-position: -200px 260px; }
+#contentQuests #gQuest3 .img1{ background-position: -400px 0px; }
+#contentQuests #gQuest3 .img2{ background-position: -400px 260px; }
+#contentQuests #gQuest4 .img1{ background-position: -600px 0px; }
+#contentQuests #gQuest4 .img2{ background-position: -600px 260px; }
+#contentQuests #gQuest5 .img1{ background-position: -800px 0px; }
+#contentQuests #gQuest5 .img2{ background-position: -800px 260px; }
+#contentQuests #gQuest6 .img1{ background-position: -1000px 0px; }
+#contentQuests #gQuest6 .img2{ background-position: -1000px 260px; }
+#contentQuests #gQuest7 .img1{ background-position: -1200px 0px; }
+#contentQuests #gQuest7 .img2{ background-position: -1200px 260px; }
+/**/
+#contentQuests #sQuest1 .img1{ background-position: 0px 0px; }
+#contentQuests #sQuest1 .img2{ background-position: 0px 260px; }
+#contentQuests #sQuest2 .img1{ background-position: -200px 0px; }
+#contentQuests #sQuest2 .img2{ background-position: -200px 260px; }
+#contentQuests #sQuest3 .img1{ background-position: -400px 0px; }
+#contentQuests #sQuest3 .img2{ background-position: -400px 260px; }
+#contentQuests #sQuest4 .img1{ background-position: -600px 0px; }
+#contentQuests #sQuest4 .img2{ background-position: -600px 260px; }
+#contentQuests #sQuest5 .img1{ background-position: -800px 0px; }
+#contentQuests #sQuest5 .img2{ background-position: -800px 260px; }
+#contentQuests #sQuest6 .img1{ background-position: -1000px 0px; }
+#contentQuests #sQuest6 .img2{ background-position: -1000px 260px; }
+#contentQuests #sQuest7 .img1{ background-position: -1200px 0px; }
+#contentQuests #sQuest7 .img2{ background-position: -1200px 260px; }

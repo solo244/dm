@@ -108,7 +108,7 @@ body{
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(2){
+.dashboardDiv:nth-child(6){
 	position: relative;
 	left: 0;
 }
@@ -358,7 +358,6 @@ body{
   height: 200px;
   display: block;
   position: absolute;
-  background-color: red;
 }
 
 #contentMap .innerContent{
@@ -448,7 +447,7 @@ body{
   position: absolute;
   top: -1px;
   right: 0;
-  background-color: red;
+  background-image: url("../images/map/allMaps.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -521,13 +520,60 @@ body{
   cursor: pointer;
 }
 
-#contentMusic .sound img{
+#contentMusic .sound span{
+  width: 118px;
+  height: 118px;
+  display: block;
+  background-image: url("../images/sound/allSounds.png");
+  background-position: 0px 0px;
+}
+
+/**/
+#contentMusic .sound .sound1{ background-position: 0px 0px; }
+#contentMusic .sound .sound2{ background-position: -118px 0px; }
+#contentMusic .sound .sound3{ background-position: -236px 0px; }
+#contentMusic .sound .sound4{ background-position: -354px 0px; }
+#contentMusic .sound .sound5{ background-position: -472px 0px; }
+#contentMusic .sound .sound6{ background-position: -590px 0px; }
+#contentMusic .sound .sound7{ background-position: -708px 0px; }
+#contentMusic .sound .sound8{ background-position: -826px 0px; }
+#contentMusic .sound .sound9{ background-position: -944px 0px; }
+#contentMusic .sound .sound10{ background-position: -1062px 0px; }
+#contentMusic .sound .sound11{ background-position: -1180px 0px; }
+#contentMusic .sound .sound12{ background-position: -1298px 0px; }
+#contentMusic .sound .sound13{ background-position: -1416px 0px; }
+#contentMusic .sound .sound14{ background-position: -1534px 0px; }
+#contentMusic .sound .sound15{ background-position: -1652px 0px; }
+#contentMusic .sound .sound16{ background-position: -1770px 0px; }
+#contentMusic .sound .sound17{ background-position: -1888px 0px; }
+#contentMusic .sound .sound18{ background-position: -2006px 0px; }
+#contentMusic .sound .sound19{ background-position: -2124px 0px; }
+#contentMusic .sound .sound20{ background-position: -2242px 0px; }
+#contentMusic .sound .sound21{ background-position: -2360px 0px; }
+#contentMusic .sound .sound22{ background-position: -2478px 0px; }
+#contentMusic .sound .sound23{ background-position: -2596px 0px; }
+#contentMusic .sound .sound24{ background-position: -2714px 0px; }
+#contentMusic .sound .sound25{ background-position: -2832px 0px; }
+#contentMusic .sound .sound26{ background-position: -2950px 0px; }
+#contentMusic .sound .sound27{ background-position: -3068px 0px; }
+#contentMusic .sound .sound28{ background-position: -3186px 0px; }
+#contentMusic .sound .sound29{ background-position: -3304px 0px; }
+#contentMusic .sound .sound30{ background-position: -3422px 0px; }
+#contentMusic .sound .sound31{ background-position: -3540px 0px; }
+#contentMusic .sound .sound32{ background-position: -3658px 0px; }
+#contentMusic .sound .sound33{ background-position: -3776px 0px; }
+#contentMusic .sound .sound34{ background-position: -3894px 0px; }
+#contentMusic .sound .sound35{ background-position: -4012px 0px; }
+#contentMusic .sound .sound36{ background-position: -4130px 0px; }
+#contentMusic .sound .sound37{ background-position: -4248px 0px; }
+
+#contentMusic .sound{
   width: 118px;
   -webkit-filter: grayscale(100%);
   transition: all 0.5s;
 }
 
-#contentMusic .sound:hover img{
+#contentMusic .sound:hover{
   -webkit-filter: grayscale(0%);
 }
 
@@ -580,12 +626,13 @@ body{
   left: 80px;
 }
 
-#contentNPC #npcRandom{
+#contentNPC #npcGroup{
   left: 110px;
 }
 
-#contentNPC #npcGroup{
+#contentNPC #npcRandom{
   left: 140px;
+  display: none;
 }
 
 #contentNPC .backNPCs{
@@ -646,7 +693,7 @@ body{
   text-shadow: 0 0 5px #333;
 }
 
-/* Quests */
+/* NPC's */
 
 #contentNPC .nNPC{
   position: absolute;
@@ -666,6 +713,42 @@ body{
   position: absolute;
   top: 50px;
 }
+
+/* Background images */
+#contentNPC .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/npc/qllNPCs.png");
+}
+
+/**/
+#contentNPC #gNPC1 .img1{ background-position: 0px 0px; }
+#contentNPC #gNPC2 .img1{ background-position: -200px 0px; }
+#contentNPC #gNPC3 .img1{ background-position: -400px 0px; }
+#contentNPC #gNPC4 .img1{ background-position: -600px 0px; }
+#contentNPC #gNPC5 .img1{ background-position: -800px 0px; }
+#contentNPC #gNPC6 .img1{ background-position: -1000px 0px; }
+#contentNPC #gNPC7 .img1{ background-position: -1200px 0px; }
+#contentNPC #gNPC8 .img1{ background-position: -1400px 0px; }
+#contentNPC #gNPC9 .img1{ background-position: -1600px 0px; }
+#contentNPC #gNPC10 .img1{ background-position: -1800px 0px; }
+/**/
+#contentNPC #bNPC1 .img1{ background-position: 0px -260px; }
+#contentNPC #bNPC2 .img1{ background-position: -200px -260px; }
+#contentNPC #bNPC3 .img1{ background-position: -400px -260px; }
+#contentNPC #bNPC4 .img1{ background-position: -600px -260px; }
+#contentNPC #bNPC5 .img1{ background-position: -800px -260px; }
+#contentNPC #bNPC6 .img1{ background-position: -1000px -260px; }
+#contentNPC #bNPC7 .img1{ background-position: -1200px -260px; }
+/**/
+#contentNPC #sNPC1 .img1{ background-position: 0px -520px; }
+#contentNPC #sNPC2 .img1{ background-position: -200px -520px; }
+#contentNPC #sNPC3 .img1{ background-position: -400px -520px; }
+#contentNPC #sNPC4 .img1{ background-position: -600px -520px; }
+#contentNPC #sNPC5 .img1{ background-position: -800px -520px; }
+#contentNPC #sNPC6 .img1{ background-position: -1000px -520px; }
+#contentNPC #sNPC7 .img1{ background-position: -1200px -520px; }
 /* Quest */
 #contentQuests{}
 
@@ -839,15 +922,50 @@ body{
 }
 
 /* Background images */
-#contentQuests .carousel span{
+#contentQuests .generalQuests .carousel span{
   display: block;
   width: 200px;
   height: 260px;
   background-image: url("../images/quests/general/allQuests.png");
 }
 
+#contentQuests .storyQuests .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/quests/story/allQuests.png");
+}
+
+/**/
 #contentQuests #gQuest1 .img1{ background-position: 0px 0px; }
+#contentQuests #gQuest1 .img2{ background-position: 0px 260px; }
 #contentQuests #gQuest2 .img1{ background-position: -200px 0px; }
+#contentQuests #gQuest2 .img2{ background-position: -200px 260px; }
+#contentQuests #gQuest3 .img1{ background-position: -400px 0px; }
+#contentQuests #gQuest3 .img2{ background-position: -400px 260px; }
+#contentQuests #gQuest4 .img1{ background-position: -600px 0px; }
+#contentQuests #gQuest4 .img2{ background-position: -600px 260px; }
+#contentQuests #gQuest5 .img1{ background-position: -800px 0px; }
+#contentQuests #gQuest5 .img2{ background-position: -800px 260px; }
+#contentQuests #gQuest6 .img1{ background-position: -1000px 0px; }
+#contentQuests #gQuest6 .img2{ background-position: -1000px 260px; }
+#contentQuests #gQuest7 .img1{ background-position: -1200px 0px; }
+#contentQuests #gQuest7 .img2{ background-position: -1200px 260px; }
+/**/
+#contentQuests #sQuest1 .img1{ background-position: 0px 0px; }
+#contentQuests #sQuest1 .img2{ background-position: 0px 260px; }
+#contentQuests #sQuest2 .img1{ background-position: -200px 0px; }
+#contentQuests #sQuest2 .img2{ background-position: -200px 260px; }
+#contentQuests #sQuest3 .img1{ background-position: -400px 0px; }
+#contentQuests #sQuest3 .img2{ background-position: -400px 260px; }
+#contentQuests #sQuest4 .img1{ background-position: -600px 0px; }
+#contentQuests #sQuest4 .img2{ background-position: -600px 260px; }
+#contentQuests #sQuest5 .img1{ background-position: -800px 0px; }
+#contentQuests #sQuest5 .img2{ background-position: -800px 260px; }
+#contentQuests #sQuest6 .img1{ background-position: -1000px 0px; }
+#contentQuests #sQuest6 .img2{ background-position: -1000px 260px; }
+#contentQuests #sQuest7 .img1{ background-position: -1200px 0px; }
+#contentQuests #sQuest7 .img2{ background-position: -1200px 260px; }
 /* Story */
 #contentStory{}
 

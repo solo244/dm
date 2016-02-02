@@ -51,13 +51,60 @@
   cursor: pointer;
 }
 
-#contentMusic .sound img{
+#contentMusic .sound span{
+  width: 118px;
+  height: 118px;
+  display: block;
+  background-image: url("../images/sound/allSounds.png");
+  background-position: 0px 0px;
+}
+
+/**/
+#contentMusic .sound .sound1{ background-position: 0px 0px; }
+#contentMusic .sound .sound2{ background-position: -118px 0px; }
+#contentMusic .sound .sound3{ background-position: -236px 0px; }
+#contentMusic .sound .sound4{ background-position: -354px 0px; }
+#contentMusic .sound .sound5{ background-position: -472px 0px; }
+#contentMusic .sound .sound6{ background-position: -590px 0px; }
+#contentMusic .sound .sound7{ background-position: -708px 0px; }
+#contentMusic .sound .sound8{ background-position: -826px 0px; }
+#contentMusic .sound .sound9{ background-position: -944px 0px; }
+#contentMusic .sound .sound10{ background-position: -1062px 0px; }
+#contentMusic .sound .sound11{ background-position: -1180px 0px; }
+#contentMusic .sound .sound12{ background-position: -1298px 0px; }
+#contentMusic .sound .sound13{ background-position: -1416px 0px; }
+#contentMusic .sound .sound14{ background-position: -1534px 0px; }
+#contentMusic .sound .sound15{ background-position: -1652px 0px; }
+#contentMusic .sound .sound16{ background-position: -1770px 0px; }
+#contentMusic .sound .sound17{ background-position: -1888px 0px; }
+#contentMusic .sound .sound18{ background-position: -2006px 0px; }
+#contentMusic .sound .sound19{ background-position: -2124px 0px; }
+#contentMusic .sound .sound20{ background-position: -2242px 0px; }
+#contentMusic .sound .sound21{ background-position: -2360px 0px; }
+#contentMusic .sound .sound22{ background-position: -2478px 0px; }
+#contentMusic .sound .sound23{ background-position: -2596px 0px; }
+#contentMusic .sound .sound24{ background-position: -2714px 0px; }
+#contentMusic .sound .sound25{ background-position: -2832px 0px; }
+#contentMusic .sound .sound26{ background-position: -2950px 0px; }
+#contentMusic .sound .sound27{ background-position: -3068px 0px; }
+#contentMusic .sound .sound28{ background-position: -3186px 0px; }
+#contentMusic .sound .sound29{ background-position: -3304px 0px; }
+#contentMusic .sound .sound30{ background-position: -3422px 0px; }
+#contentMusic .sound .sound31{ background-position: -3540px 0px; }
+#contentMusic .sound .sound32{ background-position: -3658px 0px; }
+#contentMusic .sound .sound33{ background-position: -3776px 0px; }
+#contentMusic .sound .sound34{ background-position: -3894px 0px; }
+#contentMusic .sound .sound35{ background-position: -4012px 0px; }
+#contentMusic .sound .sound36{ background-position: -4130px 0px; }
+#contentMusic .sound .sound37{ background-position: -4248px 0px; }
+
+#contentMusic .sound{
   width: 118px;
   -webkit-filter: grayscale(100%);
   transition: all 0.5s;
 }
 
-#contentMusic .sound:hover img{
+#contentMusic .sound:hover{
   -webkit-filter: grayscale(0%);
 }
 

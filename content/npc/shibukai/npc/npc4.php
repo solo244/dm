@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/shibukai/n4a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 4 -->
 
 <p><!-- Class-->          Thiefling - Sorcerer, 1.7m, 22, male/female

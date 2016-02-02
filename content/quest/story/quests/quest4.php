@@ -1,13 +1,6 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/quests/story/q4a.jpg" class="toResizeClass img1">
-<img src="images/quests/story/q4b.jpg" class="toResizeClass img2">
-
-<?php include 'template/middle.php' ?>
-
-<!-- Lorem -->
+<!-- The Big Guy -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 

@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/shibukai/n1a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Name of Person 1 -->
 
 <p><!-- Class-->          Goliath, 2.4m, 136, male

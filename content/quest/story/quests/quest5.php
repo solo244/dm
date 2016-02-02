@@ -1,18 +1,11 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/quests/story/q5a.jpg" class="toResizeClass img1">
-<img src="images/quests/story/q5b.jpg" class="toResizeClass img2">
-
-<?php include 'template/middle.php' ?>
-
-<!-- Lorem -->
+<!-- The Shield Trap -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-Lorem
+A map leading to the legendary Shield of Prator has been found, it states that the shield is in the cave of a dracolich. The map was sent by the dracolich’s minions in the hopes of freeing their master who is sealed magically into his cave
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 

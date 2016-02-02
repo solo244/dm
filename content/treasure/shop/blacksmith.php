@@ -32,26 +32,7 @@
     Horn
   </div>
   <div class="c2">
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg<br>
-    Weight kg
+    <!-- Weight in kg -->
   </div>
   <div class="c3">
     45 gp<br>

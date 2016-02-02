@@ -1,18 +1,11 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/quests/story/q6a.jpg" class="toResizeClass img1">
-<img src="images/quests/story/q6b.jpg" class="toResizeClass img2">
-
-<?php include 'template/middle.php' ?>
-
-<!-- Lorem -->
+<!-- The Lost in Magic -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-Lorem
+A foreign diplomat seeks the party’s monk to protect him on a mission to a country/city where magic and weapons are not allowed
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 

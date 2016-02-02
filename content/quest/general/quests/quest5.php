@@ -1,6 +1,6 @@
 <?php include 'template/top.php' ?>
 
-<!-- The Spirit Wisperer -->
+<!-- The Dragon Slayer -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 

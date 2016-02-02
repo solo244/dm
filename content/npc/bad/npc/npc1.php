@@ -1,11 +1,5 @@
 <?php include 'template/top.php' ?>
 
-<!-- Carousel images -->
-
-<img src="images/npc/bad/n1a.png" class="toResizeClass">
-
-<?php include 'template/middle.php' ?>
-
 <!-- Dobby -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>

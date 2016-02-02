@@ -98,7 +98,7 @@ body{
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(2){
+.dashboardDiv:nth-child(6){
 	position: relative;
 	left: 0;
 }

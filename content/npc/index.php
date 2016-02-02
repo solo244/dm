@@ -25,6 +25,7 @@
     <div class="nNPC" id="gNPC5"><?php include 'good\npc\npc5.php' ?></div>
     <div class="nNPC" id="gNPC6"><?php include 'good\npc\npc6.php' ?></div>
     <div class="nNPC" id="gNPC7"><?php include 'good\npc\npc7.php' ?></div>
+    <div class="nNPC" id="gNPC8"><?php include 'good\npc\npc8.php' ?></div>
   </div>
   <div class="badNPC">
     <i class="fa fa-arrow-left backNPC"></i>
