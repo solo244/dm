@@ -16,7 +16,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ###### 2. Quests:
 
-- [ ] Quests, add `story`, add pages and content
+- [x] Quests, add `story`, add pages and content
 - [ ] Quests, add `nala`, add pages and content
 - [ ] Quests, add `lai`, add pages and content
 - [ ] Quests, add `thia`, add pages and content
@@ -44,7 +44,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 - [x] NPC, `name`, add generator
 - [ ] NPC, `NPC`, add generator
 - [ ] NPC, `Questgiver`, add generator
-- [ ] Shops, all `shops` still missing content
+- [x] Shops, all `shops` still missing content
 
 ###### 7. NPC:
 
