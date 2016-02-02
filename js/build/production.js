@@ -545,7 +545,7 @@ $(document).ready(function(){
   /*
    * Makes sure the carousel images are scaled and used as cover background
    */
-  $('img.toResizeClass').each(function(){
+  /*$('img.toResizeClass').each(function(){
     var $img = $(this);
     var imgWidth = $img.width();
     var imgHeight = $img.height();
@@ -556,31 +556,37 @@ $(document).ready(function(){
       $(this).height(imgHeight);
       $(this).width(imgWidth);
     }
-  });
+  });*/
 
   /*
    * Adding some carousel buttons
    */
   $('#allQuests .carousel').each(function(){
+    var whatPos;
     var thisCarousel = $(this).closest(".carousel");
 
-    thisCarousel.find(".img2").after("<div class='carButtonHolder'></div>");
+    whatPosMin = thisCarousel.find(".img1").css("background-position-x") + " 0px";
+    whatPosMax = thisCarousel.find(".img1").css("background-position-x") + " 260px";
+    console.log("Min: " + whatPosMin + " out of " + whatPosMax);
+    thisCarousel.find(".img1").after("<div class='carButtonHolder'></div>");
     thisCarousel.find(".carButtonHolder").append("<div class='carimg1 carButton activeButton'></div>");
     thisCarousel.find(".carButtonHolder").append("<div class='carimg2 carButton'></div>");
 
     thisCarousel.find(".carimg2").css("left", "200");
 
     $(".carimg1").click(function(){
-      thisCarousel.find(".img1").animate({"left": "0"}, 500);
+      thisCarousel.find(".img1").css({"background-position": whatPosMin});
       thisCarousel.find(".carimg1").addClass("activeButton");
       thisCarousel.find(".carimg2").removeClass("activeButton");
-      thisCarousel.find(".img2").animate({"left": "200px"}, 500);
+      console.log("1");
+      //thisCarousel.find(".img2").animate({"left": "200px"}, 500);
     });
     $(".carimg2").click(function(){
-      thisCarousel.find(".img1").animate({"left": "200px"}, 500);
+      thisCarousel.find(".img1").css({"background-position": whatPosMax});
       thisCarousel.find(".carimg2").addClass("activeButton");
       thisCarousel.find(".carimg1").removeClass("activeButton");
-      thisCarousel.find(".img2").animate({"left": "0"}, 500);
+      console.log("2");
+      //thisCarousel.find(".img2").animate({"left": "0"}, 500);
     });
   });
 });

@@ -11,6 +11,8 @@ module.exports = function(grunt) {
           'js/libs/jquery-ui-1.10.4.min.js',
           'js/libs/bootstrap.min.js',
           'js/libs/jquery.mCustomScrollbar.concat.min.js',
+          'js/libs/jquery.mousewheel-3.0.6.min.js',
+          'js/libs/jquery.backgroundpos.min.js',
           'js/template/*.js'
         ],
         dest: 'js/build/production.js',
@@ -69,7 +71,10 @@ module.exports = function(grunt) {
         },
       },
       css: {
-        files: ['css/template/*.css'],
+        files: [
+          'css/template/*.css',
+          'css/general.css'
+        ],
         tasks: ['concat_css', 'cssmin'],
         options: {
             spawn: false,

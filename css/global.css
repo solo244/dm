@@ -103,15 +103,15 @@ body{
 }
 
 /* Testing */
-/*.dashboardDiv{
+.dashboardDiv{
 	left: -10000px;
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(7){
+.dashboardDiv:nth-child(2){
 	position: relative;
 	left: 0;
-}*/
+}
 /* Buttons */
 #combatTracker .dashHeader i{
   position: absolute;
@@ -846,8 +846,8 @@ body{
   background-image: url("../images/quests/general/allQuests.png");
 }
 
-#contentQuest #gQuest1 .img1{ background-position: 0 0; }
-#contentQuest #gQuest1 .img2{ background-position: 0 260px; }
+#contentQuests #gQuest1 .img1{ background-position: 0px 0px; }
+#contentQuests #gQuest2 .img1{ background-position: -200px 0px; }
 /* Story */
 #contentStory{}
 
