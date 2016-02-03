@@ -92,13 +92,14 @@ body{
 	display: block;
 }
 
-/* Testing */
+/* Testing
 .dashboardDiv{
 	left: -10000px;
 	position: absolute;
 }
 
-.dashboardDiv:nth-child(6){
+.dashboardDiv:nth-child(1){
 	position: relative;
 	left: 0;
 }
+*/

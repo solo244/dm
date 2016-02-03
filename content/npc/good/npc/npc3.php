@@ -5,37 +5,31 @@
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Relation
+Friend
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+The King of everything
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Secret
+Leader of Guardians
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Combat & Skills
+Hammer & Shield Paladin
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Appearance
+Diplomacy & Endurance
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Backstory
+Tall, Goaty, Very armored
 
 <?php include 'template/bottom.php' ?>
-
-The King of everything
-Leader of Guardians
-Hammer & Shield Paladin
-Diplomacy & Endurance
-Tall, Goaty, Very armored

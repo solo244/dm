@@ -1,4 +1,4 @@
 <ul>
-  <li>First NPC</li>
-  <li>Second NPC</li>
+  <li>Nala person 1</li>
+  <li>Nala person 2</li>
 </ul>

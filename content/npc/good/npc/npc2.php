@@ -5,37 +5,31 @@
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Relation
+Friend
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+Dead Guardian Cleric
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Secret
+Send by Guardians to keep Jossidin safe and learns about Leila.
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Combat & Skills
+Nature & Heal
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Appearance
+Drunk but charming
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Backstory
+Fought with Irieldur back in the day. Always looked out after Jossidin, who is Irieldurs daughter.
 
 <?php include 'template/bottom.php' ?>
-
-Friend Father of Leila
-Dead Guardian Cleric
-Nature & Heal
-Drunk but charming
-Send by Guardians to keep Jossidin safe and learns about Leila.

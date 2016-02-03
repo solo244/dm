@@ -1,4 +1,4 @@
 <ul>
-  <li>Third NPC</li>
-  <li>Fourth NPC</li>
+  <li>Lai person 1</li>
+  <li>Lai person 2</li>
 </ul>

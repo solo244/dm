@@ -1,42 +1,35 @@
 <?php include 'template/top.php' ?>
 
-<!-- Name of Person 6 -->
+<!-- Barra -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Relation
+A sherif of silverfort
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+Area around Silverfort
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Secret
+Druid and paladin
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Combat & Skills
+Giant club, half leather
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Appearance
+Barbarian Goliath
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Backstory
+Looking for orcish spellbook for king Silverfort.
 
 <?php include 'template/bottom.php' ?>
-
-Barra
-A sherif of silverfort
-Druid and paladin
-Giant club, half leather
-Barbarian Goliath
-Looking for orcish spellbook for king silverfort
