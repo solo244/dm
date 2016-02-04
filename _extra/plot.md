@@ -38,7 +38,7 @@ _Names:_
 - _Person:_ Something
 
 _Quests:_
-- Find out who his mother was
+- Find out who his mother was and what she did
 - Find out who really killed his father
 
 --
