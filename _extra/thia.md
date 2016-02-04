@@ -1,34 +1,14 @@
-What happened to Thia and Li
-
---
-
-The moment you were all riding out of town, you noticed a strong feeling. You needed to stay behind. It felt like you had unfinished business in Silverfort. Maybe business that you need to take care of yourself. However much you felt like you shouldn't leave the party, it wasn't a matter of choice. 
+# What happened to Thia and Li
+The moment you were all riding out of town, you noticed a strong feeling. You needed to stay behind. It felt like you had unfinished business in Silverfort. Maybe business that you need to take care of yourself. However much you felt like you shouldn't leave the party, it wasn't a matter of choice.
 
 You jumped of the horse and Lai seemed not to care to much about it. You turned around and started making your way back to Silverfort. You had a gut feeling of where to go and ended up in one of the districts of the lower class to, what seemed to be, a random house in a random street. You try the door,.. it's open.
 
-It was dirty and dark. There were few furntiure around and it didn't seem to have been lived in for quit some time. You wondered what had brought you here. Suddenly you felt a voice. A fimiliar voice. But it felt impossible. Eddy's voice softly guided you to a book, slighty tilted forward, sitting next to a whole row of perfectly straight books. You pull it just enough to feel a slight click and with a slow but heavy sound, a stone from one of the walls starts to move. Ever so slowly.
+It was dirty and dark. There were few furniture around and it didn't seem to have been lived in for quit some time. You wondered what had brought you here. Suddenly you felt a voice. A familiar voice. But it felt impossible. Eddy's voice softly guided you to a book, slightly tilted forward, sitting next to a whole row of perfectly straight books. You pull it just enough to feel a slight click and with a slow but heavy sound, a stone from one of the walls starts to move. Ever so slowly, revealing a hidden room.
 
-Entering this room feels like entering a room of conspiricy, fed by dellision and information, mystery and chaos. You can hardly make out all the scribbling on the wall, the papers pinned to it. Pieces of paper wiht some sort of code written on the front and back. This room feels like it has secrets, secrets that might be dangerous.
+Entering this room feels like entering a room of conspiracy, fed by delusion and information, mystery and chaos. You can hardly make out all the scribbling on the wall and  the papers pinned to it. Pieces of paper with some sort of code written on the front and back. This room feels like it has secrets, secrets that might be dangerous.
 
-Room with special items: glasses to read Izzy's book
+One thing immediately caught your attention as it was a group portrait drawing of a funny looking bunch. On the image are, from left to right: "a fully armored male dwarf with a hammer, an old female dragonborn with gold/silver robes, a female tiefling with a staff, a male gnome with a funny attire, a male dwarf holding two full tankards spilling everywhere, a well dressed male human with a big shield and hammer, an older male elf in fine clothes and a smaller elf girl". Underneath the image is writing: "Barildrorlun Cavemail, Tiefling sorcerer, Paxxtun, Irieldur, Amras Melwasúl, Indira Melwasúl, Zilkas & Nala Tharandreal" and on the back it says:
 
-This seemed like conspiracy of information
+"When the times comes, for darkness to take, armies will fail and life must muster for battle or fall. But strength does not come in numbers as it is precise and strong. Hope will lie with the wise, the incorruptible, the guided and the shielded. Only they will not falter and only these Guardians can succeed in stopping that what cannot be stopped."
 
-You go into dream state and witness what happened here
-
-III was here and talking about end of world
-
-III didnt understand why she was chosen and why she had to leave people behind?
-
-III was in danger but she coudlnt tell anyone or they would hurt them, so she kept 
-
-it from Thia
-
-But III wanted to get a message ou to Thia and all of a sudden she starts talking to 
-
-Thia trought the dream, as if she could see her (assassins creed)
-
-Lears about the guardians
-
-Person that III is talking too is Nala in the future
-
+Suddenly, an evil presence fills the air. A feeling of death and darkness starts to fill the room. You remember the image, as if you could see it in front of you even with your eyes closed. At the same time a white color emerges out of thin air, accompanied by a loud crackling sound. A rift in reality cracks the wall in front of you, staring out into a whiteness without end. A soft and soothing voice in front of you, makes you feel comfort into the light and beckons you to come further. You look behind you as an entity makes its sudden appearance. A darker figure, heavily armored, short black hair and blood all over it's body, grins at you. His smile is accompanied by a still bleeding, gashing scar that runs across the right side of his face. He steps forward and without a though you step into the light, away from this creature. Light brightens and blinds you as you start to fall. After a couple of seconds, the light fades as grass appears below you. You land ass first on the soft, green cushion. 

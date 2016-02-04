@@ -42,15 +42,13 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 - [x] Magic `table B`, add content
 - [x] Magic `table C`, add content
 - [x] NPC, `name`, add generator
-- [ ] NPC, `NPC`, add generator
-- [ ] NPC, `Questgiver`, add generator
 - [x] Shops, all `shops` still missing content
 
 ###### 7. NPC:
 
 - [x] Fix the `background image` position and size
 - [x] Fix the `carousel`
-- [ ] Everything: `Content`
+- [ ] Everything: `Content` of the players
 
 ###### 8. Combat:
 
