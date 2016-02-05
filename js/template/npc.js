@@ -9,7 +9,6 @@ $(document).ready(function(){
     nexMainText = $(this).prop("id").split("npc").join("") + " NPC";
 
     $("#contentNPC .dashHeader h2").html(nexMainText);
-    console.log(buttonContext);
     $("#contentNPC .innerContent > div").animate({"top" : "320px"}, 500);
     $("." + buttonContext).animate({"top" : "50px"}, 500);
 
@@ -28,7 +27,7 @@ $(document).ready(function(){
 
   $("#allNPCs li").click(function(){
     var whatId = $(this).closest(".sidebar").attr("id");
-    console.log("Teeeusht:" + whatId);
+    //console.log("Teeeusht:" + whatId);
     switch (whatId) {
       case 'nalaNPCMenu':
         activeStateNPC = "#nNPC";
@@ -58,16 +57,20 @@ $(document).ready(function(){
         activeStateNPC = "#oNPC";
         break;
       default:
-        console.log("none selected");
+        //console.log("none selected");
     }
 
     var theNPCName = $(this).html();
     var numberInRowNPC = "" + parseInt(($(this).index()) + 1);
-    console.log(numberInRowNPC);
     var whatNPCAreWeOn = activeStateNPC + numberInRowNPC;
 
+    if(whatId === "nalaNPCMenu" || whatId === "laiNPCMenu" || whatId === "thiaNPCMenu" || whatId === "ottanNPCMenu"){
+      $(this).closest(".sidebar").animate({"left": "0px"}, 500);
+    }else{
+      $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
+    }
     $("#contentNPC .dashHeader h2").html(theNPCName);
-    $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
+    //$(this).closest(".sidebar").animate({"left": "-200px"}, 500);
     $(whatNPCAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 
     $(".backNPC").show();

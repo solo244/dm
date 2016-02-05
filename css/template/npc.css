@@ -159,3 +159,12 @@
 #contentNPC #sNPC5 .img1{ background-position: -800px -520px; }
 #contentNPC #sNPC6 .img1{ background-position: -1000px -520px; }
 #contentNPC #sNPC7 .img1{ background-position: -1200px -520px; }
+/**/
+#contentNPC .nalaNPC .carousel { display: none; }
+#contentNPC .nalaNPC .descriptions { left: 200px; }
+#contentNPC .laiNPC .carousel { display: none; }
+#contentNPC .laiNPC .descriptions { left: 200px; }
+#contentNPC .thiaNPC .carousel { display: none; }
+#contentNPC .thiaNPC .descriptions { left: 200px; }
+#contentNPC .ottanNPC .carousel { display: none; }
+#contentNPC .ottanNPC .descriptions { left: 200px; }

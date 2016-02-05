@@ -1,35 +1,35 @@
 <?php include 'template/top.php' ?>
 
-<!-- Cavemail -->
+<!-- Uncle -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Mentor
+Uncle
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-KIA
+In the astral planes
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Had a cube, Guardian associate
+Will connect with Nala and help
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Paladin high level
+Strong magic user
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Male Dwarf Paladin
+Like Nala but male, silver scales
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Was recruited at very young age. never trusted anyone. Until Ottan.
+Grew up understanding dragonborns usually practice sword and shield, not magic. But got wind of Umber and the fact that magic might be needed to fight the dragons.
 
 <?php include 'template/bottom.php' ?>

@@ -1,11 +1,11 @@
 <?php include 'template/top.php' ?>
 
-<!-- Name of Person 2 -->
+<!-- Catherina -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Relation
+Grandmother
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 

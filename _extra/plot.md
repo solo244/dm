@@ -37,8 +37,12 @@ _Quests:_
 _Lai:_ The duke died shortly after and a police suspects Lai, so there is bounty on his head in a far away country. Lai natural mother was a great sorcerer part of the guardians.
 
 _Names:_
-- _City:_ Something
-- _Person:_ Something
+- _City:_ Cipritine
+- _Grandfather:_ Romulius Lazarus Sahlazar
+- _Grandmother:_ Catherina Romanov
+- _Father:_ Valerion Artorius Sahlazar
+- _Uncle:_ Kaspar Iskander Sahlazar
+- _Mother:_ Hecate?
 
 _Quests:_
 - Find out who his mother was and what she did -> guardian, gave lai up to keep safe
@@ -51,11 +55,12 @@ _Quests:_
 _Ottan:_ The order Cavemail belonged to was a direct partner of the guardians. They were given the task of protection the swords as the guardians were to finding and protecting the shields. Every main paladin (kings of 4) have a tracker with them, that only divines can access. It is the paladins job to find the swords and to hide them from evil, as evil is the root of its power.
 
 _Names:_
-- _City:_ Something
-- _Person:_ Something
+- _Mentor:_ Cavemail
+- _Mount:_ Jeff
 
 _Quests:_
 - Find out what Cavemail was & the guardians
 - The metal cube lure evil close as well
+- Figure out where Jeff came from
 
 --

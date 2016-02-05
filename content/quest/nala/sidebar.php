@@ -1,4 +1,5 @@
 <ul>
-  <li>Finding fate</li>
-  <li>Tempting fate</li>
+  <li>The Dragons</li>
+  <li>The Guardians</li>
+  <li>The Assassins</li>
 </ul>

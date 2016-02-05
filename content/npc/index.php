@@ -68,20 +68,29 @@
     <i class="fa fa-arrow-left backNPC"></i>
     <div class="sidebar scrollPlease" id="nalaNPCMenu"><?php include 'nala\sidebar.php' ?></div>
     <div class="nNPC" id="nNPC1"><?php include 'nala\npc\npc1.php' ?></div>
+    <div class="nNPC" id="nNPC2"><?php include 'nala\npc\npc2.php' ?></div>
+    <div class="nNPC" id="nNPC3"><?php include 'nala\npc\npc3.php' ?></div>
+    <div class="nNPC" id="nNPC4"><?php include 'nala\npc\npc4.php' ?></div>
   </div>
   <div class="laiNPC">
     <i class="fa fa-arrow-left backNPC"></i>
     <div class="sidebar scrollPlease" id="laiNPCMenu"><?php include 'lai\sidebar.php' ?></div>
     <div class="nNPC" id="lNPC1"><?php include 'lai\npc\npc1.php' ?></div>
+    <div class="nNPC" id="lNPC2"><?php include 'lai\npc\npc2.php' ?></div>
+    <div class="nNPC" id="lNPC3"><?php include 'lai\npc\npc3.php' ?></div>
+    <div class="nNPC" id="lNPC4"><?php include 'lai\npc\npc4.php' ?></div>
+    <div class="nNPC" id="lNPC5"><?php include 'lai\npc\npc5.php' ?></div>
   </div>
   <div class="thiaNPC">
     <i class="fa fa-arrow-left backNPC"></i>
     <div class="sidebar scrollPlease" id="thiaNPCMenu"><?php include 'thia\sidebar.php' ?></div>
     <div class="nNPC" id="tNPC1"><?php include 'thia\npc\npc1.php' ?></div>
+    <div class="nNPC" id="tNPC2"><?php include 'thia\npc\npc2.php' ?></div>
   </div>
   <div class="ottanNPC">
     <i class="fa fa-arrow-left backNPC"></i>
     <div class="sidebar scrollPlease" id="ottanNPCMenu"><?php include 'ottan\sidebar.php' ?></div>
     <div class="nNPC" id="oNPC1"><?php include 'ottan\npc\npc1.php' ?></div>
+    <div class="nNPC" id="oNPC2"><?php include 'ottan\npc\npc2.php' ?></div>
   </div>
 </div>

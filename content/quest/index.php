@@ -43,5 +43,39 @@
       <?php include 'nala/sidebar.php' ?>
     </div>
     <div class="gQuest" id="nQuest1"><?php include 'nala/quests/quest1.php' ?></div>
+    <div class="gQuest" id="nQuest2"><?php include 'nala/quests/quest2.php' ?></div>
+    <div class="gQuest" id="nQuest3"><?php include 'nala/quests/quest3.php' ?></div>
+  </div>
+
+  <div class="laiQuests">
+    <i class="fa fa-arrow-left backQuests"></i>
+    <div class="sidebar scrollPlease" id="laiMenu">
+      <?php include 'lai/sidebar.php' ?>
+    </div>
+    <div class="gQuest" id="lQuest1"><?php include 'lai/quests/quest1.php' ?></div>
+    <div class="gQuest" id="lQuest2"><?php include 'lai/quests/quest2.php' ?></div>
+    <div class="gQuest" id="lQuest3"><?php include 'lai/quests/quest3.php' ?></div>
+    <div class="gQuest" id="lQuest3"><?php include 'lai/quests/quest4.php' ?></div>
+  </div>
+
+  <div class="ottanQuests">
+    <i class="fa fa-arrow-left backQuests"></i>
+    <div class="sidebar scrollPlease" id="ottanMenu">
+      <?php include 'ottan/sidebar.php' ?>
+    </div>
+    <div class="gQuest" id="oQuest1"><?php include 'ottan/quests/quest1.php' ?></div>
+    <div class="gQuest" id="oQuest2"><?php include 'ottan/quests/quest2.php' ?></div>
+    <div class="gQuest" id="oQuest3"><?php include 'ottan/quests/quest3.php' ?></div>
+  </div>
+
+  <div class="thiaQuests">
+    <i class="fa fa-arrow-left backQuests"></i>
+    <div class="sidebar scrollPlease" id="thiaMenu">
+      <?php include 'thia/sidebar.php' ?>
+    </div>
+    <div class="gQuest" id="tQuest1"><?php include 'thia/quests/quest1.php' ?></div>
+    <div class="gQuest" id="tQuest2"><?php include 'thia/quests/quest2.php' ?></div>
+    <div class="gQuest" id="tQuest3"><?php include 'thia/quests/quest3.php' ?></div>
+    <div class="gQuest" id="tQuest4"><?php include 'thia/quests/quest4.php' ?></div>
   </div>
 </div>

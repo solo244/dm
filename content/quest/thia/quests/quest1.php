@@ -1,16 +1,16 @@
 <?php include 'template/top.php' ?>
 
-<!-- Dragons -->
+<!-- Parents -->
 
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-A while ago, Nala's city Rivermoor in Abeir was destroyed by dragons. She doesn't understand why the dragons form the Ithimir Isle did this and wants to figure out why.
+Description
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-Finding the link between the attack and the evil the dragons work for / fear.
+Completed
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 

@@ -1,35 +1,35 @@
 <?php include 'template/top.php' ?>
 
-<!-- Cavemail -->
+<!-- Valerion -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Mentor
+Father
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-KIA
+MIA
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Had a cube, Guardian associate
+Disappeared a while after Lai took of
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Paladin high level
+Very smart but posseses only money
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Male Dwarf Paladin
+Normal
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Was recruited at very young age. never trusted anyone. Until Ottan.
+Backstory
 
 <?php include 'template/bottom.php' ?>

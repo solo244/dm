@@ -1,35 +1,35 @@
 <?php include 'template/top.php' ?>
 
-<!-- Cavemail -->
+<!-- Kaspar -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
 <!-- Relation-->
-Mentor
+Granduncle
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-KIA
+Cipritine
 
 </p><p><i class="fa fa-lock" style="color: white"></i>
 
 <!-- Secret -->
-Had a cube, Guardian associate
+Wants the throne
 
 </p><p><i class="fa fa-bolt" style="color: white"></i>
 
 <!-- Combat & Skills -->
-Paladin high level
+None, but politically strong
 
 </p><p><i class="fa fa-picture-o" style="color: white"></i>
 
 <!-- Appearance -->
-Male Dwarf Paladin
+Untrustworthy Tiefling
 
 </p><p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Backstory -->
-Was recruited at very young age. never trusted anyone. Until Ottan.
+Backstory
 
 <?php include 'template/bottom.php' ?>
