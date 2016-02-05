@@ -11,18 +11,24 @@ Adoptive father (Grandfather): Romulius Lazarus Sahlazar, Archduke of Cipritine,
 
 Adoptive mother (Grandmother) : Catherina Romanov, Archduchess of Cipritine
 
-Granduncle : Kaspar Iskander Sahlazar, Prince of the Realm, Viscount of Sar-Sargoth, Gatekeeper of the Orocani Mountains, Knight-Marshall of the Imperial Eastern Legion Court
+Granduncle : Kaspar Iskander Sahlazar, Prince of the Realm, Viscount of Sar-Sargoth, Gatekeeper of the Orocani Mountains, Knight-Marshall of the Imperial Eastern Legion
 
-magician : Magnus of Stardock, Sage and magical advisor to his excellency Archduke Romulius
+Court magician : Magnus of Stardock, Sage and magical advisor to his excellency Archduke Romulius
 
 Stablemaster : Temujin, Master of Horses of Cipritine Citadel, Logistical advisor to his excellency Archduke Romulius
 
-Swordmaster :  Dame Yasmine of Samarkand, Knight-Captain of the Imperial Eastern Legion, Master-at-arms of Cipritine Citadel, Military advisor to his excellency Archducke Romulius  Steward :  Sayyid Al-Nazir, Steward of Cipritine Citadel, First advisor to his excellency
+Swordmaster :  Dame Yasmine of Samarkand, Knight-Captain of the Imperial Eastern Legion, Master-at-arms of Cipritine Citadel, Military advisor to his excellency Archducke Romulius  
 
-Archduke Romulius Chaplain : Matriarch Benezia of the Order of Selune, Scolar, Historian and Scientific advisor to his excellency Archduke
+Steward: Sayyid Al-Nazir, Steward of Cipritine Citadel, First advisor to his excellency Archduke Romulius
 
-Romulius Harbourmaster: Captain Virgilius Trask, Pirate-turned-smuggler-turned-merchant, known before as  Trenchard, Dagger of the seas. Administrative on the Cipritine mercantile flotilla and nautical advisor to his excellency Archduke Romulius
+Chaplain : Matriarch Benezia of the Order of Selune, Scolar, Historian and Scientific advisor to his excellency Archduke Romulius
 
-The Emerald Empire Capital city : Salador Economical capital : Cipritine, jewel of the Doomsea
+Harbourmaster: Captain Virgilius Trask, Pirate-turned-smuggler-turned-merchant, known before as  Trenchard, Dagger of the seas. Administrative on the Cipritine mercantile flotilla and nautical advisor to his excellency Archduke Romulius
 
-Home : Cipritine Places seen : Orocani mountains, Frostplain of Sar-Isbandia, The Tiefling fortress Armengar, The Green Heart forest, The slave caravans of the Keshian Empire, cities of Krondor, Rillanon, LaMut, The Serpent City, Landreth, Salador, Stardock Island, the Grand Abbey of Sarth, Freeport in the Crimson Archipelago, The border of the Forbidden Empire of Tsuranuanni, the Dead Lands of Zhûl, the vineyards of Blackhold and Ravensburg,...
+The Emerald Empire Capital city : Salador
+
+Economical capital : Cipritine, jewel of the Doomsea
+
+Home: Cipritine
+
+Places seen : Orocani mountains, Frostplain of Sar-Isbandia, The Tiefling fortress Armengar, The Green Heart forest, The slave caravans of the Keshian Empire, cities of Krondor, Rillanon, LaMut, The Serpent City, Landreth, Salador, Stardock Island, the Grand Abbey of Sarth, Freeport in the Crimson Archipelago, The border of the Forbidden Empire of Tsuranuanni, the Dead Lands of Zhûl, the vineyards of Blackhold and Ravensburg,...

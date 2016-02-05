@@ -15,19 +15,22 @@ _Names:_
 
 _Quests:_
 - Find out why her city was destroyed by dragons -> they work for the great evil
+- Find out that she is the founder of the guardians
+- Figure out why assassins are behind them -> the sword
 
 --
 
-_Thia Galanodel:_ She has been blessed by the dead guardian Paxxtunn, as his mark finds he or she who is worthy, who is one with self. Stopped the root of evil is the guardians job and responsibility. A guardian is blessed with the visions and protection of the pool and they receive a blessing in the most darkest of times.
+_Thia Galanodel:_ She has been blessed by the dead guardian Paxxtunn, as his mark finds he or she who is worthy, who is one with self. Stopped the root of evil is the guardians job and responsibility. A guardian is blessed with the visions and protection of the pool and they receive a blessing in the most darkest of times. Thia and her village was destroyed because of upcoming evil trying to regain some control over land. This evil used orc and trolls to do their bidding. This evil has now spread to Umber as well in the shape of one of the Shibukai.
 
 _Names:_
 - _Li:_ Pet Mouse
-- _Indira:_ "Sister" but she was killed
+- _Indira:_ "Sister" but she was killed -> because sister was a new guardian
 
 _Quests:_
-- Find the Orc that killed her parents
-- Find Idimars killer
-- Join the Guardians
+- Find the Evil that killed or is responsible for the death of her parents
+- Find Idimars killer and why she was killed
+- Find out why she is a guardian and what her task is
+- Find the mysterious creature with the shiny sword from her dreams -> Shibukai
 
 --
 
@@ -38,8 +41,10 @@ _Names:_
 - _Person:_ Something
 
 _Quests:_
-- Find out who his mother was and what she did
-- Find out who really killed his father
+- Find out who his mother was and what she did -> guardian, gave lai up to keep safe
+- Find out who really killed his father -> Brother to get the throne, wants to get rid of Lai
+- Figure out why assassins are behind them -> the sword
+- Stop the bounty hunter thats on his trail -> for the death of the rich duke
 
 --
 
@@ -51,5 +56,6 @@ _Names:_
 
 _Quests:_
 - Find out what Cavemail was & the guardians
+- The metal cube lure evil close as well
 
 --
