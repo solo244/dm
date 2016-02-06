@@ -29,11 +29,6 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 - [x] Change the name to `Sounds` instead of `Music`
 - [ ] Add general songs that last +- 30 minutes
 
-### 7. NPC:
-- [x] Fix the `background image` position and size
-- [x] Fix the `carousel`
-- [x] Everything: `Content` of the players
-
 ## Used technologies
 - Wamp
 - PHP, CSS, HTML, jQuery
