@@ -102,7 +102,7 @@ body{
 	display: block;
 }
 
-/* Testing */
+/* Testing
 .dashboardDiv{
 	left: -10000px;
 	position: absolute;
@@ -112,6 +112,7 @@ body{
 	position: relative;
 	left: 0;
 }
+*/
 /* Buttons */
 #combatTracker .dashHeader i{
   position: absolute;
