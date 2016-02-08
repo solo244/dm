@@ -42,7 +42,7 @@ _Names:_
 - _Grandmother:_ Catherina Romanov
 - _Father:_ Valerion Artorius Sahlazar
 - _Uncle:_ Kaspar Iskander Sahlazar
-- _Mother:_ Hecate?
+- _Mother:_ Hecate? -> Misrali
 
 _Quests:_
 - Find out who his mother was and what she did -> guardian, gave lai up to keep safe

@@ -2,7 +2,7 @@ The party was riding towards Goldhaven, and then the party met Zilkas. First he 
 
 He helped her to find out what her wizard book does (by writing in it).
 
-Zilkas wants to sell her infinite rope for 2000gp or to go to Golhaven and talk to _Shorty_ to sort his problems with him.
+Zilkas wants to sell her infinite rope for 2000gp or to go to Goldhaven and talk to _Shorty_ to sort his problems with him.
 
 _Shorty_ is the shortest guy in Goldhaven and he got swindled by Zilkas, something about a color changing pony.
 
@@ -60,7 +60,7 @@ The Orb gets used again, paralyzing Lai and Nala. They feel a ying-yang struggle
 
 Ottan tries to get the orb away.
 
-She touches her amulet and it guides her to touch the Orb and she grabs Mordred out of the it.
+She touches her amulet and it guides her to touch the Orb and she grabs Mordredh out of the it.
 
 Ottan suffers necrotic damage as Mordred drains her life force.
 
