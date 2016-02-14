@@ -1,2 +1,44 @@
 #List of enemies
-- 42 Goblins
+
+-- Orcs
+- 3 orc archers
+- 3 heavy orc warriors
+- 1 orc shaman
+- 6 ogres
+-- Kobolts
+- 2 kobolt minions
+- 1 kobolt miner
+-- Dragons
+- 4 mini dragons
+- 1 dragon
+-- Demons
+- 3 mini demons
+- 4 demons
+-- Humans
+- 3 sorcerers
+- 16 humans
+-- Dwarven
+- 3 dwarven warriors
+- 1 dwarven captain
+-- Weird
+- 1 tiny beholder
+- 1 beholder
+- 3 ooze
+- 12 ghouls
+- 12 wraiths
+- 3 grell
+-- Animals
+- 3 bears
+- 3 snakes
+- 8 spiders
+- 8 werewolves
+- 16 gnolls
+- 16 murlocks
+- 8 nagas
+- 6 moonkins
+-- Other humanoids
+- 1 dual wielding rogue
+- 1 hunter tauren
+-- Elemental
+- 4 rocks
+- 1 hell hound

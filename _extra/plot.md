@@ -55,12 +55,23 @@ _Quests:_
 _Ottan:_ The order Cavemail belonged to was a direct partner of the guardians. They were given the task of protection the swords as the guardians were to finding and protecting the shields. Every main paladin (kings of 4) have a tracker with them, that only divines can access. It is the paladins job to find the swords and to hide them from evil, as evil is the root of its power.
 
 _Names:_
-- _Mentor:_ Cavemail
+- _Mentor:_ Barildrorlun Cavemail
 - _Mount:_ Jeff
+- _God:_ Clanggedin Silverbear; The Father of Battle, Lord of the Twin Axes, the Giantkiller, the Goblinbane, the Wyrmslayer, the Rock of Battle
+- _Father:_ Zuglar Edëmkvish, "Zugal Keylancer"
+- _Mother:_ Doren Likotlimul, "Doren Inkygold"
+- _Clan:_ Rocklobster; strong and open minded
+- _Great-great-grandfather:_ Thorin Edëmkvish
+- _Enemy:_ Duergar dwarfs at Borun Keep
+- _:_
+- _:_
+- _:_
+- _:_
 
 _Quests:_
 - Find out what Cavemail was & the guardians
 - The metal cube lure evil close as well
 - Figure out where Jeff came from
+- Cavemail was poisoned by who'm?
 
 --
