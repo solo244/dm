@@ -5,7 +5,7 @@
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-Lorem
+The party is sent to deliver the ransom for a woman, who is being held by a gang of brigands.
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 

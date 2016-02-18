@@ -10,31 +10,31 @@ A foreign diplomat seeks the party’s monk to protect him on a mission to a cou
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-Lorem
+Get the diplomat to this location and learn about a location of one of the swords.
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Lorem
+Get the diplomat killed or cast magic to a certain extend.
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-Lorem
+People from this region make you wear bracelets that make you incapable of casting anything withoputyour mind shattering.
 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
 <!-- Alts -->
-Lorem
+Diplomcay your way out
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Lorem
+Small city
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-Lorem
+The local corrupt guards
 
 <?php include 'template/bottom.php' ?>

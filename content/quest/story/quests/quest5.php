@@ -5,36 +5,36 @@
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-A map leading to the legendary Shield of Prator has been found, it states that the shield is in the cave of a dracolich. The map was sent by the dracolich’s minions in the hopes of freeing their master who is sealed magically into his cave
+A map leading to the legendary Shield of Prator has been found, it states that the shield is in the cave of a Dracolich. The map was sent by the dracolich’s minions in the hopes of freeing their master who is sealed magically into his cave
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-Lorem
+Kill everyone, including Dracolich
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Lorem
+Free Dracolich by mistake, follow the trail here
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-Lorem
+Dracolich is a mind bender/flayer and can shape reality in such a way, that you will help him instead
 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
 <!-- Alts -->
-Lorem
+Make sure not to rez Dracolich
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Lorem
+A hidden cave somewhere
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-Lorem
+Some weird creatures
 
 <?php include 'template/bottom.php' ?>

@@ -10,31 +10,31 @@ A local caster has summoned a creature that they cannot contain and it is destro
 </p><p><i class="fa fa-check" style="color: green"></i>
 
 <!-- Completed -->
-Completed
+Kill the creature
 
 </p><p><i class="fa fa-times" style="color: red"></i>
 
 <!-- Failed -->
-Failed
+Let the caster get killed by its own creature
 
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-Surprise
+The summoned creature is actually a family member and the caste doesn't want it dead (the Hulk).
 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
 <!-- Alts -->
-Alts
+Subdue both of theml without killing
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Location
+Somewhere near a keep
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 
 <!-- Enemies -->
-Enemies
+A giant monster that is somewhat stupid and driven by rage
 
 <?php include 'template/bottom.php' ?>

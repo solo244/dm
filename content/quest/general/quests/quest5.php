@@ -20,7 +20,7 @@ Dont get there first
 </p><p><i class="fa fa-reply-all" style="color: white"></i>
 
 <!-- Surprise -->
-Everyone thinks this dragon might have had the sword or on eof the shields but the dragon isnt dead, just tired of being a dragon
+Everyone thinks this dragon might have had the sword or one of the shields but the dragon isnt dead, just tired of being a dragon, so he's hiding as one of the people getting the treasure
 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
