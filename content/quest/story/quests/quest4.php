@@ -5,7 +5,7 @@
 <p><i class="fa fa-commenting" style="color: white"></i>
 
 <!-- Description-->
-The answer/riddle/name/code that the PCs require is etched onto the helm of a massive golem that paces a deadly dungeon to the north. This golem has been brought into creation for a specific purpose.
+The answer/riddle/name/code that the PCs require is etched onto the helm of a massive golem that paces a deadly dungeon to the south. This golem has been brought into creation for a specific purpose.
 
 </p><p><i class="fa fa-check" style="color: green"></i>
 
@@ -30,7 +30,7 @@ Convince the golem to help you
 </p><p><i class="fa fa-map" style="color: white"></i>
 
 <!-- Location -->
-Up north, very near a city
+Down south, very near a city
 
 </p><p><i class="fa fa-crosshairs" style="color: white"></i>
 

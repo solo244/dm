@@ -25,7 +25,7 @@ The summoned creature is actually a family member and the caste doesn't want it 
 </p><p><i class="fa fa-exchange" style="color: white"></i>
 
 <!-- Alts -->
-Subdue both of theml without killing
+Subdue both of them without killing
 
 </p><p><i class="fa fa-map" style="color: white"></i>
 
