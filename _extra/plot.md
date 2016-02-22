@@ -63,10 +63,6 @@ _Names:_
 - _Clan:_ Rocklobster; strong and open minded
 - _Great-great-grandfather:_ Thorin Edëmkvish
 - _Enemy:_ Duergar dwarfs at Borun Keep
-- _:_
-- _:_
-- _:_
-- _:_
 
 _Quests:_
 - Find out what Cavemail was & the guardians
