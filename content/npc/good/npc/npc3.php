@@ -1,6 +1,6 @@
 <?php include 'template/top.php' ?>
 
-<!-- Name of Person 3 -->
+<!-- Irieldur -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 

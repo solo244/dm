@@ -1,6 +1,6 @@
 <?php include 'template/top.php' ?>
 
-<!-- Name of Person 2 -->
+<!-- Paxxtun -->
 
 <p><i class="fa fa-life-ring" style="color: white"></i>
 
