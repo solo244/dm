@@ -35,6 +35,9 @@ $(document).ready(function(){
         $("#soundNature").css("color", "rgb(155, 182, 201)");
         break;
       case 'soundMood':
+        hideallSounds();
+        $(".sMood .sound").animate({"height": "118px"}, 500);
+        $("#soundMood").css("color", "rgb(155, 182, 201)");
         break;
       default:
         console.log("Sound not there");

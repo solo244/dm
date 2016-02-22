@@ -17,5 +17,6 @@
   <div class="soundCol sEnvironment" id=""><?php include 'environment.php' ?></div>
   <div class="soundCol sMonster" id=""><?php include 'monster.php' ?></div>
   <div class="soundCol sNature" id=""><?php include 'nature.php' ?></div>
+  <div class="soundCol sMood" id=""><?php include 'mood.php' ?></div>
   <div class="soundCol clear"></div>
 </div>

@@ -254,10 +254,13 @@ $(document).ready(function(){
     var changeCityId = "#" + $(this).prop("id").split("B").join("");
 
     switch (changeCityImage){
-      case "Faredeep": $(changeCityId).find(".picMap").css("background-position", "0px 0px"); break;
-      case "Goldhaven": $(changeCityId).find(".picMap").css("background-position", "-342px 0px"); break;
-      case "Silverfort": $(changeCityId).find(".picMap").css("background-position", "-684px 0px"); break;
-      case "Waterkeep": $(changeCityId).find(".picMap").css("background-position", "-1026px 0px"); break;
+      case "Deepmere": $(changeCityId).find(".picMap").css("background-position", "0px 0px"); break;
+      case "Faredeep": $(changeCityId).find(".picMap").css("background-position", "-342px 0px"); break;
+      case "Goldhaven": $(changeCityId).find(".picMap").css("background-position", "-684px 0px"); break;
+      case "Highhollow": $(changeCityId).find(".picMap").css("background-position", "-1026px 0px"); break;
+      case "Northvale": $(changeCityId).find(".picMap").css("background-position", "-1368px 0px"); break;
+      case "Silverfort": $(changeCityId).find(".picMap").css("background-position", "-1710px 0px"); break;
+      case "Waterkeep": $(changeCityId).find(".picMap").css("background-position", "-2052px 0px"); break;
       default: break;
     }
   });
@@ -345,6 +348,9 @@ $(document).ready(function(){
         $("#soundNature").css("color", "rgb(155, 182, 201)");
         break;
       case 'soundMood':
+        hideallSounds();
+        $(".sMood .sound").animate({"height": "118px"}, 500);
+        $("#soundMood").css("color", "rgb(155, 182, 201)");
         break;
       default:
         console.log("Sound not there");
