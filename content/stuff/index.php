@@ -1,29 +1,17 @@
 <div class="dashHeader">
-	<p>weapons melee 	(type, speed, damage, range, price, weight, group, properties)</p>
-	<p>weapons ranged	(type, speed, damage, range, price, weight, group, properties)</p>
-	<p>armor (type, armor, str/dex/con, speed, price, weight)</p>
-	<p>potion (color, price, effect)</p>
-	--
-	<p>Story items</p>
-  <p>Enemy list for me</p>
-</div>
-
-<div class="dashHeader">
   <h2>Stuff</h2>
-  <!--  -->
-  <i class="fa fa-chevron-up" id="stuffMelee"></i>
-  <i class="fa fa-chevron-left" id="stuffRanged"></i>
-  <i class="fa fa-chevron-right" id="stuffArmor"></i>
-  <i class="fa fa-chevron-right" id="stuffPotion"></i>
-  <!--  -->
-  <i class="fa fa-chevron-left" id="storyPrev"></i>
+  <!-- Normal -->
+  <i class="fa fa-gavel" id="stuffMelee"></i>
+  <i class="fa fa-bullseye" id="stuffRanged"></i>
+  <i class="fa fa-heart" id="stuffArmor"></i>
+  <i class="fa fa-flask" id="stuffPotion"></i>
+  <!-- Story -->
+  <i class="fa fa-hourglass-end" id="stuffStory"></i>
 </div>
 
 <div class="innerContent">
-  <div class="lineTime"></div>
-  <div class="dates"><?php include 'stories/dates.php' ?></div>
-  <div class="timeLine"><?php include 'stories/timeline.php' ?></div>
-  <div class="generalStory">
-
-  </div>
+  <div class="stuffs smelee"><?php include 'melee.php' ?></div>
+  <div class="stuffs sranged"><?php include 'ranged.php' ?></div>
+	<div class="stuffs sarmor"><?php include 'armor.php' ?></div>
+	<div class="stuffs spotions"><?php include 'potions.php' ?></div>
 </div>

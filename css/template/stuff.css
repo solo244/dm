@@ -1,1 +1,52 @@
 /* Stuff */
+
+/* Story */
+#contentStuff{}
+
+/* Buttons */
+#contentStuff #stuffMelee{
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  cursor: pointer;
+}
+
+#contentStuff #stuffRanged{
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  cursor: pointer;
+}
+
+#contentStuff #stuffArmor{
+  position: absolute;
+  top: 17px;
+  left: 80px;
+  cursor: pointer;
+}
+
+#contentStuff #stuffPotion{
+  position: absolute;
+  top: 17px;
+  left: 110px;
+  cursor: pointer;
+}
+
+#contentStuff #stuffStory{
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* --- */
+
+#contentStuff .innerContent{
+  /*padding: 0px;*/
+}
+
+#contentStuff .stuffs{
+  position: absolute;
+  top: 0;
+  left: 600px;
+}

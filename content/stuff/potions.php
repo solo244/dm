@@ -1,0 +1,1 @@
+potion (color, price, effect)
