@@ -10,6 +10,8 @@ Times you made the dm say "wtf..." | 4   | 2    | 3    | 1
 Dragons Slain                      | 0   | 0    | 0    | 0
 Villains Killed                    | 0   | 0    | 0    | 0
 Secret Revealed                    | 0   | 1    | 2    | 1
+Damage done                        | 0   | 0    | 0    | 0
+Damage taken                       | 0   | 0    | 0    | 0
 20's Rolled                        | 0   | 0    | 0    | 0
 1's Rolled                         | 1   | 3    | 2    | 3
 
