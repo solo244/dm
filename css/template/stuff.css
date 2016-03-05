@@ -50,3 +50,86 @@
   top: 0;
   left: 600px;
 }
+
+#contentStuff .stuffContent{
+  position: absolute;
+  top: 50px;
+  width: 590px;
+  height: 260px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#contentStuff .c1, .c2, .c3, .c4, .c5, .c6{
+  float: left;
+}
+
+#contentStuff .c1{
+  width: 30%;
+}
+
+#contentStuff .c2{
+  width: 25%;
+}
+
+#contentStuff .c3{
+  width: 15%;
+}
+
+#contentStuff .c4{
+  width: 10%;
+}
+
+#contentStuff .c5{
+  width: 15%;
+}
+
+#contentStuff .c6{
+  width: 75%;
+}
+
+#contentStuff .red{
+  color: red;
+}
+
+#contentStuff .pot{
+  position: relative;
+  color: #1b1f29;
+}
+
+#contentStuff .pot span{
+  position: absolute;
+  top: 2px;
+  border-radius: 50%;
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+
+#contentStuff .potR{
+  background-color: red;
+}
+
+#contentStuff .potY{
+  background-color: yellow;
+}
+
+#contentStuff .potB{
+  background-color: blue;
+}
+
+#contentStuff .potW{
+  background-color: white;
+}
+
+#contentStuff .potK{
+  background-color: black;
+}
+
+#contentStuff .potG{
+  background-color: green;
+}
+
+#contentStuff .potP{
+  background-color: purple;
+}

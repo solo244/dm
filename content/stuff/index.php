@@ -13,5 +13,5 @@
   <div class="stuffs smelee"><?php include 'melee.php' ?></div>
   <div class="stuffs sranged"><?php include 'ranged.php' ?></div>
 	<div class="stuffs sarmor"><?php include 'armor.php' ?></div>
-	<div class="stuffs spotions"><?php include 'potions.php' ?></div>
+	<div class="stuffs spotion"><?php include 'potions.php' ?></div>
 </div>
