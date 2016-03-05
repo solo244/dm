@@ -14,4 +14,10 @@
   <div class="stuffs sranged"><?php include 'ranged.php' ?></div>
 	<div class="stuffs sarmor"><?php include 'armor.php' ?></div>
 	<div class="stuffs spotion"><?php include 'potions.php' ?></div>
+
+  <div class="stuffs sstory">
+    <i class="fa fa-arrow-left backStuff"></i>
+    <div class="sidebar scrollPlease" id="storyItemsMenu"><?php include 'story/sidebar.php' ?></div>
+    <div class="" id="ss1"><?php include 'story/items/story1.php' ?></div>
+  </div>
 </div>

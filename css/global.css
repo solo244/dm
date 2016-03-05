@@ -1184,6 +1184,8 @@ body{
   color: red;
 }
 
+/* Potions */
+
 #contentStuff .pot{
   position: relative;
   color: #1b1f29;
@@ -1224,6 +1226,12 @@ body{
 
 #contentStuff .potP{
   background-color: purple;
+}
+
+/* Story */
+
+#contentStuff .sstory .sidebar{
+  top: 50px;
 }
 /* Buttons */
 #contentTreasure .dashHeader i{
