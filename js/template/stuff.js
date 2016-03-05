@@ -36,52 +36,51 @@ $(document).ready(function(){
   });
 
   /*
-   * Open some quests from the general variety
+   * Open some items from the story variety
    */
   $(".backStuff").hide();
-  var activeStateNPC;
+  var activeStateStuff;
 
   $("#storyItemsMenu li").click(function(){
-    //console.log($(this).html());
-    var whatId = $(this).closest(".sidebar").attr("id");
-    //console.log("Teeeusht:" + whatId);
-    /*switch (whatId) {
-      case 'nalaNPCMenu':
+
+    var whatItem = $(this).html();
+
+    switch (whatItem) {
+      case 'Ron The Fierce':
         activeStateStuff = "#ss1";
         break;
-      case 'goodNPCMenu':
-        activeStateStuff = "#gNPC";
+      case 'Clarent The Wise':
+        activeStateStuff = "#ss2";
         break;
-      case 'badNPCMenu':
-        activeStateStuff = "#bNPC";
+      case 'Mordred The Traitor':
+        activeStateStuff = "#ss3";
         break;
-      case 'shibukaiNPCMenu':
-        activeStateStuff = "#sNPC";
+      case 'Excalibur The Just':
+        activeStateStuff = "#ss4";
         break;
-      case 'randomNPCMenu':
-        activeStateStuff = "#rNPC";
+      case 'Dematerialisation Amulet':
+        activeStateStuff = "#ss5";
         break;
-      case 'groupNPCMenu':
-        activeStateStuff = "#grNPC";
+      case 'Shield Of Dinus':
+        activeStateStuff = "#ss6";
         break;
-      case 'laiNPCMenu':
-        activeStateStuff = "#lNPC";
+      case 'Shield Of Denbur':
+        activeStateStuff = "#ss7";
         break;
-      case 'thiaNPCMenu':
-        activeStateStuff = "#tNPC";
-        break;
-      case 'ottanNPCMenu':
-        activeStateStuff = "#oNPC";
+      case 'Shield Of Dornir':
+        activeStateStuff = "#ss8";
         break;
       default:
         //console.log("none selected");
-    }*/
+    }
 
     var theStuffName = $(this).html();
     var numberInRowStuff = "" + parseInt(($(this).index()) + 1);
     var whatStuffAreWeOn = activeStateStuff + numberInRowStuff;
 
     console.log(whatStuffAreWeOn);
+
+    $("#storyItemsMenu").animate({"left": "-200px"}, 500);
 
     /*if(whatId === "nalaNPCMenu" || whatId === "laiNPCMenu" || whatId === "thiaNPCMenu" || whatId === "ottanNPCMenu"){
       $(this).closest(".sidebar").animate({"left": "0px"}, 500);

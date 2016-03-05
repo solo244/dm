@@ -1233,6 +1233,25 @@ body{
 #contentStuff .sstory .sidebar{
   top: 50px;
 }
+
+#contentStuff .nNPC{
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  width: 590px;
+  opacity: 0;
+}
+
+.sstory{
+  height: 260px;
+  width: 590px;
+  /*background-image: url(../images/npc/bg.png);*/
+  background-position: right 0px bottom -40px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 50px;
+}
 /* Buttons */
 #contentTreasure .dashHeader i{
   position: absolute;
