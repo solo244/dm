@@ -772,9 +772,10 @@ $(document).ready(function(){
     var numberInRowStuff = "" + parseInt(($(this).index()) + 1);
     var whatStuffAreWeOn = activeStateStuff + numberInRowStuff;
 
-    console.log(whatStuffAreWeOn);
+    console.log("activeStateStuff: " + activeStateStuff + ", numberInRowStuff: " + numberInRowStuff + ", whatStuffAreWeOn: " + whatStuffAreWeOn);
 
     $("#storyItemsMenu").animate({"left": "-200px"}, 500);
+    $(activeStateStuff).animate({"left": "200px"}, 500);
 
     /*if(whatId === "nalaNPCMenu" || whatId === "laiNPCMenu" || whatId === "thiaNPCMenu" || whatId === "ottanNPCMenu"){
       $(this).closest(".sidebar").animate({"left": "0px"}, 500);

@@ -1242,7 +1242,7 @@ body{
   opacity: 0;
 }
 
-.sstory{
+#contentStuff .sstory{
   height: 260px;
   width: 590px;
   /*background-image: url(../images/npc/bg.png);*/
@@ -1251,6 +1251,15 @@ body{
   background-size: auto 100%;
   position: absolute;
   top: 50px;
+}
+
+#contentStuff .sStu{
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  width: 590px;
+  height: 260px;
+
 }
 /* Buttons */
 #contentTreasure .dashHeader i{
