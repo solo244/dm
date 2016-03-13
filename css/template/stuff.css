@@ -39,6 +39,14 @@
   cursor: pointer;
 }
 
+#contentStuff .backStuff{
+  position: absolute;
+  top: 67px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 /* --- */
 
 #contentStuff .innerContent{
@@ -158,14 +166,48 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   position: absolute;
-  top: 50px;
+  top: 0;
 }
 
 #contentStuff .sStu{
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: 600px;
   width: 590px;
   height: 260px;
-
 }
+
+#contentStuff .sStu .descriptions{
+  padding: 20px;
+  width: 390px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  height: 260px;
+  overflow: hidden;
+}
+
+/* Background images */
+#contentStuff .carousel{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+#contentStuff .carousel span{
+  display: block;
+  width: 200px;
+  height: 260px;
+  background-image: url("../images/npc/qllNPCs.png");
+}
+
+/**/
+#contentStuff #ss1 .img1{ background-position: 0px 0px; }
+#contentStuff #ss2 .img1{ background-position: -200px 0px; }
+#contentStuff #ss3 .img1{ background-position: -400px 0px; }
+#contentStuff #ss4 .img1{ background-position: -600px 0px; }
+#contentStuff #ss5 .img1{ background-position: -800px 0px; }
+#contentStuff #ss6 .img1{ background-position: -1000px 0px; }
+#contentStuff #ss7 .img1{ background-position: -1200px 0px; }
+#contentStuff #ss8 .img1{ background-position: -1400px 0px; }

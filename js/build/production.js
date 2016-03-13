@@ -775,7 +775,7 @@ $(document).ready(function(){
     console.log("activeStateStuff: " + activeStateStuff + ", numberInRowStuff: " + numberInRowStuff + ", whatStuffAreWeOn: " + whatStuffAreWeOn);
 
     $("#storyItemsMenu").animate({"left": "-200px"}, 500);
-    $(activeStateStuff).animate({"left": "200px"}, 500);
+    $(activeStateStuff).animate({"left": "0px"}, 500);
 
     /*if(whatId === "nalaNPCMenu" || whatId === "laiNPCMenu" || whatId === "thiaNPCMenu" || whatId === "ottanNPCMenu"){
       $(this).closest(".sidebar").animate({"left": "0px"}, 500);
@@ -787,6 +787,13 @@ $(document).ready(function(){
     $(whatNPCAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
 */
     $(".backStuff").show();
+  });
+
+  $(".backStuff").click(function(){
+    $("#contentStuff .sidebar").animate({"left": "0px"}, 500);
+    $(".sStu").animate({"left": "600px"}, 500);
+
+    $(".backStuff").hide();
   });
 
 });
