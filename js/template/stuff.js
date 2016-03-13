@@ -83,15 +83,6 @@ $(document).ready(function(){
     $("#storyItemsMenu").animate({"left": "-200px"}, 500);
     $(activeStateStuff).animate({"left": "0px"}, 500);
 
-    /*if(whatId === "nalaNPCMenu" || whatId === "laiNPCMenu" || whatId === "thiaNPCMenu" || whatId === "ottanNPCMenu"){
-      $(this).closest(".sidebar").animate({"left": "0px"}, 500);
-    }else{
-      $(this).closest(".sidebar").animate({"left": "-200px"}, 500);
-    }
-    $("#contentNPC .dashHeader h2").html(theNPCName);
-    //$(this).closest(".sidebar").animate({"left": "-200px"}, 500);
-    $(whatNPCAreWeOn).animate({"left": "0px", "opacity": "1"}, 500);
-*/
     $(".backStuff").show();
   });
 

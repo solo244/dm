@@ -23,7 +23,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 - [x] Cities need propper content
 
 ### 4. Stuff:
-- [ ] Everything: `Enable + content`
+- [x] Everything: `Enable + content`
 
 ### 5. Sounds:
 - [x] Change the name to `Sounds` instead of `Music`

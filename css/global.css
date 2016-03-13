@@ -102,7 +102,7 @@ body{
 	display: block;
 }
 
-/* Testing */
+/* Testing
 .dashboardDiv{
 	left: -10000px;
 	position: absolute;
@@ -112,6 +112,7 @@ body{
 	position: relative;
 	left: 0;
 }
+*/
 /* Buttons */
 #combatTracker .dashHeader i{
   position: absolute;
@@ -587,6 +588,22 @@ body{
 
 #contentMusic .sound:hover audio{
   display: block;
+}
+
+/* Mood sounds */
+#contentMusic .sMood{
+
+}
+
+#contentMusic .c1{
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+}
+
+#contentMusic .sMood audio{
+  display: block;
+  width: 100%;
 }
 /* NPC */
 #contentNPC{}

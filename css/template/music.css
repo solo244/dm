@@ -119,3 +119,19 @@
 #contentMusic .sound:hover audio{
   display: block;
 }
+
+/* Mood sounds */
+#contentMusic .sMood{
+
+}
+
+#contentMusic .c1{
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+}
+
+#contentMusic .sMood audio{
+  display: block;
+  width: 100%;
+}
