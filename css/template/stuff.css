@@ -41,7 +41,7 @@
 
 #contentStuff .backStuff{
   position: absolute;
-  top: 67px;
+  top: 17px;
   left: 20px;
   cursor: pointer;
   z-index: 1000;
@@ -147,7 +147,7 @@
 /* Story */
 
 #contentStuff .sstory .sidebar{
-  top: 50px;
+  top: 0px;
 }
 
 #contentStuff .nNPC{
@@ -166,15 +166,16 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   position: absolute;
-  top: 0;
+  top: 50px;
 }
 
 #contentStuff .sStu{
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 600px;
   width: 590px;
   height: 260px;
+  overflow: hidden;
 }
 
 #contentStuff .sStu .descriptions{
@@ -199,7 +200,7 @@
   display: block;
   width: 200px;
   height: 260px;
-  background-image: url("../images/npc/qllNPCs.png");
+  background-image: url("../images/stuff/allStuff.png");
 }
 
 /**/

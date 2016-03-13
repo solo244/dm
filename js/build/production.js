@@ -723,7 +723,7 @@ $(document).ready(function(){
     $("#contentStuff .dashHeader i").css("color", "rgb(27, 31, 41)");
     $(this).css("color", "rgb(155, 182, 201)");
 
-    $("#contentStuff .innerContent > div").animate({"left" : "600px"}, 500);
+    $("#contentStuff .innerContent > div").animate({"left" : "800px"}, 500);
     //console.log($(".s" + buttonContext));
     $(".s" + buttonContext).animate({"left" : "0px"}, 500);
 

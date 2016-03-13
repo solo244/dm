@@ -19,5 +19,12 @@
     <i class="fa fa-arrow-left backStuff"></i>
     <div class="sidebar scrollPlease" id="storyItemsMenu"><?php include 'story/sidebar.php' ?></div>
     <div class="sStu" id="ss1"><?php include 'story/items/story1.php' ?></div>
+    <div class="sStu" id="ss2"><?php include 'story/items/story2.php' ?></div>
+    <div class="sStu" id="ss3"><?php include 'story/items/story3.php' ?></div>
+    <div class="sStu" id="ss4"><?php include 'story/items/story4.php' ?></div>
+    <div class="sStu" id="ss5"><?php include 'story/items/story5.php' ?></div>
+    <div class="sStu" id="ss6"><?php include 'story/items/story6.php' ?></div>
+    <div class="sStu" id="ss7"><?php include 'story/items/story7.php' ?></div>
+    <div class="sStu" id="ss8"><?php include 'story/items/story8.php' ?></div>
   </div>
 </div>
