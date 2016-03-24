@@ -21,6 +21,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 - [x] Make the fullscreen clickable: `Enable`
 - [ ] Add *even *more `cities`
 - [x] Cities need propper content
+- [ ] Cities need the option to have random encounters as well
 
 ### 5. Sounds:
 - [x] Change the name to `Sounds` instead of `Music`
