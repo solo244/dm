@@ -19,15 +19,13 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 
 ### 3. Map:
 - [x] Make the fullscreen clickable: `Enable`
-- [ ] Add more `cities`
+- [ ] Add *even *more `cities`
 - [x] Cities need propper content
-
-### 4. Stuff:
-- [x] Everything: `Enable + content`
 
 ### 5. Sounds:
 - [x] Change the name to `Sounds` instead of `Music`
-- [ ] Add general songs that last +- 30 minutes
+- [x] Add general songs that last +- 30 minutes
+- [ ] Find more generic and general sounds to play
 
 ## Used technologies
 - Wamp
@@ -40,6 +38,7 @@ The purpose of this dashboard is to maintain overview, whilst Dm'ing a D&D game.
 ## Requirements
 - jQuery version **2.0.0** or higher
 - Full HD resolution -full screen- (1920x1080)
+- [ ] Make it mobile friendly (or at least lower resolution friendly)
 
 ## Browser compatibility
 - Internet Explorer 10+
