@@ -3,7 +3,7 @@ What/Who                           | Lai | Thia | Nala | Ottan | DM
 NPC's murdered/killed              | 5   | 0    | 2    | 1     |
 Number of times downed/killed      | 4   | 6    | 2    | 6     |
 Creature death count               | 11  | 6    | 10   | 5     |
-Traps sprung                       | 1   | 1    | 0    | 0     |
+Traps sprung                       | 1   | 1    | 1    | 0     |
 People Rescued                     | 0   | 1    | 2    | 1     |
 Creatures befriended               | 2   | 2    | 5    | 2     |
 Times you made the dm say "wtf..." | 4   | 2    | 3    | 1     |
