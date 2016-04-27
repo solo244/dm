@@ -10,7 +10,7 @@
 | Combat |
 | Number of times downed/killed      | 5     | 7     | 2     | 6     |
 | Number of party downed             | 7     | 0     | 1     | 0     |
-| Creature death count               | 29    | 7     | 24    | 7     | 144 174 84 48 60
+| Creature death count               | 29    | 7     | 24    | 7     |
 | Damage done                        | 854   | 443   | 1162  | 232   |
 | Damage taken                       | 159   | 138   | 94    | 137   |
 | Attacks made / spells cast         | 36    | 17    | 37    | 7     |
