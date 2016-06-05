@@ -11,8 +11,8 @@
 | Number of times downed/killed      | 5     | 7     | 2     | 6     |
 | Number of party downed             | 7     | 0     | 1     | 0     |
 | Creature death count               | 29    | 7     | 24    | 7     |
-| Damage done                        | 854   | 443   | 1162  | 232   |
-| Damage taken                       | 159   | 138   | 94    | 137   |
+| Damage done                        | 910   | 515   | 1269  | 278   |
+| Damage taken                       | 159   | 194   | 94    | 183   |
 | Attacks made / spells cast         | 36    | 17    | 37    | 7     |
 | Hits                               | 24    | 6     | 21    | 5     |
 | Misses                             | 12    | 11    | 16    | 2     |
@@ -20,8 +20,8 @@
 | Attacks blocked/evaded/dodged      | 4     | 2     | 5     | 9     |
 | Healed                             | 0     | 0     | 35    | 2     |
 | Rolls |
-| 20's Rolled                        | 3     | 4     | 3     | 0     | 
-| 1's Rolled                         | 2     | 5     | 3     | 5     | 
+| 20's Rolled                        | 3     | 5     | 4     | 0     | 
+| 1's Rolled                         | 2     | 5     | 4     | 6     | 
 | People |
 | NPC's murdered/killed              | 5     | 0     | 2     | 1     |
 | NPC's/people rescued               | 0     | 1     | 2     | 1     |
